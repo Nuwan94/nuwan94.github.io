@@ -25,6 +25,13 @@ Vue.config.productionTip = false
 
 Vue.use(ArgonDashboard)
 new Vue({
-  router,
-  render: h => h(App)
+    router,
+    render: h => h(App),
+    created() {
+        if (sessionStorage.redirect) {
+            const redirect = sessionStorage.redirect
+            delete sessionStorage.redirect
+            this.$router.push(redirect)
+        }
+    }
 }).$mount('#app')
