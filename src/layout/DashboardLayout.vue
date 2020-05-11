@@ -20,7 +20,7 @@
     </side-bar>
     <div class="main-content" :data="sidebarBackground">
       <div @click="toggleSidebar">
-        <fade-transition :duration="100" origin="center top" mode="out-in">
+        <fade-transition :duration="200" origin="center top" mode="out-in">
           <router-view></router-view>
         </fade-transition>
         <content-footer v-if="!$route.meta.hideFooter"></content-footer>

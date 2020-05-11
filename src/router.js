@@ -7,11 +7,16 @@ Vue.use(Router);
 export default new Router({
     linkExactActiveClass: "active",
     mode: "history",
+    base: "/",
     routes: [{
         path: "/",
         redirect: "profile",
         component: DashboardLayout,
         children: [{
+                path: "/",
+                redirect: "/profile",
+            },
+            {
                 path: "/profile",
                 name: "profile",
                 component: () =>
@@ -46,6 +51,12 @@ export default new Router({
                 name: "hobbies",
                 component: () =>
                     import ("./views/Soon.vue"),
+            },
+            {
+                path: "*",
+                name: "notfound",
+                component: () =>
+                    import ("./views/NotFound.vue"),
             },
         ],
     }, ],
