@@ -9,7 +9,6 @@
             path: '/profile'
           }"
         />
-
         <sidebar-item :link="{name: 'Resume', icon: 'ni ni-hat-3 text-orange', path: '/resume'}" />
         <sidebar-item :link="{name: 'Stats', icon: 'ni ni-chart-pie-35 text-red', path: '/stats'}" />
         <sidebar-item
@@ -20,10 +19,8 @@
       </template>
     </side-bar>
     <div class="main-content" :data="sidebarBackground">
-      <!-- <dashboard-navbar></dashboard-navbar> -->
-
       <div @click="toggleSidebar">
-        <fade-transition :duration="200" origin="center top" mode="out-in">
+        <fade-transition :duration="100" origin="center top" mode="out-in">
           <router-view></router-view>
         </fade-transition>
         <content-footer v-if="!$route.meta.hideFooter"></content-footer>
@@ -42,7 +39,7 @@ export default {
   },
   data() {
     return {
-      sidebarBackground: "vue" //vue|blue|orange|green|red|primary
+      sidebarBackground: "vue"
     };
   },
   methods: {
