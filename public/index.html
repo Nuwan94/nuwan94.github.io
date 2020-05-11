@@ -25,15 +25,6 @@
     <link rel="icon" href=".img/brand/favicon.png" type="image/png">
     <title>Nuwan Sameera Alawatta | Software Engineer | Personal Website</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <script>
-        (function() {
-            var redirect = sessionStorage.redirect;
-            sessionStorage.clear();
-            if (redirect && redirect != location.href) {
-                history.replaceState(null, null, redirect);
-            }
-        })();
-    </script>
 </head>
 
 <body>
@@ -43,6 +34,15 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <script>
+        (function() {
+            var redirect = sessionStorage.redirect;
+            sessionStorage.clear();
+            if (redirect && redirect != location.href) {
+                history.replaceState(null, null, redirect);
+            }
+        })();
+    </script>
 </body>
 
 </html>
