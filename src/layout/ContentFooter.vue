@@ -5,7 +5,11 @@
       <div class="col-lg-6">
         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
           <li class="nav-item">
-            © {{year}} Nuwan94
+            © {{year}} Nuwan94 |
+            <a
+              href="https://github.com/nuwan94/nuwan94.github.io"
+              target="_blank"
+            >View Source</a>
           </li>
         </ul>
       </div>
