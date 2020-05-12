@@ -26,7 +26,14 @@
             </div>
             <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
               <div class="d-flex justify-content-between">
-                <base-button size="lg" type="danger" icon="fa fa-phone" iconOnly rounded></base-button>
+                <base-button
+                  size="lg"
+                  type="danger"
+                  icon="fa fa-phone"
+                  iconOnly
+                  rounded
+                  @click="onCall"
+                ></base-button>
                 <base-button
                   size="lg"
                   type="default"
@@ -34,6 +41,7 @@
                   icon="fa fa-envelope"
                   iconOnly
                   rounded
+                  @click="onMessage"
                 ></base-button>
               </div>
             </div>
@@ -50,7 +58,22 @@
               </div>
             </div>
             <div class="card-footer pt-0 pt-md-4 text-justify">
-              <p>{{ personal.aboutMe }}</p>
+              <p>{{ personal.aboutme }}</p>
+            </div>
+          </div>
+
+          <div class="card card-profile shadow mt-2">
+            <div class="card-header text-center">Language Proficiency</div>
+            <div class="card-body mt-0 pt-0">
+              <base-progress
+                v-for="lang in languages"
+                v-bind:key="lang.name"
+                :type="lang.type"
+                :height="16"
+                :showPercentage="false"
+                :value="lang.precentage"
+                :label="lang.name"
+              ></base-progress>
             </div>
           </div>
         </div>
@@ -111,7 +134,7 @@
                         label="Coding Style"
                         placeholder="Coding Style"
                         input-classes="form-control-alternative"
-                        v-model="personal.coding_style"
+                        v-model="personal.codingStyle"
                       />
                     </div>
                     <div class="col-lg-6">
@@ -128,10 +151,10 @@
                     <div class="col-lg-6">
                       <base-input
                         alternative
-                        label="Favourite Language"
-                        placeholder="Favourite Language"
+                        label="Favourite Languages"
+                        placeholder="Favourite Languages"
                         input-classes="form-control-alternative"
-                        v-model="personal.fav_lang"
+                        v-model="personal.favLang"
                       />
                     </div>
                     <div class="col-lg-6">
@@ -153,10 +176,12 @@
                     v-for="profile in social"
                     v-bind:key="profile"
                     :href="profile.link"
-                    class="m-3 rounded text-center bg-white shadow"
+                    class="m-3 rounded text-center bg-white shadow clickable"
                     target="_blank"
                   >
+                    <img class="m-2 p-1 fa-2x fa-fw" v-if="profile.image" :src="profile.image" />
                     <i
+                      v-if="profile.color"
                       :class="'m-2 fa-fw fab fa-2x fa-' + profile.icon"
                       :style="'color:' + profile.color"
                     />
@@ -170,6 +195,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: "user-profile",
@@ -183,17 +209,23 @@ export default {
         currentPosition: "Final Year Undergradaute",
         company: "University of Kelaniya",
         department: "BSc. (Hons.) in Sofftware Engineering",
-        aboutMe:
+        aboutme:
           "Hello there I'm Nuwan Sameera Alawatta, level 3 undergraduate at University of Kelaniya. I'm look forward to getting involved in challenging and interesting projects which allow me to utilize and improve my skills.",
         mobile: "+94 75 787 1494",
         email: "hello@nuwan.dev",
         dob: "May 24, 1994",
         location: "Gampaha, Sri Lanka",
-        coding_style: "Egyptian Brackets",
+        codingStyle: "Egyptian Brackets",
         indentation: "Tabs",
-        fav_lang: "JavaScript & Typescript",
+        favLang: "JavaScript/Typescript and Java",
         goal: "Fullstack Software Engineer"
       },
+      languages: [
+        { name: "English", precentage: 70, type: "danger" },
+        { name: "Sinhala", precentage: 100, type: "default" }
+        // { name: "Spanish", precentage: 2, type: "warning" },
+        // { name: "Klingon", precentage: 5, type: "info" }
+      ],
       social: [
         {
           icon: "facebook",
@@ -231,15 +263,43 @@ export default {
           link: "https://stackoverflow.com/users/3125964/nuwan94"
         },
         {
+          icon: "qwiklabs",
+          image: "/img/theme/qwiklabs.webp",
+          link:
+            "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
+        },
+        {
+          icon: "pluralsight",
+          image: "/img/theme/pluralsight.webp",
+          link: "https://app.pluralsight.com/profile/nsa94"
+        },
+        {
+          icon: "coursera",
+          image: "/img/theme/coursera.webp",
+          link: "https://www.coursera.org/user/0d49d810a78c3fd931cdfb8e6b2d82cb"
+        },
+        {
           icon: "hackerrank",
           color: "#25B658",
-          link: "https://www.hackerrank.com/nsa94"
+          link:
+            "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
+        },
+        {
+          icon: "leetcode",
+          image: "/img/theme/leetcode.webp",
+          link: "https://leetcode.com/nsa94/"
+        },
+        {
+          icon: "hackthebox",
+          image: "/img/theme/hackthebox.webp",
+          link: "https://www.hackthebox.eu/home/users/profile/159870"
         },
         {
           icon: "codepen",
           color: "#111",
           link: "https://www.codepen.io/nsa94"
         },
+
         {
           icon: "free-code-camp",
           color: "#006400",
@@ -259,6 +319,11 @@ export default {
           icon: "behance",
           color: "#1769ff",
           link: "https://www.behance.net/nsa94/"
+        },
+        {
+          icon: "instagram",
+          color: "#333",
+          link: "https://www.instagram.com/_nsa94/"
         },
         {
           icon: "deviantart",
@@ -285,7 +350,65 @@ export default {
         this.personal.lastName
       );
     }
+  },
+  methods: {
+    onCall() {
+      if (this.isMobile()) {
+        window.open("tel:+94757871494", "_blank");
+      } else {
+        this.notifyMessage("Call");
+      }
+    },
+    onMessage() {
+      if (this.isMobile()) {
+        window.open("sms:+94757871494", "_blank");
+      } else {
+        this.notifyMessage("SMS");
+      }
+    },
+    isMobile() {
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+    notifyMessage(t) {
+      this.$notify({
+        type: "danger",
+        title: `${t} only available for mobile devices`,
+        icon: "fa fa-exclamation",
+        dismissible: true
+      });
+    }
   }
 };
 </script>
-<style></style>
+
+<style scoped>
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
