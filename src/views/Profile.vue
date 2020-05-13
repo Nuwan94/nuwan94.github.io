@@ -3,7 +3,7 @@
     <base-header class="header pb-8 pt-5 d-flex align-items-center bg-gradient-gray">
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
-          <div class="col-lg-12 col-md-12">
+          <div class="col-lg-12 col-md-12 d-none d-md-block">
             <h1
               class="display-2 text-white"
             >Hello I'm {{ personal.firstName }} {{ personal.lastName }}</h1>
@@ -170,11 +170,11 @@
                 </div>
                 <hr class="my-4" />
                 <!-- Description -->
-                <h6 class="heading-small text-muted mb-4">Social Profiles</h6>
+                <h6 class="heading-small text-muted mb-4">Profiles</h6>
                 <div class="pl-lg-4 d-flex justify-content-center flex-wrap">
                   <a
-                    v-for="profile in social"
-                    v-bind:key="profile"
+                    v-for="profile in profiles"
+                    v-bind:key="profile.name"
                     :href="profile.link"
                     class="m-3 rounded text-center bg-white shadow clickable"
                     target="_blank"
@@ -226,7 +226,7 @@ export default {
         // { name: "Spanish", precentage: 2, type: "warning" },
         // { name: "Klingon", precentage: 5, type: "info" }
       ],
-      social: [
+      profiles: [
         {
           icon: "facebook",
           color: "#3b5998",
