@@ -62,10 +62,10 @@
 
     <div class="container-fluid mt--7">
       <div class="row">
-        <div class="col">
+        <div class="col-lg-7">
           <div class="card shadow">
-            <div class="card-header bg-transparent">
-              <h3 class="mb-0">GitHub Contribution over Past Year</h3>
+            <div class="card-header bg-transparent border-0 pb-0">
+              <h3 class="mb-0">GitHub contributions in the last year</h3>
             </div>
             <div class="card-body text-center">
               <img
@@ -76,51 +76,39 @@
             </div>
           </div>
         </div>
+        <!-- <div class="col-lg-5">
+          <div class="card shadow">
+            <div class="card-header bg-transparent border-0 pb-0">
+              <h3 class="mb-0">GitHub Contribution over Past Year</h3>
+            </div>
+          </div>
+        </div>-->
       </div>
     </div>
   </div>
 </template>
 <script>
-import axios from "axios";
 import BTooltipDirective from "bootstrap-vue/es/directives/tooltip";
+
 export default {
   directives: {
     "b-tooltip": BTooltipDirective
   },
   data() {
     return {
-      github: {
-        public_repos: "00",
-        public_gists: "00",
-        followers: "00"
-      },
-      stackoverflow: {
-        reputation: "00",
-        reputation_change_year: "00",
-        reputation_change_quarter: "00",
-        reputation_change_month: "00",
-        reputation_change_week: "00",
-        reputation_change_day: "00"
-      },
       medium: {
         articles: "01",
         followers: "44"
       }
     };
   },
-  mounted() {
-    axios
-      .get("https://api.github.com/users/nuwan94", {
-        auth: {
-          username: "825bdda0c89053fcd4ed",
-          password: "fd737cee6549af66d686b4ab682e0bbca6862035"
-        }
-      })
-      .then(response => (this.github = response.data));
-
-    axios
-      .get("https://api.stackexchange.com/2.2/users/3125964?site=stackoverflow")
-      .then(response => (this.stackoverflow = response.data.items[0]));
+  computed: {
+    github: function() {
+      return this.$store.state.github;
+    },
+    stackoverflow: function() {
+      return this.$store.state.stackoverflow;
+    }
   }
 };
 </script>

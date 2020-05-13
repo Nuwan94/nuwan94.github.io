@@ -16,15 +16,22 @@
 
 */
 import Vue from "vue";
+
 import App from "./App.vue";
 import router from "./router";
+import store from "./store/";
+
 import "./registerServiceWorker";
 import ArgonDashboard from "./plugins/argon-dashboard";
+Vue.use(ArgonDashboard);
 
 Vue.config.productionTip = false;
 
-Vue.use(ArgonDashboard);
 new Vue({
+    store,
     router,
     render: (h) => h(App),
+    created() {
+        this.$store.dispatch("loadAPIData");
+    },
 }).$mount("#app");
