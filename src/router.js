@@ -1,7 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
 import DashboardLayout from "@/layout/DashboardLayout";
-// import AuthLayout from "@/layout/AuthLayout";
+import Profile from "./views/Profile.vue";
+import Stats from "./views/Stats.vue";
+// import Soon from "./views/Soon.vue";
+import NotFound from "./views/NotFound.vue";
+
 Vue.use(Router);
 
 export default new Router({
@@ -19,44 +23,37 @@ export default new Router({
             {
                 path: "/profile",
                 name: "profile",
-                component: () =>
-                    import ("./views/Profile.vue"),
+                component: Profile,
             },
             {
                 path: "/stats",
                 name: "stat",
-                component: () =>
-                    import ("./views/Stats.vue"),
+                component: Stats,
             },
-            {
-                path: "/resume",
-                name: "resume",
-                component: () =>
-                    import ("./views/Soon.vue"),
-            },
-            {
-                path: "/portfolio",
-                name: "portfolio",
-                component: () =>
-                    import ("./views/Soon.vue"),
-            },
-            {
-                path: "/contact",
-                name: "contact",
-                component: () =>
-                    import ("./views/Soon.vue"),
-            },
-            {
-                path: "/hobbies",
-                name: "hobbies",
-                component: () =>
-                    import ("./views/Soon.vue"),
-            },
+            // {
+            //     path: "/resume",
+            //     name: "resume",
+            //     component: Soon,
+            // },
+            // {
+            //     path: "/portfolio",
+            //     name: "portfolio",
+            //     component: Soon,
+            // },
+            // {
+            //     path: "/contact",
+            //     name: "contact",
+            //     component: Soon,
+            // },
+            // {
+            //     path: "/hobbies",
+            //     name: "hobbies",
+            //     component: Soon,
+            // },
             {
                 path: "*",
                 name: "notfound",
-                component: () =>
-                    import ("./views/NotFound.vue"),
+                component: NotFound,
             },
         ],
     }, ],
