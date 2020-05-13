@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white"
+    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white pt-2 pb-4"
     id="sidenav-main"
   >
     <div class="container-fluid">
@@ -110,5 +110,8 @@ h1.sprkly {
   display: inline-block;
   font-size: 2em;
   font-weight: bold;
+}
+.navbar-brand {
+  max-height: 50px;
 }
 </style>

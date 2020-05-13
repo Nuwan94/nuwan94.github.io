@@ -1,6 +1,12 @@
 <template>
   <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
-    <side-bar :background-color="sidebarBackground" short-title="Nuwan" title="Nuwan" logo="Nuwan">
+    <side-bar
+      :background-color="sidebarBackground"
+      short-title="Nuwan"
+      title="Nuwan"
+      logo="Nuwan"
+      class="mobile-navbar"
+    >
       <template slot="links">
         <sidebar-item
           :link="{
@@ -9,8 +15,9 @@
             path: '/profile'
           }"
         />
-        <sidebar-item :link="{name: 'Resume', icon: 'ni ni-hat-3 text-orange', path: '/resume'}" />
         <sidebar-item :link="{name: 'Stats', icon: 'ni ni-chart-pie-35 text-red', path: '/stats'}" />
+        <sidebar-item :link="{name: 'Resume', icon: 'ni ni-hat-3 text-orange', path: '/resume'}" />
+
         <sidebar-item
           :link="{name: 'Portfolio', icon: 'ni ni-collection text-green', path: '/portfolio'}"
         />
@@ -51,5 +58,12 @@ export default {
   }
 };
 </script>
-<style lang="scss">
+<style scoped>
+@media (max-width: 762px) {
+  .mobile-navbar {
+    position: sticky;
+    z-index: 999999;
+    top: 0;
+  }
+}
 </style>
