@@ -11,11 +11,11 @@ module.exports = {
         ],
     },
     pwa: {
-        name: "Nuwan94 Official",
-        themeColor: "#172b4d",
-        msTileColor: "#172b4d",
+        name: "Nuwan Sameera Alawatta | Software Engineer",
+        themeColor: "#6e5cd2",
+        msTileColor: "#6e5cd2",
         appleMobileWebAppCapable: "yes",
-        appleMobileWebAppStatusBarStyle: "#172b4d",
+        appleMobileWebAppStatusBarStyle: "#6e5cd2",
     },
     css: {
         // Enable CSS source maps.
