@@ -12,7 +12,8 @@
                 label="Name"
                 placeholder="John Doe"
                 input-classes="form-control-alternative"
-                v-model="form.name"
+                :value="form.name | autoCapitalize"
+                @input="v => form.name=v"
               />
 
               <base-input
@@ -36,7 +37,14 @@
               </base-input>
 
               <div class="text-center">
-                <base-button type="primary" block class="my-4" @click="validateAndSend">SEND</base-button>
+                <base-button
+                  :disabled.sync="sentDisable"
+                  type="primary"
+                  block
+                  icon="ni ni-send"
+                  class="my-4"
+                  @click="validateAndSend"
+                >SEND</base-button>
               </div>
             </form>
           </div>
@@ -46,6 +54,8 @@
   </div>
 </template>
 <script>
+import axios from "axios";
+
 export default {
   name: "register",
   data() {
@@ -55,11 +65,13 @@ export default {
         email: "",
         message: "",
         validEmail: undefined
-      }
+      },
+      sentDisable: false
     };
   },
   methods: {
-    validateAndSend() {
+    async validateAndSend() {
+      this.sentDisable = true;
       if (
         this.form.name === "" ||
         this.form.email === "" ||
@@ -68,25 +80,47 @@ export default {
         this.$notify({
           type: "danger",
           title: "Please fill all the required fields.",
-          icon: "fa fa-exclamation",
-          dismissible: true
+          icon: "fa fa-exclamation"
         });
       } else if (this.form.validEmail !== true) {
         this.$notify({
           type: "danger",
           title: "Invalid email.",
-          icon: "fa fa-exclamation",
-          dismissible: true
+          icon: "fa fa-exclamation"
         });
       } else {
-        this.$notify({
-          type: "success",
-          title: "Message Sent Successfully",
-          icon: "fa fa-success",
-          dismissible: true
-        });
-        //  Send message to API endpoint
+        await axios
+          .post("https://nuwan94.herokuapp.com/contact", {
+            name: this.form.name,
+            email: this.form.email,
+            message: this.form.message
+          })
+          .then(res => {
+            console.log(res);
+
+            if (res.status === 200) {
+              this.$notify({
+                type: "success",
+                title: "Message sent",
+                icon: "fa fa-success"
+              });
+              this.form.name = "";
+              this.form.email = "";
+              this.form.message = "";
+              this.form.validEmail = undefined;
+            } else {
+              throw new Error(res.statusText);
+            }
+          })
+          .catch(err => {
+            this.$notify({
+              type: "danger",
+              title: err.message,
+              icon: "fa fa-exclamation"
+            });
+          });
       }
+      this.sentDisable = false;
     },
     checkEmail() {
       if (this.form.email === "" || this.form.email === undefined) {
@@ -95,6 +129,14 @@ export default {
       }
       let re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       this.form.validEmail = re.test(String(this.form.email).toLowerCase());
+    }
+  },
+  filters: {
+    autoCapitalize(str) {
+      return str.replace(
+        /(^\w|\s\w)(\S*)/g,
+        (_, m1, m2) => m1.toUpperCase() + m2.toLowerCase()
+      );
     }
   }
 };
