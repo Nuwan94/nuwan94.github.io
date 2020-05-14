@@ -3,7 +3,7 @@ import Router from "vue-router";
 import DashboardLayout from "@/layout/DashboardLayout";
 import Profile from "./views/Profile.vue";
 import Stats from "./views/Stats.vue";
-// import Soon from "./views/Soon.vue";
+import Contact from "./views/Contact.vue";
 import NotFound from "./views/NotFound.vue";
 
 Vue.use(Router);
@@ -40,11 +40,11 @@ export default new Router({
             //     name: "portfolio",
             //     component: Soon,
             // },
-            // {
-            //     path: "/contact",
-            //     name: "contact",
-            //     component: Soon,
-            // },
+            {
+                path: "/contact",
+                name: "contact",
+                component: Contact,
+            },
             // {
             //     path: "/hobbies",
             //     name: "hobbies",

@@ -1,6 +1,6 @@
 # Personal Website - Nuwan Sameera Alawatta
 
-![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.com/nuwan94/nuwan94-dev.svg?token=Gy8VNimEYqw7Ssx2EfzT&branch=master)](https://travis-ci.com/nuwan94/nuwan94-dev)
+![version](https://img.shields.io/badge/version-0.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.com/nuwan94/nuwan94.github.io.svg?branch=source)](https://travis-ci.com/nuwan94/nuwan94.github.io)
 
 ## [Demo](https://demos.creative-tim.com/vue-argon-dashboard/#/dashboard)
 

@@ -94,26 +94,29 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Mobile"
                         placeholder="Mobile"
                         input-classes="form-control-alternative"
-                        v-model="personal.mobile"
+                        :value="personal.mobile | telephoneNumber"
                       />
                     </div>
                     <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Email Address"
                         placeholder="user@gmail.com"
                         input-classes="form-control-alternative"
-                        v-model="personal.email"
+                        :value="personal.email"
                       />
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Date of Birth"
                         placeholder="Date of Birth"
@@ -128,42 +131,46 @@
                 <h6 class="heading-small text-muted mb-4">Developer Details</h6>
                 <div class="pl-lg-4">
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Coding Style"
                         placeholder="Coding Style"
                         input-classes="form-control-alternative"
-                        v-model="personal.codingStyle"
+                        :value="personal.codingStyle"
                       />
                     </div>
                     <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Indentation Style"
                         placeholder="Indentation"
                         input-classes="form-control-alternative"
-                        v-model="personal.indentation"
+                        :value="personal.indentation"
                       />
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Favourite Languages"
                         placeholder="Favourite Languages"
                         input-classes="form-control-alternative"
-                        v-model="personal.favLang"
+                        :value="personal.favLang"
                       />
                     </div>
                     <div class="col-lg-6">
                       <base-input
+                        readonly
                         alternative
                         label="Career Goal"
                         placeholder="Career Goal"
                         input-classes="form-control-alternative"
-                        v-model="personal.goal"
+                        :value="personal.goal"
                       />
                     </div>
                   </div>
@@ -211,7 +218,7 @@ export default {
         department: "BSc. (Hons.) in Sofftware Engineering",
         aboutme:
           "Hello there I'm Nuwan Sameera Alawatta, level 3 undergraduate at University of Kelaniya. I'm look forward to getting involved in challenging and interesting projects which allow me to utilize and improve my skills.",
-        mobile: "+94 75 787 1494",
+        mobile: "+94757871494",
         email: "hello@nuwan.dev",
         dob: "May 24, 1994",
         location: "Gampaha, Sri Lanka",
@@ -336,7 +343,7 @@ export default {
   computed: {
     calculateAge: function() {
       let currentDate = new Date();
-      let birthDate = new Date("1994/05/24");
+      let birthDate = new Date(this.personal.dob);
       let difference = currentDate - birthDate;
       let age = Math.floor(difference / 31557600000);
       return age;
@@ -350,6 +357,15 @@ export default {
         this.personal.lastName
       );
     }
+  },
+  filters: {
+    telephoneNumber:
+      ("phone",
+      phone => {
+        return phone
+          .replace(/[^0-9]/g, "")
+          .replace(/(\d{2})(\d{2})(\d{3})(\d{3})/, "+$1 $2 $3 $4");
+      })
   },
   methods: {
     onCall() {

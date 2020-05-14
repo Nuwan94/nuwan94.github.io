@@ -13,7 +13,7 @@
     <slot name="label">
       <label v-if="label" class="form-control-label" :class="labelClasses">
         {{label}}
-        <span v-if="required">*</span>
+        <span class="text-danger" v-if="required">*</span>
       </label>
     </slot>
 
@@ -67,7 +67,7 @@ export default {
     readonly: {
       type: Boolean,
       description: "Whether input is readonly",
-      default: true
+      default: false
     },
     valid: {
       type: Boolean,
@@ -155,5 +155,19 @@ export default {
   background: #fff;
   color: #525f7f;
   cursor: default;
+}
+.has-success::after,
+.has-danger::after {
+  width: 2em;
+  height: 2em;
+  font-size: 1em;
+  line-height: 2em;
+  font-family: "FontAwesome";
+}
+.has-danger::after {
+  content: "\f12a";
+}
+.has-success::after {
+  content: "\f00c";
 }
 </style>
