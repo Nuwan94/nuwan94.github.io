@@ -1,18 +1,20 @@
 <template>
   <div class="custom-control custom-radio" :class="[inlineClass, {disabled: disabled}]">
-    <input :id="cbId"
-           class="custom-control-input"
-           type="radio"
-           :disabled="disabled"
-           :value="name"
-           v-model="model" />
+    <input
+      :id="cbId"
+      class="custom-control-input"
+      type="radio"
+      :disabled="disabled"
+      :value="name"
+      v-model="model"
+    />
     <label :for="cbId" class="custom-control-label">
       <slot></slot>
     </label>
   </div>
 </template>
 <script>
-import { randomString } from "./stringUtils";
+import { randomString } from "../stringUtils";
 export default {
   name: "base-radio",
   props: {
@@ -55,7 +57,7 @@ export default {
     }
   },
   mounted() {
-    this.cbId = randomString()
+    this.cbId = randomString();
   }
 };
 </script>

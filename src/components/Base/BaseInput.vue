@@ -170,4 +170,11 @@ export default {
 .has-success::after {
   content: "\f00c";
 }
+.form-control {
+  color: #555;
+  transition: 0.2s ease-in-out;
+}
+.form-control:focus {
+  color: #222;
+}
 </style>
