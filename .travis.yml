@@ -9,9 +9,10 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: dist
+  target_branch: master
   keep-history: true
   on:
-    branch: master
+    branch: source
 before_script:
   - "npm i"
 script:
