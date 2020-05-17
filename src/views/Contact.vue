@@ -1,52 +1,69 @@
 <template>
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-7 col-md-10">
-        <div class="card shadow border-0 mt-5 mb-5">
-          <div class="card-body px-lg-5 py-lg-5">
-            <div class="text-center h1 mb-4">Send Message</div>
-            <form role="form">
-              <base-input
-                required
-                alternative
-                label="Name"
-                placeholder="John Doe"
-                input-classes="form-control-alternative"
-                :value="form.name | autoCapitalize"
-                @input="v => form.name=v"
-              />
+  <div class="bg-gradient-gray">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-md-10">
+          <div class="card shadow border-0 mt-5 mb-5">
+            <div class="card-body px-lg-5 py-lg-5">
+              <div class="text-center h1 mb-4">Send Message</div>
 
-              <base-input
-                required
-                alternative
-                label="Email"
-                placeholder="johndoe@gmail.com"
-                input-classes="form-control-alternative"
-                v-model="form.email"
-                @keyup="checkEmail"
-                :valid.sync="form.validEmail"
-              />
+              <form ref="contactForm" @submit.prevent="submit" key="0">
+                <base-input
+                  required
+                  alternative
+                  label="Name"
+                  input-classes="form-control-alternative"
+                  :value="name | autoCapitalize"
+                  :error="$v.name.$dirty && $v.name.$error ?
+                    (!$v.name.required ? 'Name is required.' : `Name should consist atleast first and last name.` ) 
+                    : undefined"
+                  @blur="() => $v.name.$touch()"
+                  @input="v => setName(v)"
+                  :valid="!$v.name.$invalid && $v.name.$dirty ? true : undefined"
+                />
 
-              <base-input alternative label="Message" required>
-                <textarea
-                  rows="4"
-                  class="form-control form-control-alternative"
-                  placeholder="..."
-                  v-model="form.message"
-                ></textarea>
-              </base-input>
+                <base-input
+                  required
+                  alternative
+                  label="Email"
+                  input-classes="form-control-alternative"
+                  :value="mail"
+                  :error="$v.mail.$dirty && $v.mail.$error ?
+                    (!$v.mail.required ? 'Email is required.' : `Invalid email format.` ) 
+                    : undefined"
+                  @blur="() => $v.mail.$touch()"
+                  @input="v => setEmail(v)"
+                  :valid="!$v.mail.$invalid && $v.mail.$dirty ? true : undefined"
+                />
 
-              <div class="text-center">
+                <base-input
+                  required
+                  alternative
+                  label="Message"
+                  :value="message"
+                  :error="$v.message.$dirty && $v.message.$error ?
+                    (!$v.message.required ? 'Message is required.' : `Your message should have at least ${$v.message.$params.minWords.count - countWord(message)} more words.` ) 
+                    : undefined"
+                  :valid="!$v.message.$invalid && $v.message.$dirty ? true : undefined"
+                >
+                  <textarea
+                    rows="3"
+                    class="form-control form-control-alternative"
+                    :value="message"
+                    @blur="() => $v.message.$touch()"
+                    @input="v => setMessage(v.target.value)"
+                  ></textarea>
+                </base-input>
+
                 <base-button
-                  :disabled.sync="sentDisable"
+                  class="button"
                   type="primary"
+                  nativeType="submit"
                   block
-                  icon="ni ni-send"
-                  class="my-4"
-                  @click="validateAndSend"
-                >SEND</base-button>
-              </div>
-            </form>
+                  :disabled="submitStatus === 'PENDING'"
+                >Submit!</base-button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -55,59 +72,92 @@
 </template>
 <script>
 import axios from "axios";
+import { helpers, required, email } from "vuelidate/lib/validators";
+
+const NAME_MIN_WORD = 2;
+const MESSAGE_MIN_WORD = 5;
+
+const wordCount = n =>
+  helpers.withParams({ type: "words", count: n }, v =>
+    v ? v.match(/\S+/g).length >= n : 0
+  );
 
 export default {
   name: "register",
   data() {
     return {
-      form: {
-        name: "",
-        email: "",
-        message: "",
-        validEmail: undefined
-      },
-      sentDisable: false
+      name: "",
+      mail: "",
+      message: "",
+      submitStatus: undefined
     };
   },
+  validations: {
+    name: {
+      required,
+      minWords: wordCount(NAME_MIN_WORD)
+    },
+    mail: {
+      required,
+      email
+    },
+    message: {
+      required,
+      minWords: wordCount(MESSAGE_MIN_WORD)
+    }
+  },
   methods: {
-    async validateAndSend() {
-      this.sentDisable = true;
-      if (
-        this.form.name === "" ||
-        this.form.email === "" ||
-        this.form.message === ""
-      ) {
+    loadIintialStates() {
+      this.name = "";
+      this.mail = "";
+      this.message = "";
+      this.submitStatus = undefined;
+    },
+    setName(value) {
+      this.name = value;
+      this.$v.name.$touch();
+    },
+    setEmail(value) {
+      this.mail = value;
+      this.$v.mail.$touch();
+    },
+    setMessage(value) {
+      this.message = value;
+      this.$v.message.$touch();
+    },
+    countWord(value) {
+      if (value) {
+        return value.match(/\S+/g).length;
+      } else {
+        return 0;
+      }
+    },
+    async submit() {
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        this.submitStatus = "ERROR";
+
         this.$notify({
           type: "danger",
-          title: "Please fill all the required fields.",
-          icon: "fa fa-exclamation"
-        });
-      } else if (this.form.validEmail !== true) {
-        this.$notify({
-          type: "danger",
-          title: "Invalid email.",
+          title: "Please fill all the fields",
           icon: "fa fa-exclamation"
         });
       } else {
         await axios
           .post("https://nuwan94.herokuapp.com/contact", {
-            name: this.form.name,
-            email: this.form.email,
-            message: this.form.message
+            name: this.name,
+            email: this.mail,
+            message: this.message.replace(/(?:\r\n|\r|\n)/g, "<br>")
           })
           .then(res => {
-            console.log(res);
-
             if (res.status === 200) {
               this.$notify({
                 type: "success",
                 title: "Message sent",
                 icon: "fa fa-success"
               });
-              this.form.name = "";
-              this.form.email = "";
-              this.form.message = "";
-              this.form.validEmail = undefined;
+              this.loadIintialStates();
+              this.$v.$reset();
             } else {
               throw new Error(res.statusText);
             }
@@ -118,17 +168,9 @@ export default {
               title: err.message,
               icon: "fa fa-exclamation"
             });
+            this.submitStatus = "ERROR";
           });
       }
-      this.sentDisable = false;
-    },
-    checkEmail() {
-      if (this.form.email === "" || this.form.email === undefined) {
-        this.form.validEmail = undefined;
-        return;
-      }
-      let re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-      this.form.validEmail = re.test(String(this.form.email).toLowerCase());
     }
   },
   filters: {

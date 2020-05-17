@@ -149,7 +149,7 @@ export default {
   }
 };
 </script>
-<style>
+<style scoped>
 .no-disabled:disabled,
 .no-disabled:read-only {
   background: #fff;
@@ -158,17 +158,17 @@ export default {
 }
 .has-success::after,
 .has-danger::after {
-  width: 2em;
-  height: 2em;
-  font-size: 1em;
-  line-height: 2em;
-  font-family: "FontAwesome";
+  display: none;
 }
-.has-danger::after {
-  content: "\f12a";
+.has-danger .form-control,
+.has-success .form-control {
+  border: 1px solid;
 }
-.has-success::after {
-  content: "\f00c";
+.has-danger .form-control {
+  border-color: var(--danger);
+}
+.has-success .form-control {
+  border-color: var(--success);
 }
 .form-control {
   color: #555;

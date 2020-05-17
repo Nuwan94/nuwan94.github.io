@@ -23,7 +23,10 @@ import store from "./store/";
 
 import "./registerServiceWorker";
 import ArgonDashboard from "./plugins/argon-dashboard";
+import Vuelidate from "vuelidate";
+
 Vue.use(ArgonDashboard);
+Vue.use(Vuelidate);
 
 Vue.config.productionTip = false;
 
