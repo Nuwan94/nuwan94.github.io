@@ -70,7 +70,7 @@
             <div class="card-body text-center">
               <img
                 class="img-fluid"
-                src="https://nuwan94.herokuapp.com/files/ghchart.svg"
+                src="http://api.nuwan.dev/files/ghchart.webp"
                 alt="GitHub Contribution"
               />
             </div>

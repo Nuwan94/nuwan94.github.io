@@ -1,10 +1,10 @@
 import Vue from "vue";
 import Router from "vue-router";
 import DashboardLayout from "@/layout/DashboardLayout";
-import Profile from "./views/Profile.vue";
-import Stats from "./views/Stats.vue";
-import Contact from "./views/Contact.vue";
-import NotFound from "./views/NotFound.vue";
+import Profile from "./views/Profile";
+import Stats from "./views/Stats";
+import Contact from "./views/Contact";
+import NotFound from "./views/NotFound";
 
 Vue.use(Router);
 
