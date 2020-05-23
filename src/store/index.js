@@ -27,13 +27,13 @@ export default new Vuex.Store({
     actions: {
         loadAPIData({ commit }) {
             axios
-                .get("http://api.nuwan.dev/github")
+                .get("https://nuwan94.herokuapp.com/github")
                 .then((r) => r.data)
                 .then((payload) => {
                     commit("SET_GITHUB", payload);
                 });
             axios
-                .get("http://api.nuwan.dev/stackoverflow")
+                .get("https://nuwan94.herokuapp.com/stackoverflow")
                 .then((r) => r.data)
                 .then((payload) => {
                     commit("SET_STACKOVERFLOW", payload);
