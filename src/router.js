@@ -3,6 +3,8 @@ import Router from "vue-router";
 import DashboardLayout from "@/layout/DashboardLayout";
 import Profile from "./views/Profile";
 import Stats from "./views/Stats";
+import Education from "./views/Education";
+import Portfolio from "./views/Portfolio";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
 
@@ -30,16 +32,16 @@ export default new Router({
                 name: "stat",
                 component: Stats,
             },
-            // {
-            //     path: "/resume",
-            //     name: "resume",
-            //     component: Soon,
-            // },
-            // {
-            //     path: "/portfolio",
-            //     name: "portfolio",
-            //     component: Soon,
-            // },
+            {
+                path: "/education",
+                name: "education",
+                component: Education,
+            },
+            {
+                path: "/portfolio",
+                name: "portfolio",
+                component: Portfolio,
+            },
             {
                 path: "/contact",
                 name: "contact",
