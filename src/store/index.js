@@ -11,7 +11,7 @@ export default new Vuex.Store({
             reputation: "00",
             reputation_change_year: "00",
             reputation_change_quarter: "00",
-            reputation_change_month: "65",
+            reputation_change_month: "00",
             reputation_change_week: "00",
             reputation_change_day: "00",
         },

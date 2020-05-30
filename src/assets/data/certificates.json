@@ -1,0 +1,138 @@
+[{
+        "name": "The Complete Flutter App Development Course for Android, iOS",
+        "icon": "/img/courses/udemy.webp",
+        "issuer": "Udemy",
+        "date": "2019-07-25",
+        "credentailId": "UC-D63521DY",
+        "credentailLink": "https://www.udemy.com/certificate/UC-D63521DY/",
+        "pdf": "./files/certificates/UC-D63521DY.webp"
+    },
+    {
+        "name": "Exploring and Preparing your Data with BigQuery",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-03",
+        "credentailId": "Q4UFZX86YKA2",
+        "credentailLink": "https://coursera.org/verify/Q4UFZX86YKA2",
+        "pdf": "./files/certificates/Q4UFZX86YKA2.webp"
+    },
+    {
+        "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-09",
+        "credentailId": "M82745DVXPQL",
+        "credentailLink": "https://coursera.org/verify/M82745DVXPQL",
+        "pdf": "./files/certificates/M82745DVXPQL.webp"
+    },
+    {
+        "name": "Essential Google Cloud Infrastructure: Foundation",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-10",
+        "credentailId": "ZCL8FY5BN95F",
+        "credentailLink": "https://coursera.org/verify/ZCL8FY5BN95F",
+        "pdf": "./files/certificates/ZCL8FY5BN95F.webp"
+    },
+    {
+        "name": "Essential Google Cloud Infrastructure: Core Services",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-14",
+        "credentailId": "9X7KXCYU4QB8",
+        "credentailLink": "https://coursera.org/verify/9X7KXCYU4QB8",
+        "pdf": "./files/certificates/9X7KXCYU4QB8.webp"
+    },
+    {
+        "name": "Elastic Google Cloud Infrastructure: Scaling and Automation",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-16",
+        "credentailId": "65V4SSGJT5GC",
+        "credentailLink": "https://coursera.org/verify/65V4SSGJT5GC",
+        "pdf": "./files/certificates/65V4SSGJT5GC.webp"
+    },
+    {
+        "name": "Preparing for the Google Cloud Associate Cloud Engineer Exam",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-23T15:59:59Z",
+        "credentailId": "LTJRM66R9ER9",
+        "credentailLink": "https://coursera.org/verify/LTJRM66R9ER9",
+        "pdf": "./files/certificates/LTJRM66R9ER9.webp"
+    },
+    {
+        "name": "Cloud Engineering with Google Cloud Specialization",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-04-23T16:00:00Z",
+        "credentailId": "2RBZ8TN592ZM",
+        "credentailLink": "https://coursera.org/verify/2RBZ8TN592ZM",
+        "pdf": "./files/certificates/2RBZ8TN592ZM.webp",
+        "specialization": "true"
+    },
+    {
+        "name": "Google Cloud Platform Big Data and Machine Learning Fundamentals",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-09",
+        "credentailId": "FLFHJUN5DJ4Y",
+        "credentailLink": "https://coursera.org/verify/FLFHJUN5DJ4Y",
+        "pdf": "./files/certificates/FLFHJUN5DJ4Y.webp"
+    },
+    {
+        "name": "Modernizing Data Lakes and Data Warehouses with GCP",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-21",
+        "credentailId": "RFNVC3HSUXDY",
+        "credentailLink": "https://coursera.org/verify/RFNVC3HSUXDY",
+        "pdf": "./files/certificates/RFNVC3HSUXDY.webp"
+    },
+    {
+        "name": "Building Batch Data Pipelines on GCP",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-26",
+        "credentailId": "XBQCUYFLM4ST",
+        "credentailLink": "https://coursera.org/verify/XBQCUYFLM4ST",
+        "pdf": "./files/certificates/XBQCUYFLM4ST.webp"
+    },
+    {
+        "name": "Building Resilient Streaming Analytics Systems on GCP",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-28",
+        "credentailId": "ZG8UFPV7UNR2",
+        "credentailLink": "https://coursera.org/verify/ZG8UFPV7UNR2",
+        "pdf": "./files/certificates/ZG8UFPV7UNR2.webp"
+    },
+    {
+        "name": "Smart Analytics, Machine Learning, and AI on GCP",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-29",
+        "credentailId": "77QLLEPTCP36",
+        "credentailLink": "https://coursera.org/verify/77QLLEPTCP36",
+        "pdf": "./files/certificates/77QLLEPTCP36.webp"
+    },
+    {
+        "name": "Preparing for the Google Cloud Associate Cloud Engineer Exam",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-30T15:59:59Z",
+        "credentailId": "LTJRM66R9ER9",
+        "credentailLink": "https://coursera.org/verify/LTJRM66R9ER9",
+        "pdf": "./files/certificates/LTJRM66R9ER9.webp"
+    },
+    {
+        "name": "Data Engineering with Google Cloud Specialization",
+        "icon": "/img/courses/google-cloud.webp",
+        "issuer": "Coursera",
+        "date": "2020-05-30T16:00:00Z",
+        "credentailId": "UAAZMD59JUF7",
+        "credentailLink": "https://coursera.org/verify/UAAZMD59JUF7",
+        "pdf": "./files/certificates/UAAZMD59JUF7.webp",
+        "specialization": "true"
+    }
+]

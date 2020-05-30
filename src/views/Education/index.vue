@@ -1,133 +1,90 @@
 <template>
   <div>
-    <base-header type="gradient-gray" class="pb-6 pb-8 pt-5 pt-md-5">
+    <base-header type="gradient-gray" class="pb-6 pb-8 pt-2 pt-md-2"></base-header>
+
+    <div class="container-fluid mt--7">
       <div class="row">
         <div class="col-lg-6">
-          <card shadow v-for="i in institues.colleges" :key="i.key" class="mt-2">
+          <card shadow v-for="i in colleges" :key="i.name" class="mt-2 p-0">
             <Institute :institute="i"></Institute>
           </card>
         </div>
-        <div class="col-lg-6 pt-2 pt-lg-0">
-          <card shadow v-for="i in institues.schools" :key="i.key" class="mt-2">
+        <div class="col-lg-6">
+          <card shadow v-for="i in schools" :key="i.name" class="mt-2">
             <Institute :institute="i"></Institute>
           </card>
         </div>
       </div>
-    </base-header>
+      <div class="row">
+        <div class="col pt-2 pt-lg-0">
+          <h1 class="p-3">Certifications</h1>
+          <div class="row">
+            <div class="col-lg-6" v-for="i in certificates" :key="i.name">
+              <card shadow class="m-1" :class="i.specialization ? 'bg-gradient-success' : ''">
+                <Certificate @clicked="viewPdf" :certificate="i"></Certificate>
+              </card>
+            </div>
+            <modal modalClasses="modal-lg" showClose :show.sync="modals.showPdf">
+              <div>
+                <img class="img-fluid" :src.sync="selectedPDF" />
+              </div>
+            </modal>
+          </div>
 
-    <!-- <div class="container-fluid mt--7">
-
-    </div>-->
+          <h1 class="p-3">Courses</h1>
+          <div class="row">
+            <div class="col-lg-6" v-for="i in courses" :key="i.name">
+              <card shadow class="m-1">
+                <Course :course="i"></Course>
+              </card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import Institute from "./Institute";
+import Certificate from "./Certificate";
+import Course from "./Course";
+
+import colleges from "../../assets/data/colleges.json";
+import schools from "../../assets/data/schools.json";
+import certificates from "../../assets/data/certificates.json";
+import courses from "../../assets/data/courses.json";
+
+let sortByDate = arr => {
+  return arr.sort((a, b) => {
+    let c = new Date(a.date);
+    let d = new Date(b.date);
+    return c < d;
+  });
+};
 
 export default {
   components: {
-    Institute
+    Institute,
+    Certificate,
+    Course
   },
   data: () => {
     return {
-      institues: {
-        colleges: [
-          {
-            id: 1,
-            name: "University of Kelaniya, Sri Lanka",
-            program: "BSc. (Hons.) in Software Engineering",
-            start: "2017",
-            end: "2021",
-            icon: "./img/logos/uok.webp",
-            result: ["3.72 out of 4.0 GPA (May 2020)"],
-            subjects: [
-              {
-                name: "Net Centric Applications"
-              },
-              {
-                name: "Data Science and Engineering"
-              },
-              {
-                name: "Digital Gaming and Animation Applications"
-              },
-              {
-                name: "Health Informatics Applications"
-              }
-            ],
-            activities: [
-              {
-                name: "IEEE Student Branch UoK",
-                title: "Editor"
-              },
-              {
-                name: "Software Engineering Students Association UoK",
-                title: "Member"
-              }
-            ]
-          }
-        ],
-        schools: [
-          {
-            id: 1,
-            name: "Royal College, Colombo 07, Sri Lanka",
-            program: "G.C.E. Advanced Level - Mathematics Stream",
-            start: "2005",
-            end: "2014",
-            icon: "./img/logos/rc.webp",
-            result: [
-              "Z-Score of 1.7702",
-              "	1477 - Island Rank",
-              "	152 - District Rank (Gampaha)"
-            ],
-            subjects: [
-              {
-                grade: "A",
-                name: "Physics"
-              },
-              {
-                grade: "B",
-                name: "Chemistry"
-              },
-              {
-                grade: "C",
-                name: "Combined Maths"
-              },
-              {
-                grade: "A",
-                name: "General English"
-              },
-              {
-                grade: "A",
-                name: "General Information Technology"
-              },
-              {
-                grade: "83%",
-                name: "Common General Test"
-              }
-            ],
-            activities: [
-              {
-                name: "Young Inventors Club",
-                title: "Member"
-              },
-              {
-                name: "Envionmental Conversation Society",
-                title: "Member"
-              }
-            ]
-          },
-          {
-            id: 1,
-            name: "Pitiyegedara Primary School, Bemmulla, Sri Lanka",
-            program: "Grade 5 Scholarship Examination",
-            start: "2000",
-            end: "2004",
-            icon: "https://placeholder.pics/svg/120x120/eeeeee/eeeeee/",
-            result: ["167 out of 200"]
-          }
-        ]
-      }
+      modals: { showPdf: false },
+      selectedPDF: "",
+      colleges,
+      schools,
+      certificates: sortByDate(certificates),
+      courses: sortByDate(courses)
     };
+  },
+  methods: {
+    viewPdf(pdf) {
+      this.selectedPDF = "";
+      this.modals.showPdf = true;
+      this.selectedPDF = pdf;
+    }
   }
 };
 </script>

@@ -1,0 +1,144 @@
+[{
+        "name": "BigQuery for Machine Learning",
+        "icon": "/img/courses/bigquery-for-machine-learning.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-05-26"
+    },
+    {
+        "name": "How Git Works",
+        "icon": "/img/courses/pluralsight.webp",
+        "author": "Paolo Perrotta",
+        "site": "Pluralsight",
+        "link": "https://app.pluralsight.com/profile/nsa94",
+        "date": "2020-05-04"
+    },
+    {
+        "name": "Intro to Vue.js",
+        "icon": "/img/courses/intro-to-vuejs.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-13"
+    },
+    {
+        "name": "Vue 3 Essentials",
+        "icon": "/img/courses/vue-3-essentails.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-17"
+    },
+    {
+        "name": "Real World Vue.js",
+        "icon": "/img/courses/real-world-vuejs.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-14"
+    },
+    {
+        "name": "Mastering Vuex",
+        "icon": "/img/courses/mastering-vuex.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-14"
+    },
+    {
+        "name": "Next-Level Vue",
+        "icon": "/img/courses/next-level-vue.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-15"
+    },
+    {
+        "name": "Animating Vue",
+        "icon": "/img/courses/animating-vue.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-16"
+    },
+    {
+        "name": "Scaling Vue with Nuxt.js",
+        "icon": "/img/courses/scaling-vue-with-nuxtjs.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-17"
+    },
+    {
+        "name": "Token-Based Authentication",
+        "icon": "/img/courses/toke-based-authentication.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-18"
+    },
+    {
+        "name": "Using React Hooks",
+        "icon": "/img/courses/pluralsight.webp",
+        "author": "Peter Kellner",
+        "site": "Pluralsight",
+        "link": "https://app.pluralsight.com/profile/nsa94",
+        "date": "2020-04-19"
+    },
+    {
+        "name": "React: Getting Started",
+        "icon": "/img/courses/pluralsight.webp",
+        "author": "Samer Buna",
+        "site": "Pluralsight",
+        "link": "https://app.pluralsight.com/profile/nsa94",
+        "date": "2020-04-11"
+    },
+    {
+        "name": "React: The Big Picture",
+        "icon": "/img/courses/pluralsight.webp",
+        "author": "Cory House",
+        "site": "Pluralsight",
+        "link": "https://app.pluralsight.com/profile/nsa94",
+        "date": "2020-04-06"
+    },
+    {
+        "name": "OK Google: Build Interactive Apps with Google Assistant",
+        "icon": "/img/courses/ok-google-build-interactive-apps-with-google-assistant.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "01-01-2020"
+    },
+    {
+        "name": "App Dev 30-Day Challenge",
+        "icon": "/img/courses/app-dev-30-day-challenge.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2019-11-30"
+    },
+    {
+        "name": "Cloud Development",
+        "icon": "/img/courses/cloud-development.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2019-10-20"
+    },
+    {
+        "name": "Application Development - Java",
+        "icon": "/img/courses/application-development-java.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2019-10-10"
+    },
+    {
+        "name": "Google Developer Essentials",
+        "icon": "/img/courses/google-developer-essentials.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2019-10-05"
+    },
+    {
+        "name": "Baseline: Deploy & Develop",
+        "icon": "/img/courses/baseline-deploy-&-develop.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2019-10-02"
+    },
+    {
+        "name": "Baseline: Infrastructure",
+        "icon": "/img/courses/baseline-infrastructure.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2019-10-01"
+    },
+    {
+        "name": "Google Cloud Essentials",
+        "icon": "/img/courses/google-cloud-essentials.webp",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "site": "Qwiklabs",
+        "date": "2019-09-01"
+    }
+]

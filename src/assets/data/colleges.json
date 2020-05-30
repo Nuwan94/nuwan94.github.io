@@ -1,0 +1,33 @@
+[{
+    "id": 1,
+    "name": "University of Kelaniya, Sri Lanka",
+    "program": "BSc. (Hons.) in Software Engineering",
+    "start": "2017",
+    "end": "2021",
+    "icon": "./img/logos/uok.webp",
+    "result": [
+        "3.72 out of 4.0 GPA (May 2020)"
+    ],
+    "subjects": [{
+            "name": "Net Centric Applications"
+        },
+        {
+            "name": "Data Science and Engineering"
+        },
+        {
+            "name": "Digital Gaming and Animation Applications"
+        },
+        {
+            "name": "Health Informatics Applications"
+        }
+    ],
+    "activities": [{
+            "name": "IEEE Student Branch UoK",
+            "title": "Editor"
+        },
+        {
+            "name": "Software Engineering Students Association UoK",
+            "title": "Member"
+        }
+    ]
+}]

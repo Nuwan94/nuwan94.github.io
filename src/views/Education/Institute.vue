@@ -17,7 +17,7 @@
         {{ r }}
       </div>
       <div class="pt-1 h5">
-        <span class="pl-1 pr-1" v-for="a in institute.subjects" :key="a">
+        <span class="pl-1 pr-1" v-for="a in institute.subjects" :key="a.name">
           <base-button class="btnSubject" outline type="primary" size="sm">
             <span>{{a.name}}</span>
             <badge type="primary">{{a.grade}}</badge>
@@ -27,7 +27,7 @@
       </div>
       <!-- <p class="pt-3">During the {{ institute.end - institute.start }} years</p> -->
       <div class="pt-1 h5">
-        <div v-for="a in institute.activities" :key="a">
+        <div v-for="a in institute.activities" :key="a.name">
           <badge pill class="m-1" type="primary">{{a.title}}</badge>
           {{a.name}}
         </div>
