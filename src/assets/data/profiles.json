@@ -1,0 +1,102 @@
+[{
+        "icon": "facebook",
+        "color": "#3b5998",
+        "link": "https://www.facebook.com/nsa94"
+    },
+    {
+        "icon": "twitter",
+        "color": "#1da1f2",
+        "link": "https://twitter.com/_nsa94"
+    },
+    {
+        "icon": "linkedin",
+        "color": "#0077b5",
+        "link": "https://lk.linkedin.com/in/nsa94"
+    },
+    {
+        "icon": "github",
+        "color": "#333",
+        "link": "https://github.com/nuwan94"
+    },
+    {
+        "icon": "gitlab",
+        "color": "#fca326",
+        "link": "https://gitlab.com/nsa94"
+    },
+    {
+        "icon": "medium",
+        "color": "#00ab6c",
+        "link": "https://medium.com/@nsa94"
+    },
+    {
+        "icon": "stack-overflow",
+        "color": "#f48024",
+        "link": "https://stackoverflow.com/users/3125964/nuwan94"
+    },
+    {
+        "icon": "qwiklabs",
+        "image": "/img/logos/qwiklabs.webp",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
+    },
+    {
+        "icon": "pluralsight",
+        "image": "/img/logos/pluralsight.webp",
+        "link": "https://app.pluralsight.com/profile/nsa94"
+    },
+    {
+        "icon": "coursera",
+        "image": "/img/logos/coursera.webp",
+        "link": "https://www.coursera.org/user/0d49d810a78c3fd931cdfb8e6b2d82cb"
+    },
+    {
+        "icon": "hackerrank",
+        "color": "#25B658",
+        "link": "https://www.hackerrank.com/nsa94"
+    },
+    {
+        "icon": "leetcode",
+        "image": "/img/logos/leetcode.webp",
+        "link": "https://leetcode.com/nsa94/"
+    },
+    {
+        "icon": "hackthebox",
+        "image": "/img/logos/hackthebox.webp",
+        "link": "https://www.hackthebox.eu/home/users/profile/159870"
+    },
+    {
+        "icon": "codepen",
+        "color": "#111",
+        "link": "https://www.codepen.io/nsa94"
+    },
+
+    {
+        "icon": "free-code-camp",
+        "color": "#006400",
+        "link": "https://www.freecodecamp.org/nuwan94"
+    },
+    {
+        "icon": "dev",
+        "color": "#232222",
+        "link": "https://dev.to/nsa94"
+    },
+    {
+        "icon": "reddit",
+        "color": "#ff4500",
+        "link": "https://www.reddit.com/user/nsa94"
+    },
+    {
+        "icon": "behance",
+        "color": "#1769ff",
+        "link": "https://www.behance.net/nsa94/"
+    },
+    {
+        "icon": "instagram",
+        "color": "#333",
+        "link": "https://www.instagram.com/_nsa94/"
+    },
+    {
+        "icon": "deviantart",
+        "color": "#4dc47d",
+        "link": "https://www.deviantart.com/nsa94"
+    }
+]

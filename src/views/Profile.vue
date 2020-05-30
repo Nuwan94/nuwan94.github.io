@@ -204,140 +204,17 @@
 </template>
 
 <script>
+import profiles from "../assets/data/profiles.json";
+import personal from "../assets/data/personal.json";
+import languages from "../assets/data/languages.json";
+
 export default {
   name: "user-profile",
   data() {
     return {
-      personal: {
-        firstName: "Nuwan",
-        middleName: "Sameera",
-        lastName: "Alawatta",
-        title: "Software Developer | Tech Enthusiast | Geek",
-        currentPosition: "Final Year Undergradaute",
-        company: "University of Kelaniya",
-        department: "BSc. (Hons.) in Sofftware Engineering",
-        aboutme:
-          "Hello there I'm Nuwan Sameera Alawatta, level 3 undergraduate at University of Kelaniya. I'm look forward to getting involved in challenging and interesting projects which allow me to utilize and improve my skills.",
-        mobile: "+94757871494",
-        email: "hello@nuwan.dev",
-        dob: "May 24, 1994",
-        location: "Gampaha, Sri Lanka",
-        codingStyle: "Egyptian Brackets",
-        indentation: "Tabs",
-        favLang: "JavaScript/Typescript and Java",
-        goal: "Fullstack Software Engineer"
-      },
-      languages: [
-        { name: "English", precentage: 70, type: "danger" },
-        { name: "Sinhala", precentage: 100, type: "default" }
-        // { name: "Spanish", precentage: 2, type: "warning" },
-        // { name: "Klingon", precentage: 5, type: "info" }
-      ],
-      profiles: [
-        {
-          icon: "facebook",
-          color: "#3b5998",
-          link: "https://www.facebook.com/nsa94"
-        },
-        {
-          icon: "twitter",
-          color: "#1da1f2",
-          link: "https://twitter.com/_nsa94"
-        },
-        {
-          icon: "linkedin",
-          color: "#0077b5",
-          link: "https://lk.linkedin.com/in/nsa94"
-        },
-        {
-          icon: "github",
-          color: "#333",
-          link: "https://github.com/nuwan94"
-        },
-        {
-          icon: "gitlab",
-          color: "#fca326",
-          link: "https://gitlab.com/nsa94"
-        },
-        {
-          icon: "medium",
-          color: "#00ab6c",
-          link: "https://medium.com/@nsa94"
-        },
-        {
-          icon: "stack-overflow",
-          color: "#f48024",
-          link: "https://stackoverflow.com/users/3125964/nuwan94"
-        },
-        {
-          icon: "qwiklabs",
-          image: "/img/theme/qwiklabs.webp",
-          link:
-            "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
-        },
-        {
-          icon: "pluralsight",
-          image: "/img/theme/pluralsight.webp",
-          link: "https://app.pluralsight.com/profile/nsa94"
-        },
-        {
-          icon: "coursera",
-          image: "/img/theme/coursera.webp",
-          link: "https://www.coursera.org/user/0d49d810a78c3fd931cdfb8e6b2d82cb"
-        },
-        {
-          icon: "hackerrank",
-          color: "#25B658",
-          link:
-            "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
-        },
-        {
-          icon: "leetcode",
-          image: "/img/theme/leetcode.webp",
-          link: "https://leetcode.com/nsa94/"
-        },
-        {
-          icon: "hackthebox",
-          image: "/img/theme/hackthebox.webp",
-          link: "https://www.hackthebox.eu/home/users/profile/159870"
-        },
-        {
-          icon: "codepen",
-          color: "#111",
-          link: "https://www.codepen.io/nsa94"
-        },
-
-        {
-          icon: "free-code-camp",
-          color: "#006400",
-          link: "https://www.freecodecamp.org/nuwan94"
-        },
-        {
-          icon: "dev",
-          color: "#232222",
-          link: "https://dev.to/nsa94"
-        },
-        {
-          icon: "reddit",
-          color: "#ff4500",
-          link: "https://www.reddit.com/user/nsa94"
-        },
-        {
-          icon: "behance",
-          color: "#1769ff",
-          link: "https://www.behance.net/nsa94/"
-        },
-        {
-          icon: "instagram",
-          color: "#333",
-          link: "https://www.instagram.com/_nsa94/"
-        },
-        {
-          icon: "deviantart",
-          color: "#4dc47d",
-          link: "https://www.deviantart.com/nsa94"
-        }
-      ]
+      personal,
+      languages,
+      profiles
     };
   },
   computed: {
