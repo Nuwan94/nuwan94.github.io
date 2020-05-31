@@ -1,9 +1,9 @@
 <template>
   <div class="row p-3">
-    <div class="col-3 text-center">
+    <div class="col-md-3 pb-2 pb-lg-0 text-center">
       <img class="img-fluid iLogo" :src="institute.icon" alt />
     </div>
-    <div class="col-9">
+    <div class="col-md-9">
       <div class="p-2">
         <h2>
           <badge class="float-right m-1" type="success">{{ institute.start }} - {{ institute.end }}</badge>

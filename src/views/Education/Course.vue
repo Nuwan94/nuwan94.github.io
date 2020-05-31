@@ -1,9 +1,9 @@
 <template>
   <div class="row p-3">
-    <div class="col-3 text-center">
+    <div class="col-lg-3 text-center">
       <img class="img-fluid rounded-lg" height="100" :src="course.icon" />
     </div>
-    <div class="col-9">
+    <div class="col-lg-9">
       <h2>{{ course.name }}</h2>
       <h5>
         <span v-if="course.author">
