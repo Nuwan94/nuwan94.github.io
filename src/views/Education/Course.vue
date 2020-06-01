@@ -20,7 +20,8 @@
           tag="a"
           target="_blank"
           :href="course.link"
-          type="default"
+          type="primary"
+          class="bg-gradient-blue"
           icon="fa fa-link"
         >Link</base-button>
       </div>

@@ -1,4 +1,13 @@
 [{
+        "name": "AI For Everyone",
+        "icon": "/img/courses/deeplearning-ai.webp",
+        "issuer": "Coursera",
+        "date": "2020-06-02",
+        "credentailId": "",
+        "credentailLink": "",
+        "pdf": ""
+    },
+    {
         "name": "The Complete Flutter App Development Course for Android, iOS",
         "icon": "/img/courses/udemy.webp",
         "issuer": "Udemy",

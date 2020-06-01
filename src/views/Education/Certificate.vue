@@ -27,6 +27,7 @@
         tag="a"
         :href="certificate.credentailLink"
         type="success"
+        class="bg-gradient-green"
         icon="fa fa-link"
       >Verify</base-button>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white pt-2 pb-4"
+    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white pt-2 pb-2"
     id="sidenav-main"
   >
     <div class="container-fluid">
@@ -108,10 +108,12 @@ export default {
 h1.sprkly {
   background: transparent url(/img/sparkles.gif);
   display: inline-block;
-  font-size: 2em;
   font-weight: bold;
 }
-.navbar-brand {
-  max-height: 50px;
+
+@media (min-width: 768px) {
+  .navbar-brand h1 {
+    font-size: 2em;
+  }
 }
 </style>
