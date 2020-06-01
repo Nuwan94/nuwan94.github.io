@@ -1,4 +1,7 @@
 language: node_js
+os:
+  - "linux"
+dist: xenial
 node_js:
   - "stable"
 cache:
@@ -6,11 +9,11 @@ cache:
     - node_modules
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  strategy: git
+  token: $GITHUB_TOKEN
   local_dir: dist
   target_branch: master
-  keep-history: true
+  keep_history: true
   on:
     branch: source
 before_script:
