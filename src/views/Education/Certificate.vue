@@ -3,13 +3,16 @@
     <div class="col-lg-3 text-center">
       <img class="img-fluid rounded-lg" :src="certificate.icon" />
     </div>
-    <div class="col-lg-9">
+    <div class="col-lg-9 text-center text-md-left">
       <h2>{{ certificate.name }}</h2>
+      <h4 class="text-gray">{{ certificate.program }}</h4>
       <small class="d-block mt-2 mb-3">
         Issued by
         <b>{{ certificate.issuer }}</b>
-        with Credentail ID :
-        <i>{{ certificate.credentailId }}</i>
+        <template v-if="certificate.credentailId">
+          Credentail ID :
+          <b>{{ certificate.credentailId }}</b>
+        </template>
         <br />on
         <b>{{ certificate.date | moment("Do MMMM YYYY") }}</b>
       </small>

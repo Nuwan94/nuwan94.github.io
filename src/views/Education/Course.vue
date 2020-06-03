@@ -3,7 +3,7 @@
     <div class="col-lg-3 text-center">
       <img class="img-fluid rounded-lg" height="100" :src="course.icon" />
     </div>
-    <div class="col-lg-9">
+    <div class="col-lg-9 text-center text-md-left">
       <h2>{{ course.name }}</h2>
       <h5>
         <span v-if="course.author">
