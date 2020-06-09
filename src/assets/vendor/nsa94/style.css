@@ -1,0 +1,665 @@
+@font-face {
+  font-family: 'nsa94';
+  src:  url('fonts/nsa94.eot?5slkzx');
+  src:  url('fonts/nsa94.eot?5slkzx#iefix') format('embedded-opentype'),
+    url('fonts/nsa94.ttf?5slkzx') format('truetype'),
+    url('fonts/nsa94.woff?5slkzx') format('woff'),
+    url('fonts/nsa94.svg?5slkzx#nsa94') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="nsa94-"], [class*=" nsa94-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'nsa94' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nsa94-adobeillustrator:before {
+  content: "\e958";
+  color: #ff7c00;
+}
+.nsa94-adobephotoshop:before {
+  content: "\e957";
+  color: #00c8ff;
+}
+.nsa94-adobexd:before {
+  content: "\e956";
+  color: #ff2bc2;
+}
+.nsa94-amazonaws:before {
+  content: "\e926";
+}
+.nsa94-anaconda:before {
+  content: "\e92f";
+  color: #42b029;
+}
+.nsa94-android:before {
+  content: "\e93e";
+  color: #3ddc84;
+}
+.nsa94-angular:before {
+  content: "\e936";
+  color: #dd0031;
+}
+.nsa94-ant-design:before {
+  content: "\e9a1";
+  color: #21a2fd;
+}
+.nsa94-apache:before {
+  content: "\e9a2";
+  color: #d22128;
+}
+.nsa94-apacheairflow:before {
+  content: "\e969";
+  color: #007a88;
+}
+.nsa94-apachekafka:before {
+  content: "\e92e";
+}
+.nsa94-apachenetbeanside:before {
+  content: "\e9a3";
+  color: #1b6ac6;
+}
+.nsa94-apacheopenoffice:before {
+  content: "\e9a4";
+  color: #0e85cd;
+}
+.nsa94-apachespark:before {
+  content: "\e953";
+  color: #e25a1c;
+}
+.nsa94-arduino:before {
+  content: "\e93d";
+  color: #00979d;
+}
+.nsa94-atlassian:before {
+  content: "\e95a";
+  color: #0052cc;
+}
+.nsa94-auth0:before {
+  content: "\e923";
+  color: #eb5424;
+}
+.nsa94-azuredevops:before {
+  content: "\e929";
+  color: #0078d7;
+}
+.nsa94-azurepipelines:before {
+  content: "\e928";
+  color: #2560e0;
+}
+.nsa94-babel:before {
+  content: "\e922";
+  color: #f9dc3e;
+}
+.nsa94-blender:before {
+  content: "\e921";
+  color: #f5792a;
+}
+.nsa94-bootstrap:before {
+  content: "\e938";
+  color: #563d7c;
+}
+.nsa94-c:before {
+  content: "\e93b";
+  color: #a8b9cc;
+}
+.nsa94-cassandra:before {
+  content: "\e920";
+  color: #1287b1;
+}
+.nsa94-circleci:before {
+  content: "\e925";
+}
+.nsa94-codecov:before {
+  content: "\e91e";
+  color: #f01f7a;
+}
+.nsa94-codeigniter:before {
+  content: "\e91a";
+  color: #ee4623;
+}
+.nsa94-codepen:before {
+  content: "\e91b";
+}
+.nsa94-codesandbox:before {
+  content: "\e919";
+}
+.nsa94-coffeescript:before {
+  content: "\e918";
+}
+.nsa94-commonworkflowlanguage:before {
+  content: "\e917";
+  color: #b5314c;
+}
+.nsa94-composer:before {
+  content: "\e916";
+  color: #885630;
+}
+.nsa94-coursera:before {
+  content: "\e914";
+  color: #2a73cc;
+}
+.nsa94-cpanel:before {
+  content: "\e912";
+  color: #ff6c2c;
+}
+.nsa94-cplusplus:before {
+  content: "\e93a";
+  color: #00599c;
+}
+.nsa94-csharp:before {
+  content: "\e93c";
+  color: #239120;
+}
+.nsa94-css3:before {
+  content: "\e948";
+  color: #1572b6;
+}
+.nsa94-csswizardry:before {
+  content: "\e947";
+  color: #f43059;
+}
+.nsa94-d3-dot-js:before {
+  content: "\e911";
+  color: #f9a03c;
+}
+.nsa94-dart:before {
+  content: "\e910";
+  color: #0175c2;
+}
+.nsa94-datacamp:before {
+  content: "\e90e";
+  color: #3ac;
+}
+.nsa94-deno:before {
+  content: "\e90d";
+}
+.nsa94-digitalocean:before {
+  content: "\e90c";
+  color: #0080ff;
+}
+.nsa94-disqus:before {
+  content: "\e90b";
+  color: #2e9fff;
+}
+.nsa94-django:before {
+  content: "\e90a";
+}
+.nsa94-docker:before {
+  content: "\e909";
+  color: #1488c6;
+}
+.nsa94-elastic:before {
+  content: "\e908";
+  color: #005571;
+}
+.nsa94-elasticcloud:before {
+  content: "\e907";
+  color: #005571;
+}
+.nsa94-elasticsearch:before {
+  content: "\e906";
+  color: #005571;
+}
+.nsa94-elasticstack:before {
+  content: "\e905";
+  color: #005571;
+}
+.nsa94-electron:before {
+  content: "\e950";
+  color: #47848f;
+}
+.nsa94-elementary:before {
+  content: "\e904";
+  color: #64baff;
+}
+.nsa94-ember-dot-js:before {
+  content: "\e963";
+  color: #e04e39;
+}
+.nsa94-eslint:before {
+  content: "\e903";
+  color: #4b32c3;
+}
+.nsa94-express:before {
+  content: "\e900";
+}
+.nsa94-firebase:before {
+  content: "\e954";
+  color: #ffca28;
+}
+.nsa94-flask:before {
+  content: "\e973";
+}
+.nsa94-flutter:before {
+  content: "\e90f";
+  color: #02569b;
+}
+.nsa94-gatsby:before {
+  content: "\e93f";
+  color: #639;
+}
+.nsa94-git:before {
+  content: "\e96a";
+  color: #f05032;
+}
+.nsa94-gitpod:before {
+  content: "\e924";
+  color: #1aa6e4;
+}
+.nsa94-gitter:before {
+  content: "\e96b";
+  color: #ed1965;
+}
+.nsa94-google:before {
+  content: "\e95e";
+  color: #4285f4;
+}
+.nsa94-googlecloud:before {
+  content: "\e934";
+  color: #4285f4;
+}
+.nsa94-gradle:before {
+  content: "\e933";
+}
+.nsa94-grafana:before {
+  content: "\e974";
+  color: #f46800;
+}
+.nsa94-graphql:before {
+  content: "\e901";
+  color: #e10098;
+}
+.nsa94-groovy:before {
+  content: "\e975";
+  color: #4298b8;
+}
+.nsa94-gulp:before {
+  content: "\e976";
+  color: #da4648;
+}
+.nsa94-hackerearth:before {
+  content: "\e95b";
+  color: #323754;
+}
+.nsa94-hackerrank:before {
+  content: "\e95d";
+  color: #2ec866;
+}
+.nsa94-hackthebox:before {
+  content: "\e92a";
+  color: #9bcd0c;
+}
+.nsa94-heroku:before {
+  content: "\e92c";
+  color: #430098;
+}
+.nsa94-html5:before {
+  content: "\e946";
+  color: #e34f26;
+}
+.nsa94-intellijidea:before {
+  content: "\e96c";
+}
+.nsa94-ionic:before {
+  content: "\e977";
+  color: #3880ff;
+}
+.nsa94-java:before {
+  content: "\e94b";
+  color: #007396;
+}
+.nsa94-javascript:before {
+  content: "\e94a";
+  color: #f7df1e;
+}
+.nsa94-jest:before {
+  content: "\e978";
+  color: #c21325;
+}
+.nsa94-jetbrains:before {
+  content: "\e979";
+}
+.nsa94-joomla:before {
+  content: "\e97a";
+  color: #5091cd;
+}
+.nsa94-jquery:before {
+  content: "\e968";
+  color: #0769ad;
+}
+.nsa94-json:before {
+  content: "\e96d";
+}
+.nsa94-jupyter:before {
+  content: "\e97b";
+  color: #f37626;
+}
+.nsa94-kotlin:before {
+  content: "\e932";
+  color: #0095d5;
+}
+.nsa94-kubernetes:before {
+  content: "\e96e";
+  color: #326ce5;
+}
+.nsa94-laravel:before {
+  content: "\e967";
+  color: #ff2d20;
+}
+.nsa94-latex:before {
+  content: "\e97c";
+  color: #008080;
+}
+.nsa94-leetcode:before {
+  content: "\e91d";
+  color: #f89f1b;
+}
+.nsa94-magento:before {
+  content: "\e97d";
+  color: #ee672f;
+}
+.nsa94-markdown:before {
+  content: "\e92d";
+}
+.nsa94-materialdesign:before {
+  content: "\e937";
+  color: #757575;
+}
+.nsa94-meteor:before {
+  content: "\e97e";
+  color: #de4f4f;
+}
+.nsa94-microsoftazure:before {
+  content: "\e927";
+  color: #0089d6;
+}
+.nsa94-microsoftexcel:before {
+  content: "\e95f";
+  color: #217346;
+}
+.nsa94-mongodb:before {
+  content: "\e940";
+  color: #47a248;
+}
+.nsa94-mysql:before {
+  content: "\e945";
+  color: #4479a1;
+}
+.nsa94-nativescript:before {
+  content: "\e96f";
+  color: #3655ff;
+}
+.nsa94-netlify:before {
+  content: "\e92b";
+  color: #00c7b7;
+}
+.nsa94-next-dot-js:before {
+  content: "\e902";
+}
+.nsa94-nginx:before {
+  content: "\e97f";
+  color: #269539;
+}
+.nsa94-node-dot-js:before {
+  content: "\e942";
+  color: #393;
+}
+.nsa94-nodemon:before {
+  content: "\e980";
+  color: #76d04b;
+}
+.nsa94-npm:before {
+  content: "\e915";
+  color: #cb3837;
+}
+.nsa94-nuget:before {
+  content: "\e981";
+  color: #004880;
+}
+.nsa94-nuxt-dot-js:before {
+  content: "\e94f";
+  color: #00c58e;
+}
+.nsa94-openid:before {
+  content: "\e982";
+  color: #f78c40;
+}
+.nsa94-opensourceinitiative:before {
+  content: "\e983";
+  color: #3da639;
+}
+.nsa94-openssl:before {
+  content: "\e984";
+  color: #721412;
+}
+.nsa94-openvpn:before {
+  content: "\e985";
+  color: #ea7e20;
+}
+.nsa94-oracle:before {
+  content: "\e986";
+  color: #f80000;
+}
+.nsa94-paypal:before {
+  content: "\e987";
+  color: #00457c;
+}
+.nsa94-php:before {
+  content: "\e931";
+  color: #777bb4;
+}
+.nsa94-php1:before {
+  content: "\e944";
+  color: #777bb4;
+}
+.nsa94-pluralsight:before {
+  content: "\e913";
+  color: #f15b2a;
+}
+.nsa94-postgresql:before {
+  content: "\e943";
+  color: #336791;
+}
+.nsa94-postman:before {
+  content: "\e988";
+  color: #ff6c37;
+}
+.nsa94-powershell:before {
+  content: "\e989";
+  color: #5391fe;
+}
+.nsa94-prettier:before {
+  content: "\e98a";
+  color: #f7b93e;
+}
+.nsa94-pypi:before {
+  content: "\e98b";
+  color: #3775a9;
+}
+.nsa94-python:before {
+  content: "\e939";
+  color: #3776ab;
+}
+.nsa94-pytorch:before {
+  content: "\e98c";
+  color: #ee4c2c;
+}
+.nsa94-qwiklabs:before {
+  content: "\e95c";
+  color: #f5cd0e;
+}
+.nsa94-r:before {
+  content: "\e98d";
+  color: #276dc3;
+}
+.nsa94-rails:before {
+  content: "\e98e";
+  color: #c00;
+}
+.nsa94-raspberrypi:before {
+  content: "\e98f";
+  color: #c51a4a;
+}
+.nsa94-react:before {
+  content: "\e951";
+  color: #61dafb;
+}
+.nsa94-reactos:before {
+  content: "\e966";
+  color: #08c;
+}
+.nsa94-reason:before {
+  content: "\e990";
+  color: #dd4b39;
+}
+.nsa94-redis:before {
+  content: "\e965";
+  color: #d82c20;
+}
+.nsa94-redux:before {
+  content: "\e952";
+  color: #764abc;
+}
+.nsa94-rstudio:before {
+  content: "\e970";
+  color: #75aadb;
+}
+.nsa94-ruby:before {
+  content: "\e991";
+  color: #cc342d;
+}
+.nsa94-rust:before {
+  content: "\e992";
+}
+.nsa94-sass:before {
+  content: "\e993";
+  color: #c69;
+}
+.nsa94-scala:before {
+  content: "\e994";
+  color: #dc322f;
+}
+.nsa94-socket-dot-io:before {
+  content: "\e995";
+}
+.nsa94-sonarlint:before {
+  content: "\e91c";
+  color: #cc2026;
+}
+.nsa94-sonarqube:before {
+  content: "\e996";
+  color: #4e9bcd;
+}
+.nsa94-sonarsource:before {
+  content: "\e997";
+  color: #cb3032;
+}
+.nsa94-soundcloud:before {
+  content: "\e91f";
+  color: #f30;
+}
+.nsa94-spring:before {
+  content: "\e964";
+  color: #6db33f;
+}
+.nsa94-strapi:before {
+  content: "\e998";
+  color: #2e7eea;
+}
+.nsa94-stripe:before {
+  content: "\e955";
+  color: #008cdd;
+}
+.nsa94-svelte:before {
+  content: "\e999";
+  color: #ff3e00;
+}
+.nsa94-swagger:before {
+  content: "\e99a";
+  color: #85ea2d;
+}
+.nsa94-tailwindcss:before {
+  content: "\e935";
+  color: #38b2ac;
+}
+.nsa94-tensorflow:before {
+  content: "\e971";
+  color: #ff6f00;
+}
+.nsa94-travisci:before {
+  content: "\e941";
+  color: #3eaaaf;
+}
+.nsa94-twilio:before {
+  content: "\e99b";
+  color: #f22f46;
+}
+.nsa94-typescript:before {
+  content: "\e949";
+  color: #007acc;
+}
+.nsa94-udemy:before {
+  content: "\e959";
+  color: #ec5252;
+}
+.nsa94-unity:before {
+  content: "\e94d";
+}
+.nsa94-unrealengine:before {
+  content: "\e94c";
+}
+.nsa94-upwork:before {
+  content: "\e99c";
+  color: #6fda44;
+}
+.nsa94-view_in_ar:before {
+  content: "\e962";
+}
+.nsa94-visualstudio:before {
+  content: "\e930";
+  color: #5c2d91;
+}
+.nsa94-visualstudiocode:before {
+  content: "\e94e";
+  color: #007acc;
+}
+.nsa94-vue-dot-js:before {
+  content: "\e960";
+  color: #4fc08d;
+}
+.nsa94-webstorm:before {
+  content: "\e972";
+}
+.nsa94-wolfram:before {
+  content: "\e99d";
+  color: #d10;
+}
+.nsa94-wolframlanguage:before {
+  content: "\e99e";
+  color: #d10;
+}
+.nsa94-wolframmathematica:before {
+  content: "\e99f";
+  color: #d10;
+}
+.nsa94-wordpress:before {
+  content: "\e961";
+  color: #21759b;
+}
+.nsa94-yarn:before {
+  content: "\e9a0";
+  color: #2c8ebb;
+}
