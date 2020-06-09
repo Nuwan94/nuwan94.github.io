@@ -32,6 +32,7 @@
         v-bind="$attrs"
         class="form-control no-disabled"
         :class="[
+                     {'bg-dark text-white': dark === true},
                      {'is-valid': valid === true},
                      {'is-invalid': valid === false}, inputClasses]"
         aria-describedby="addon-right addon-left"
@@ -101,6 +102,11 @@ export default {
     addonLeftIcon: {
       type: String,
       description: "Addont left icon"
+    },
+    dark: {
+      type: Boolean,
+      default: true,
+      description: "Dark theme"
     }
   },
   data() {

@@ -4,6 +4,8 @@ import DashboardLayout from "@/layout/DashboardLayout";
 import Profile from "./views/Profile";
 import Stats from "./views/Stats";
 import Education from "./views/Education";
+import Experience from "./views/Experience";
+
 import Portfolio from "./views/Portfolio";
 import Contact from "./views/Contact";
 import NotFound from "./views/NotFound";
@@ -47,11 +49,11 @@ export default new Router({
                 name: "contact",
                 component: Contact,
             },
-            // {
-            //     path: "/hobbies",
-            //     name: "hobbies",
-            //     component: Soon,
-            // },
+            {
+                path: "/experience",
+                name: "experience",
+                component: Experience,
+            },
             {
                 path: "*",
                 name: "notfound",
@@ -59,4 +61,7 @@ export default new Router({
             },
         ],
     }, ],
+    scrollBehavior() {
+        return { x: 0, y: 0 };
+    },
 });

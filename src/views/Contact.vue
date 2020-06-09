@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-gray">
+  <div>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-7 col-md-10">
@@ -9,6 +9,7 @@
 
               <form ref="contactForm" @submit.prevent="submit" key="0">
                 <base-input
+                  dark="false"
                   required
                   alternative
                   label="Name"
@@ -23,6 +24,7 @@
                 />
 
                 <base-input
+                  dark="false"
                   required
                   alternative
                   label="Email"

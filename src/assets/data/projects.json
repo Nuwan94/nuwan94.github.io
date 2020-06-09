@@ -1,0 +1,260 @@
+[{
+        "name": "SE GPA Calculator",
+        "desc": "A simple GPA Calculator for Software Engineering students in University of Kelaniya.",
+        "start": "2018-08-01",
+        "end": "2018-09-30",
+        "type": "web",
+        "language": "angular",
+        "repo": "nuwan94/se-gpa-calculator",
+        "tech": [
+            "angular",
+            "html",
+            "css",
+            "material",
+            "javascript"
+        ]
+    },
+    {
+        "name": "Faculty Information System",
+        "desc": "Pure PHP and CSS student and course management system.",
+        "start": "2018-07-01",
+        "end": "2018-07-25",
+        "type": "web",
+        "language": "php",
+        "repo": "nuwan94/faculty-information-system",
+        "demo": "http://nsa94.epizy.com",
+        "tech": [
+            "html",
+            "css",
+            "javascript",
+            "php",
+            "mysql"
+        ]
+    },
+    {
+        "name": "RealHack 1.0",
+        "desc": "Official website design for Inter-University Hackathon RealHack 2018.",
+        "start": "2018-07-31",
+        "end": "2018-09-20",
+        "type": "web",
+        "language": "html",
+        "repo": "nuwan94/realhack18-web",
+        "tech": [
+            "html",
+            "css",
+            "material",
+            "javascript"
+        ]
+    },
+    {
+        "name": "SE Official",
+        "desc": "Android app with news feed and push notifications, timetable and scoreboard.",
+        "start": "2018-08-01",
+        "end": "2018-09-30",
+        "type": "mobile",
+        "language": "android",
+        "repo": "nuwan94/se-app",
+        "tech": [
+            "java",
+            "android",
+            "gradle",
+            "firebase"
+        ]
+    },
+    {
+        "name": "CRM System",
+        "desc": "Customer Relationship Management System develoepd with JavaFX, ControlsFX.",
+        "start": "2019-12-01",
+        "end": "2020-01-31",
+        "type": "desktop",
+        "language": "java",
+        "tech": [
+            "java",
+            "css"
+        ]
+    },
+    {
+        "name": "FIL",
+        "desc": "Fashion eCommerce Mobile Application developed as a freelance project.",
+        "start": "2019-03-01",
+        "end": "2019-03-20",
+        "type": "mobile",
+        "language": "android",
+        "repo": "nuwan94/fil",
+        "tech": [
+            "java",
+            "android",
+            "gradle",
+            "firebase"
+        ]
+    },
+    {
+        "name": "Vidya 2017",
+        "desc": "Android app for the Vidya 2017 Science Exhibiton organized by University of Kelaniya.",
+        "start": "2017-07-01",
+        "end": "2017-08-10",
+        "type": "mobile",
+        "language": "android",
+        "demo": "https://play.google.com/store/apps/details?id=uok.sesa.vidya&hl=en_US",
+        "tech": [
+            "java",
+            "android",
+            "gradle",
+            "firebase"
+        ]
+    },
+    {
+        "name": "Personal Blog",
+        "desc": "Static blog site using Gatsby JavaScript framework and lumen starter template.",
+        "start": "2019-03-01",
+        "end": "2019-06-30",
+        "type": "web",
+        "language": "react",
+        "repo": "nuwan94/fil",
+        "tech": [
+            "javascript",
+            "react",
+            "gatsby",
+            "markdown",
+            "travis"
+        ]
+    },
+    {
+        "name": "Portfolio Website",
+        "desc": "This website which have portfolio of Nuwan Alawatta.",
+        "start": "2020-04-01",
+        "end": "2020-06-30",
+        "type": "web",
+        "language": "vuejs",
+        "repo": "nuwan94/nuwan94.github.io",
+        "demo": "https://nuwan.dev",
+        "tech": [
+            "vuejs",
+            "javascript",
+            "travis"
+        ]
+    },
+    {
+        "name": "Dev Spy API",
+        "desc": "Simple API that spying on a developer and save his/her stats.",
+        "start": "2020-04-01",
+        "end": "2020-05-10",
+        "type": "web",
+        "language": "nodejs",
+        "repo": "nuwan94/dev-spy-api",
+        "demo": "https://nuwan94.herokuapp.com",
+        "tech": [
+            "nodejs",
+            "javascript",
+            "express",
+            "mongodb",
+            "heroku",
+            "travis"
+        ]
+    },
+    {
+        "name": "Ceylon Fighters",
+        "desc": "Multiplayer augmented reality fighting game developed as a academic project.",
+        "start": "2019-06-01",
+        "end": "2020-06-30",
+        "type": "game",
+        "language": "unity",
+        "repo": "teamorigin/ceylon-fighters",
+        "tech": [
+            "unity",
+            "csharp"
+        ]
+    },
+    {
+        "name": "Praimfaya",
+        "desc": "Multiplayer FPS adventure game based on The 100 tv-show.",
+        "start": "2019-07-01",
+        "end": "2020-07-25",
+        "type": "game",
+        "language": "unity",
+        "tech": [
+            "unity",
+            "csharp"
+        ]
+    },
+    {
+        "name": "Subtitle Finder",
+        "desc": "Easy to use subtitle finding desktop application with advance functionalities.",
+        "start": "2020-04-01",
+        "end": "2020-07-25",
+        "type": "desktop",
+        "repo": "nuwan94/subtitle-finder",
+        "language": "electron",
+        "tech": [
+            "electron",
+            "javascript"
+        ]
+    },
+    {
+        "name": "Thingsboard Integrator",
+        "desc": "Reverse proxy application as a POC during internship.",
+        "start": "2019-11-20",
+        "end": "2019-12-10",
+        "type": "web",
+        "language": "spring",
+        "tech": [
+            "java",
+            "apache-camel",
+            "spring",
+            "postgresql"
+        ]
+    },
+    {
+        "name": "Quality Insights",
+        "desc": "Dashboard and Ranking API for internal usage during internship.",
+        "start": "2019-08-27",
+        "end": "2019-09-30",
+        "type": "web",
+        "language": "spring",
+        "tech": [
+            "kotlin",
+            "spring",
+            "angular",
+            "sonarqube",
+            "javascript"
+        ]
+    },
+    {
+        "name": "Warehouse Management System",
+        "desc": "WMS for external client during internship.",
+        "start": "2020-01-01",
+        "end": "2019-03-06",
+        "type": "web",
+        "language": "ant-design",
+        "tech": [
+            "react",
+            "ant-design",
+            "redux",
+            "html",
+            "css",
+            "javascript"
+        ]
+    },
+    {
+        "name": "Event Registration System",
+        "desc": "QR based event registration system.",
+        "start": "2019-08-20",
+        "end": "2019-09-10",
+        "type": "web",
+        "repo": "nuwan94/qr-registration-system",
+        "language": "nodejs",
+        "tech": [
+            "nodejs",
+            "express",
+            "socketio",
+            "android",
+            "php",
+            "mysql",
+            "html",
+            "css",
+            "material",
+            "javascript",
+            "jquery"
+        ]
+    }
+]

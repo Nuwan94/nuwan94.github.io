@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <base-header class="header pb-8 pt-5 d-flex align-items-center bg-gradient-gray">
+  <div class>
+    <base-header class="header pb-8 pt-5 d-flex align-items-center bg-dark">
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-12 col-md-12 d-none d-md-block">
@@ -186,12 +186,17 @@
                     class="m-3 rounded text-center bg-white shadow clickable"
                     target="_blank"
                   >
-                    <img class="m-2 p-1 fa-2x fa-fw" v-if="profile.image" :src="profile.image" />
                     <i
-                      v-if="profile.color"
-                      :class="'m-2 fa-fw fab fa-2x fa-' + profile.icon"
+                      :id="profile.name"
+                      v-if="profile.icon"
+                      :class="'m-2 fa-fw fab fa-2x ' + profile.icon"
                       :style="'color:' + profile.color"
                     />
+                    <b-tooltip
+                      placement="top"
+                      :target="profile.name"
+                      triggers="hover"
+                    >{{ profile.name }}</b-tooltip>
                   </a>
                 </div>
               </form>

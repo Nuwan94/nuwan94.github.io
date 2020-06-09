@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
+  <div class="wrapper h-100" :class="{ 'nav-open': $sidebar.showSidebar }">
     <side-bar
       :background-color="sidebarBackground"
       short-title="Nuwan"
@@ -23,32 +23,32 @@
           :link="{name: 'Experience', icon: 'ni ni-briefcase-24 text-orange', path: '/experience'}"
         />
         <sidebar-item :link="{name: 'Portfolio', icon: 'ni ni-app text-blue', path: '/portfolio'}" />
-        <sidebar-item
+        <!-- <sidebar-item
           :link="{name: 'Communities', icon: 'ni ni-planet text-default', path: '/communities'}"
-        />
-        <sidebar-item
+        />-->
+        <!-- <sidebar-item
           :link="{name: 'Hobbies', icon: 'ni ni-palette text-purple', path: '/hobbies'}"
-        />
+        />-->
         <sidebar-item :link="{name: 'Contact', icon: 'ni ni-send text-yellow', path: '/contact'}" />
       </template>
     </side-bar>
-    <div class="main-content" :data="sidebarBackground">
+    <div class="main-content bg-dark pb-5 h-100" :data="sidebarBackground">
       <div @click="toggleSidebar">
         <fade-transition :duration="200" origin="center top" mode="out-in">
           <router-view></router-view>
         </fade-transition>
-        <content-footer v-if="!$route.meta.hideFooter"></content-footer>
+        <!-- <content-footer v-if="!$route.meta.hideFooter"></content-footer> -->
       </div>
     </div>
   </div>
 </template>
 <script>
-import ContentFooter from "./ContentFooter.vue";
+// import ContentFooter from "./ContentFooter.vue";
 import { FadeTransition } from "vue2-transitions";
 
 export default {
   components: {
-    ContentFooter,
+    // ContentFooter,
     FadeTransition
   },
   data() {

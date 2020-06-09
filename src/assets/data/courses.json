@@ -14,16 +14,42 @@
         "date": "2020-05-04"
     },
     {
-        "name": "Intro to Vue.js",
-        "icon": "/img/courses/intro-to-vuejs.webp",
+        "name": "Using React Hooks",
+        "icon": "/img/courses/pluralsight.webp",
+        "author": "Peter Kellner",
+        "site": "Pluralsight",
+        "link": "https://app.pluralsight.com/profile/nsa94",
+        "date": "2020-04-19"
+    },
+    {
+        "name": "Token-Based Authentication",
+        "icon": "/img/courses/toke-based-authentication.webp",
         "site": "Vue Mastery",
-        "date": "2020-04-13"
+        "date": "2020-04-18"
+    },
+    {
+        "name": "Scaling Vue with Nuxt.js",
+        "icon": "/img/courses/scaling-vue-with-nuxtjs.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-17"
     },
     {
         "name": "Vue 3 Essentials",
         "icon": "/img/courses/vue-3-essentails.webp",
         "site": "Vue Mastery",
         "date": "2020-04-17"
+    },
+    {
+        "name": "Animating Vue",
+        "icon": "/img/courses/animating-vue.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-16"
+    },
+    {
+        "name": "Next-Level Vue",
+        "icon": "/img/courses/next-level-vue.webp",
+        "site": "Vue Mastery",
+        "date": "2020-04-15"
     },
     {
         "name": "Real World Vue.js",
@@ -38,36 +64,10 @@
         "date": "2020-04-14"
     },
     {
-        "name": "Next-Level Vue",
-        "icon": "/img/courses/next-level-vue.webp",
+        "name": "Intro to Vue.js",
+        "icon": "/img/courses/intro-to-vuejs.webp",
         "site": "Vue Mastery",
-        "date": "2020-04-15"
-    },
-    {
-        "name": "Animating Vue",
-        "icon": "/img/courses/animating-vue.webp",
-        "site": "Vue Mastery",
-        "date": "2020-04-16"
-    },
-    {
-        "name": "Scaling Vue with Nuxt.js",
-        "icon": "/img/courses/scaling-vue-with-nuxtjs.webp",
-        "site": "Vue Mastery",
-        "date": "2020-04-17"
-    },
-    {
-        "name": "Token-Based Authentication",
-        "icon": "/img/courses/toke-based-authentication.webp",
-        "site": "Vue Mastery",
-        "date": "2020-04-18"
-    },
-    {
-        "name": "Using React Hooks",
-        "icon": "/img/courses/pluralsight.webp",
-        "author": "Peter Kellner",
-        "site": "Pluralsight",
-        "link": "https://app.pluralsight.com/profile/nsa94",
-        "date": "2020-04-19"
+        "date": "2020-04-13"
     },
     {
         "name": "React: Getting Started",
@@ -90,7 +90,7 @@
         "icon": "/img/courses/ok-google-build-interactive-apps-with-google-assistant.webp",
         "site": "Qwiklabs",
         "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
-        "date": "01-01-2020"
+        "date": "2020-01-01"
     },
     {
         "name": "App Dev 30-Day Challenge",

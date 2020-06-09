@@ -1,101 +1,116 @@
 [{
-        "icon": "facebook",
+        "name": "Facebook",
+        "icon": "fa-facebook",
         "color": "#3b5998",
         "link": "https://www.facebook.com/nsa94"
     },
     {
-        "icon": "twitter",
+        "name": "Twitter",
+        "icon": "fa-twitter",
         "color": "#1da1f2",
         "link": "https://twitter.com/_nsa94"
     },
     {
-        "icon": "linkedin",
+        "name": "Linkedin",
+        "icon": "fa-linkedin",
         "color": "#0077b5",
         "link": "https://lk.linkedin.com/in/nsa94"
     },
     {
-        "icon": "github",
+        "name": "GitHub",
+        "icon": "fa-github",
         "color": "#333",
         "link": "https://github.com/nuwan94"
     },
     {
-        "icon": "gitlab",
+        "name": "Gitlab",
+        "icon": "fa-gitlab",
         "color": "#fca326",
         "link": "https://gitlab.com/nsa94"
     },
     {
-        "icon": "medium",
+        "name": "Medium",
+        "icon": "fa-medium",
         "color": "#00ab6c",
         "link": "https://medium.com/@nsa94"
     },
     {
-        "icon": "stack-overflow",
+        "name": "Stackoverflow",
+        "icon": "fa-stack-overflow",
         "color": "#f48024",
         "link": "https://stackoverflow.com/users/3125964/nuwan94"
     },
     {
-        "icon": "qwiklabs",
-        "image": "/img/logos/qwiklabs.webp",
+        "name": "Qwiklabs",
+        "icon": "nsa94-qwiklabs",
         "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
     },
     {
-        "icon": "pluralsight",
-        "image": "/img/logos/pluralsight.webp",
+        "name": "Pluralsight",
+        "icon": "nsa94-pluralsight",
         "link": "https://app.pluralsight.com/profile/nsa94"
     },
     {
-        "icon": "coursera",
-        "image": "/img/logos/coursera.webp",
+        "name": "Coursera",
+        "icon": "nsa94-coursera",
         "link": "https://www.coursera.org/user/0d49d810a78c3fd931cdfb8e6b2d82cb"
     },
     {
-        "icon": "hackerrank",
+        "name": "Hackerrank",
+        "icon": "nsa94-hackerrank",
         "color": "#25B658",
         "link": "https://www.hackerrank.com/nsa94"
     },
     {
-        "icon": "leetcode",
-        "image": "/img/logos/leetcode.webp",
+        "name": "Leetcode",
+        "icon": "nsa94-leetcode",
         "link": "https://leetcode.com/nsa94/"
     },
     {
-        "icon": "hackthebox",
-        "image": "/img/logos/hackthebox.webp",
+        "name": "Hack The Box",
+        "icon": "nsa94-hackthebox",
         "link": "https://www.hackthebox.eu/home/users/profile/159870"
     },
     {
-        "icon": "codepen",
+        "name": "Codepen",
+        "icon": "fa-codepen",
         "color": "#111",
         "link": "https://www.codepen.io/nsa94"
     },
 
     {
-        "icon": "free-code-camp",
+        "name": "Freecodecamp",
+        "icon": "fa-free-code-camp",
         "color": "#006400",
         "link": "https://www.freecodecamp.org/nuwan94"
     },
     {
-        "icon": "dev",
+        "name": "Dev.to",
+        "icon": "fa-dev",
         "color": "#232222",
         "link": "https://dev.to/nsa94"
     },
     {
-        "icon": "reddit",
+        "name": "Reddit",
+        "icon": "fa-reddit",
         "color": "#ff4500",
         "link": "https://www.reddit.com/user/nsa94"
     },
     {
-        "icon": "behance",
+        "name": "Behance",
+        "icon": "fa-behance",
         "color": "#1769ff",
         "link": "https://www.behance.net/nsa94/"
     },
     {
-        "icon": "instagram",
+        "name": "Instagram",
+        "icon": "fa-instagram",
         "color": "#333",
         "link": "https://www.instagram.com/_nsa94/"
     },
     {
-        "icon": "deviantart",
+        "name": "Deviantart",
+        "icon": "fa-deviantart",
         "color": "#4dc47d",
         "link": "https://www.deviantart.com/nsa94"
     }

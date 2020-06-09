@@ -1,6 +1,6 @@
 <template>
   <div>
-    <base-header type="gradient-gray" class="pb-6 pb-8 pt-5 pt-md-8">
+    <base-header class="bg-dark pb-6 pb-8 pt-5 pt-md-8">
       <!-- Card stats -->
       <div class="row">
         <div class="col-xl-4 col-lg-6">

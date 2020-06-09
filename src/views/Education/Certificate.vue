@@ -1,10 +1,10 @@
 <template>
-  <div class="row p-3 bg-white rounded-lg">
-    <div class="col-lg-3 text-center">
+  <div class="row bg-white rounded-lg">
+    <div class="col-12 text-center">
       <img class="img-fluid rounded-lg" :src="certificate.icon" />
     </div>
-    <div class="col-lg-9 text-center text-md-left">
-      <h2>{{ certificate.name }}</h2>
+    <div class="col-12 text-center">
+      <h3>{{ certificate.name }}</h3>
       <h4 class="text-gray">{{ certificate.program }}</h4>
       <small class="d-block mt-2 mb-3">
         Issued by
@@ -17,11 +17,11 @@
         <b>{{ certificate.date | moment("Do MMMM YYYY") }}</b>
       </small>
     </div>
-    <div class="col text-right">
+    <div class="col mb-2 text-right">
       <base-button
         v-if="certificate.credentailLink"
         @click="handleView"
-        type="white"
+        type="link"
         icon="fa fa-eye"
       >View</base-button>
       <base-button
@@ -29,8 +29,7 @@
         target="_blank"
         tag="a"
         :href="certificate.credentailLink"
-        type="success"
-        class="bg-gradient-green"
+        type="link"
         icon="fa fa-link"
       >Verify</base-button>
     </div>

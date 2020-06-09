@@ -1,0 +1,23 @@
+[{
+        "name": "Zone 24x7 Inc.",
+        "designation": "Trainee Associate Software Engineer",
+        "start": "2019-08-26",
+        "end": "2020-03-06",
+        "icon": "./img/logos/zone.webp",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "points": [
+            "Worked as a full-stack developer in internal project related to quality insights using Kotlin, Spring Boot and Angular.",
+            "Completed a automated database synching application with LDAP integration written in Java, Quartz and MySQL.",
+            "Completed a reverse-proxy application for routing requests from IoT devices to multiple endpoints with different transformations.",
+            "Worked as a frontend developer in Warehouse Management System for leading apparel manufacturing company with the React, Ant Design and dvajs."
+        ]
+    },
+    {
+        "name": "Fiverr Inc.",
+        "designation": "Freelance Web Developer",
+        "start": "2013-09-01",
+        "end": "2018-12-31",
+        "icon": "./img/logos/fiverr.webp",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]
