@@ -1,6 +1,7 @@
 [{
         "name": "Zone 24x7 Inc.",
         "designation": "Trainee Associate Software Engineer",
+        "location": "Colombo Sri Lanka.",
         "start": "2019-08-26",
         "end": "2020-03-06",
         "icon": "./img/logos/zone.webp",
@@ -15,6 +16,7 @@
     {
         "name": "Fiverr Inc.",
         "designation": "Freelance Web Developer",
+        "location": "Fiverr.com",
         "start": "2013-09-01",
         "end": "2018-12-31",
         "icon": "./img/logos/fiverr.webp",

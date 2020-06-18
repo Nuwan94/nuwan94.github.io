@@ -1,15 +1,15 @@
 <template>
   <div class="row p-3">
-    <div class="col-md-3 pb-2 pb-lg-0 text-center">
+    <div class="col-12 pb-2 pb-lg-0 text-center">
       <img class="img-fluid iLogo" :src="institute.icon" alt />
     </div>
-    <div class="col-md-9">
+    <div class="col-12">
       <div class="p-2">
         <h2>
           <badge class="float-right m-1" type="success">{{ institute.start }} - {{ institute.end }}</badge>
           {{ institute.name }}
         </h2>
-        <i class="ni ni-bold-right p-1 text-primary"></i>
+        <!-- <i class="ni ni-bold-right p-1 text-primary"></i> -->
         {{ institute.program}}
       </div>
       <div class="p-1 pb-2" v-for="r in  institute.result" :key="r">

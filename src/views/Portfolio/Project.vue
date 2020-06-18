@@ -10,8 +10,8 @@
       </div>
     </div>
     <div class="d-flex justify-content-center" v-if="project.repo">
-      <gh-btns-star :slug="project.repo" show-count></gh-btns-star>
-      <gh-btns-fork :slug="project.repo" show-count></gh-btns-fork>
+      <!-- <gh-btns-star :slug="project.repo" show-count></gh-btns-star>
+      <gh-btns-fork :slug="project.repo" show-count></gh-btns-fork> -->
       <br />
     </div>
 

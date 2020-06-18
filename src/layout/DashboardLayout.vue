@@ -32,7 +32,7 @@
         <sidebar-item :link="{name: 'Contact', icon: 'ni ni-send text-yellow', path: '/contact'}" />
       </template>
     </side-bar>
-    <div class="main-content bg-dark pb-5 h-100" :data="sidebarBackground">
+    <div class="main-content pb-5 h-100" :data="sidebarBackground">
       <div @click="toggleSidebar">
         <fade-transition :duration="200" origin="center top" mode="out-in">
           <router-view></router-view>

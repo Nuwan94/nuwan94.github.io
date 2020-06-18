@@ -1,14 +1,14 @@
 <template>
   <div>
-    <base-header type="gradient-gray" class="pb-8 pt-5">
-      <card shadow>
+    <base-header class="bg-dark pb-8 pt-5">
+      <card class="bg-dark">
         <div class="row">
-          <div class="col d-flex align-items-middle flex-wrap">
-            <base-button class="d-inline m-2" type="black" @click="filterByTag('all')">All</base-button>
-            <base-button class="d-inline m-2" type="default" @click="filterByTag('web')">Web</base-button>
-            <base-button class="d-inline m-2" type="primary" @click="filterByTag('mobile')">Moblie</base-button>
-            <base-button class="d-inline m-2" type="success" @click="filterByTag('desktop')">Desktop</base-button>
-            <base-button class="d-inline m-2" type="danger" @click="filterByTag('game')">Games</base-button>
+          <div class="col filterBtns">
+            <base-button type="white" size="sm" @click="filterByTag('all')">All</base-button>
+            <base-button type="default" size="sm" @click="filterByTag('web')">Web</base-button>
+            <base-button type="primary" size="sm" @click="filterByTag('mobile')">Moblie</base-button>
+            <base-button type="success" size="sm" @click="filterByTag('desktop')">Desktop</base-button>
+            <base-button type="danger" size="sm" @click="filterByTag('game')">Games</base-button>
             <!-- <base-button class="d-inline m-2" type="warning" @click="filterByTag('cloud')">Cloud</base-button>
             <base-button class="d-inline m-2" type="success" @click="filterByTag('ml')">ML</base-button>-->
           </div>
@@ -63,6 +63,10 @@ export default {
 </script>
 
 <style scoped>
+.filterBtns .btn {
+  display: inline;
+  margin: 0 1em 0 0;
+}
 .list-complete {
   width: 100%;
 }

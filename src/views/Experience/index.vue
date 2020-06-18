@@ -1,8 +1,6 @@
 <template>
   <div>
-    <base-header type="gradient-gray" class="pb-6 pb-8 pt-2 pt-md-2"></base-header>
-
-    <div class="container-fluid mt--7">
+    <div class="container-fluid pt-5">
       <div class="row">
         <div class="col-lg-6" v-for="i in experience" :key="i.name">
           <card shadow class="mt-2 p-0">
