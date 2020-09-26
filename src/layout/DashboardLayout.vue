@@ -5,7 +5,7 @@
       short-title="Nuwan"
       title="Nuwan"
       logo="Nuwan"
-      class="mobile-navbar"
+      class="mobile-navbar bg-dark"
     >
       <template slot="links">
         <sidebar-item
@@ -49,11 +49,11 @@ import { FadeTransition } from "vue2-transitions";
 export default {
   components: {
     // ContentFooter,
-    FadeTransition
+    FadeTransition,
   },
   data() {
     return {
-      sidebarBackground: "vue"
+      sidebarBackground: "bg-dark",
     };
   },
   methods: {
@@ -61,8 +61,8 @@ export default {
       if (this.$sidebar.showSidebar) {
         this.$sidebar.displaySidebar(false);
       }
-    }
-  }
+    },
+  },
 };
 </script>
 <style scoped>

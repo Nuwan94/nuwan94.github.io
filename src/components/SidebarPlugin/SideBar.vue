@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white pt-2 pb-2"
+    class="navbar navbar-vertical fixed-left navbar-expand-md navbar-dark pt-2 pb-2"
     id="sidenav-main"
   >
     <div class="container-fluid">
@@ -14,7 +14,7 @@
       <slot></slot>
       <div
         v-show="$sidebar.showSidebar"
-        class="navbar-collapse collapse show"
+        class="navbar-collapse collapse show bg-dark"
         id="sidenav-collapse-main"
       >
         <div class="navbar-collapse-header d-md-none">
@@ -41,7 +41,7 @@
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
             <a class="nav-link" href="https://blog.nuwan.dev" target="_blank">
-              <i class="ni ni-spaceship" style="color: #333; font-size:1.25em"></i> Blog
+              <i class="ni ni-spaceship" style="color: lightgray; font-size:1.25em"></i> Blog
             </a>
           </li>
           <li class="nav-item">
@@ -69,24 +69,24 @@ import NavbarToggleButton from "@/components/Base/NavbarToggleButton";
 export default {
   name: "sidebar",
   components: {
-    NavbarToggleButton
+    NavbarToggleButton,
   },
   props: {
     logo: {
       type: String,
       default: "Nuwan",
-      description: "Sidebar app logo text"
+      description: "Sidebar app logo text",
     },
     autoClose: {
       type: Boolean,
       default: true,
       description:
-        "Whether sidebar should autoclose on mobile when clicking an item"
-    }
+        "Whether sidebar should autoclose on mobile when clicking an item",
+    },
   },
   provide() {
     return {
-      autoClose: this.autoClose
+      autoClose: this.autoClose,
     };
   },
   methods: {
@@ -95,13 +95,13 @@ export default {
     },
     showSidebar() {
       this.$sidebar.displaySidebar(true);
-    }
+    },
   },
   beforeDestroy() {
     if (this.$sidebar.showSidebar) {
       this.$sidebar.showSidebar = false;
     }
-  }
+  },
 };
 </script>
 <style scoped>
@@ -109,11 +109,18 @@ h1.sprkly {
   background: transparent url(/img/sparkles.gif);
   display: inline-block;
   font-weight: bold;
+  color: white;
 }
 
 @media (min-width: 768px) {
   .navbar-brand h1 {
     font-size: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse .navbar-nav .nav-link {
+    color: white !important;
   }
 }
 </style>

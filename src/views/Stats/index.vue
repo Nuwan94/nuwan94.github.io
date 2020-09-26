@@ -1,7 +1,6 @@
 <template>
   <div>
-    <base-header class="bg-dark pb-6 pb-8 pt-5 pt-md-8">
-      <!-- Card stats -->
+    <div class="container-fluid pt-5">
       <div class="row">
         <div class="col-xl-4 col-lg-6">
           <Stackoverflow />
@@ -13,10 +12,7 @@
           <Medium />
         </div>
       </div>
-    </base-header>
-
-    <div class="container-fluid mt--7">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-lg-7">
           <GitHubGraph />
         </div>
@@ -35,8 +31,8 @@ export default {
     GitHub,
     GitHubGraph,
     Stackoverflow,
-    Medium
-  }
+    Medium,
+  },
 };
 </script>
 <style></style>

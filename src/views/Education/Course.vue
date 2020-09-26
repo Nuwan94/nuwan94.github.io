@@ -1,7 +1,7 @@
 <template>
   <div class="row m--2">
     <div class="col-lg-3 text-center">
-      <img class="img-fluid rounded-lg" height="100" :src="course.icon" />
+      <img class="img-fluid rounded-lg" :src="course.icon" />
     </div>
     <div class="col-lg-9 text-center text-md-left">
       <a v-if="course.link" target="_blank" class="float-right pl-1" :href="course.link">
@@ -24,8 +24,8 @@
 <script>
 export default {
   props: {
-    course: Object
-  }
+    course: Object,
+  },
 };
 </script>
 

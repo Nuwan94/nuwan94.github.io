@@ -75,6 +75,11 @@ export const devIcons = [{
     },
     {
         key: "javascript",
+        name: "Typescript",
+        icon: "nsa94-typescript",
+    },
+    {
+        key: "typescript",
         name: "Javascript",
         icon: "nsa94-javascript",
     },

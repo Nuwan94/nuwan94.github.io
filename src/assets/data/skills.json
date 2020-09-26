@@ -1,0 +1,82 @@
+{
+    "web": [{
+            "name": "JavaScript",
+            "precentage": 60
+        },
+        {
+            "name": "Typescript",
+            "precentage": 50
+        },
+        {
+            "name": "HTML5",
+            "precentage": 60
+        },
+        {
+            "name": "CSS3",
+            "precentage": 80
+        },
+        {
+            "name": "Node.js",
+            "precentage": 70
+        },
+        {
+            "name": "React",
+            "precentage": 50
+        },
+        {
+            "name": "Vue",
+            "precentage": 50
+        }
+    ],
+    "java": [{
+            "name": "Java",
+            "precentage": 70
+        },
+        {
+            "name": "Kotlin",
+            "precentage": 30
+        },
+        {
+            "name": "Spring Boot",
+            "precentage": 50
+        },
+        {
+            "name": "Hibernate",
+            "precentage": 50
+        }
+    ],
+    "mobile": [{
+            "name": "Android",
+            "precentage": 50
+        },
+        {
+            "name": "Flutter",
+            "precentage": 40
+        },
+        {
+            "name": "React Native",
+            "precentage": 30
+        }
+    ],
+    "game": [{
+            "name": "Unity",
+            "precentage": 65
+        },
+        {
+            "name": "Unreal Engine",
+            "precentage": 30
+        },
+        {
+            "name": "Blender",
+            "precentage": 25
+        },
+        {
+            "name": "Vuforia",
+            "precentage": 40
+        },
+        {
+            "name": "AR Core",
+            "precentage": 10
+        }
+    ]
+}

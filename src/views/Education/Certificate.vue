@@ -1,19 +1,20 @@
 <template>
   <div class="row bg-white rounded-lg">
     <div class="col-12 text-center">
-      <img class="img-fluid rounded-lg" :src="certificate.icon" />
+      <img class="img-fluid rounded-lg m-2" style="height: 100px" :src="certificate.icon" />
     </div>
     <div class="col-12 text-center">
       <h3>{{ certificate.name }}</h3>
       <h4 class="text-gray">{{ certificate.program }}</h4>
       <small class="d-block mt-2 mb-3">
-        Issued by
-        <b>{{ certificate.issuer }}</b>
         <template v-if="certificate.credentailId">
           Credentail ID :
           <b>{{ certificate.credentailId }}</b>
         </template>
-        <br />on
+      </small>
+      <small class="d-block mt-2 mb-3">
+        Issued by
+        <b>{{ certificate.issuer }}</b> on
         <b>{{ certificate.date | moment("Do MMMM YYYY") }}</b>
       </small>
     </div>
@@ -39,13 +40,13 @@
 <script>
 export default {
   props: {
-    certificate: Object
+    certificate: Object,
   },
   methods: {
     handleView() {
       this.$emit("clicked", this.certificate.pdf);
-    }
-  }
+    },
+  },
 };
 </script>
 

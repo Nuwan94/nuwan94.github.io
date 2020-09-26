@@ -28,8 +28,8 @@
         </h4>
         <!-- <h4>{{ duration }}</h4> -->
       </div>
-      <p class="text-justify">{{ company.description }}</p>
-      <div>
+      <p class="text-justify font-weight-normal">{{ company.description }}</p>
+      <div class="font-weight-bold">
         <ul class="pl-3">
           <li class="pb-2 text-justify" v-for="i in company.points" :key="i">{{ i }}</li>
         </ul>
@@ -41,13 +41,13 @@
 <script>
 export default {
   props: {
-    company: Object
+    company: Object,
   },
   computed: {
-    duration: function() {
+    duration: function () {
       return 0;
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -1,4 +1,72 @@
 [{
+        "name": "Set up and Configure a Cloud Environment in Google Cloud",
+        "icon": "/img/courses/set-up-and-configure-a-cloud-environment-in-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-09-19"
+    },
+    {
+        "name": "Perform Foundational Infrastructure Tasks in Google Cloud",
+        "icon": "/img/courses/perform-foundational-infrastructure-tasks-in-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-09-19"
+    },
+    {
+        "name": "Explore Machine Learning Models with Explainable AI",
+        "icon": "/img/courses/explore-machine-learning-models-with-explainable-ai.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-09-08"
+    },
+    {
+        "name": "Google Cloud Next OnAir ‘20 - Cloud Hero Game: Week 8",
+        "icon": "/img/courses/google-cloud-next-onair-‘20--cloud-hero-game-week-8.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-09-03"
+    },
+    {
+        "name": "Kubernetes in Google Cloud",
+        "icon": "/img/courses/kubernetes-in-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-09-01"
+    },
+    {
+        "name": "Deploy to Kubernetes in Google Cloud",
+        "icon": "/img/courses/deploy-to-kubernetes-in-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-09-01"
+    },
+    {
+        "name": "Datastax on Google Cloud Speedrun",
+        "icon": "/img/courses/datastax-on-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-08-20"
+    },
+    {
+        "name": "Vue 3 Composition API",
+        "icon": "/img/courses/vue3-composition-api.webp",
+        "site": "Vue Mastery",
+        "date": "2020-07-01"
+    },
+    {
+        "name": "Vue 3 Deep Dive with Evan You",
+        "icon": "/img/courses/vue3-deep-dive.webp",
+        "site": "Vue Mastery",
+        "date": "2020-06-27"
+    },
+    {
+        "name": "Cloud Engineering",
+        "icon": "/img/courses/cloud-engineering.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-06-07"
+    },
+    {
         "name": "BigQuery for Machine Learning",
         "icon": "/img/courses/bigquery-for-machine-learning.webp",
         "site": "Qwiklabs",

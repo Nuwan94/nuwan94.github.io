@@ -11,11 +11,11 @@
     </div>
     <div class="d-flex justify-content-center" v-if="project.repo">
       <!-- <gh-btns-star :slug="project.repo" show-count></gh-btns-star>
-      <gh-btns-fork :slug="project.repo" show-count></gh-btns-fork> -->
+      <gh-btns-fork :slug="project.repo" show-count></gh-btns-fork>-->
       <br />
     </div>
 
-    <p class="mt-3 text-center">{{ project.desc }}</p>
+    <p class="mt-3 text-center font-weight-normal">{{ project.desc }}</p>
     <div class="text-center">
       <base-button
         v-if="project.repo"
@@ -56,16 +56,16 @@
 import { devIcons } from "./langIcon";
 export default {
   props: {
-    project: Object
+    project: Object,
   },
   computed: {
-    lang: function() {
-      return devIcons.find(f => f.key === this.project.language);
+    lang: function () {
+      return devIcons.find((f) => f.key === this.project.language);
     },
-    tech: function() {
-      return this.project.tech.map(t => devIcons.find(f => f.key === t));
-    }
-  }
+    tech: function () {
+      return this.project.tech.map((t) => devIcons.find((f) => f.key === t));
+    },
+  },
 };
 </script>
 

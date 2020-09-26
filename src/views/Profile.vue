@@ -1,6 +1,6 @@
 <template>
   <div class>
-    <base-header class="header pb-8 pt-5 d-flex align-items-center bg-dark">
+    <div class="container-fluid pt-5">
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-12 col-md-12 d-none d-md-block">
@@ -11,10 +11,7 @@
           </div>
         </div>
       </div>
-    </base-header>
-
-    <div class="container-fluid mt--7">
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-xl-4 mb-5 mb-xl-0">
           <div class="card card-profile shadow">
             <div class="row justify-content-center">
@@ -58,7 +55,7 @@
               </div>
             </div>
             <div class="card-footer pt-0 pt-md-4 text-justify">
-              <p>{{ personal.aboutme }}</p>
+              <p class="font-weight-normal">{{ personal.aboutme }}</p>
             </div>
           </div>
 
@@ -94,22 +91,26 @@
                   <div class="row">
                     <div class="col-lg-6">
                       <base-input
+                        v-for="mobile in personal.mobile"
+                        v-bind:key="mobile.number"
                         readonly
                         alternative
-                        label="Mobile"
-                        placeholder="Mobile"
+                        :label="'Telephone (' + mobile.provider + ')'"
+                        placeholder="-"
                         input-classes="form-control-alternative"
-                        :value="personal.mobile | telephoneNumber"
+                        :value="mobile.number | telephoneNumber"
                       />
                     </div>
                     <div class="col-lg-6">
                       <base-input
+                        v-for="email in personal.email"
+                        v-bind:key="email.address"
                         readonly
                         alternative
-                        label="Email Address"
-                        placeholder="user@gmail.com"
+                        :label="'Email (' + email.type + ')'"
+                        placeholder="-"
                         input-classes="form-control-alternative"
-                        :value="personal.email"
+                        :value="email.address"
                       />
                     </div>
                   </div>
@@ -219,18 +220,18 @@ export default {
     return {
       personal,
       languages,
-      profiles
+      profiles,
     };
   },
   computed: {
-    calculateAge: function() {
+    calculateAge: function () {
       let currentDate = new Date();
       let birthDate = new Date(this.personal.dob);
       let difference = currentDate - birthDate;
       let age = Math.floor(difference / 31557600000);
       return age;
     },
-    fullname: function() {
+    fullname: function () {
       return (
         this.personal.firstName +
         " " +
@@ -238,16 +239,16 @@ export default {
         " " +
         this.personal.lastName
       );
-    }
+    },
   },
   filters: {
     telephoneNumber:
       ("phone",
-      phone => {
+      (phone) => {
         return phone
           .replace(/[^0-9]/g, "")
           .replace(/(\d{2})(\d{2})(\d{3})(\d{3})/, "+$1 $2 $3 $4");
-      })
+      }),
   },
   methods: {
     onCall() {
@@ -280,10 +281,10 @@ export default {
         type: "danger",
         title: `${t} only available for mobile devices`,
         icon: "fa fa-exclamation",
-        dismissible: true
+        dismissible: true,
       });
-    }
-  }
+    },
+  },
 };
 </script>
 
