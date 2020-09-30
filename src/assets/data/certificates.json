@@ -1,9 +1,20 @@
 [{
-        "name": "Open Source Software Development Methods",
+        "name": "Data Engineering, Big Data, and Machine Learning on GCP Specialization",
         "icon": "/img/courses/google-cloud.webp",
-        "date": "2020-09-23",
+        "date": "2020-09-29",
         "issuer": "Coursera",
         "program": "Google Cloud Training",
+        "credentailId": "D4Y3Y79TS3FY",
+        "credentailLink": "https://coursera.org/verify/D4Y3Y79TS3FY",
+        "pdf": "./files/certificates/D4Y3Y79TS3FY.webp",
+        "specialization": "true"
+    },
+    {
+        "name": "Open Source Software Development Methods",
+        "icon": "/img/courses/linux-foundation.png",
+        "date": "2020-09-23",
+        "issuer": "Coursera",
+        "program": "The Linux Foundation",
         "credentailId": "YPEBPBE37FWB",
         "credentailLink": "https://coursera.org/verify/YPEBPBE37FWB",
         "pdf": "./files/certificates/YPEBPBE37FWB.webp"

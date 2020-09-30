@@ -1,12 +1,24 @@
 <template>
-  <div class>
+  <div>
     <div class="container-fluid pt-5">
+      <base-button
+        id="resume-btn"
+        class="position-absolute top-5 right-5 p-3 bg-gradient-danger d-sm-none d-md-none d-lg-block"
+        tag="a"
+        role="button"
+        target="_blank"
+        icon="fa fa-3x fa-download"
+        href="https://v1.nuwan.dev/cv/CV_NuwanAlawatta.pdf"
+      ></base-button>
+      <b-tooltip placement="bottom" target="resume-btn" triggers="hover"
+        >Nuwan's Resume</b-tooltip
+      >
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-12 col-md-12 d-none d-md-block">
-            <h1
-              class="display-2 text-white"
-            >Hello I'm {{ personal.firstName }} {{ personal.lastName }}</h1>
+            <h1 class="display-2 text-white">
+              Hello I'm {{ personal.firstName }} {{ personal.lastName }}
+            </h1>
             <p class="text-white mt-0 mb-5">{{ personal.title }}</p>
           </div>
         </div>
@@ -21,7 +33,9 @@
                 </div>
               </div>
             </div>
-            <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
+            <div
+              class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4"
+            >
               <div class="d-flex justify-content-between">
                 <base-button
                   size="lg"
@@ -122,7 +136,9 @@
                         label="Date of Birth"
                         placeholder="Date of Birth"
                         input-classes="form-control-alternative"
-                        v-bind:value="personal.dob + ' ( ' + calculateAge + ' Years )'"
+                        v-bind:value="
+                          personal.dob + ' ( ' + calculateAge + ' Years )'
+                        "
                       />
                     </div>
                   </div>
@@ -197,7 +213,8 @@
                       placement="top"
                       :target="profile.name"
                       triggers="hover"
-                    >{{ profile.name }}</b-tooltip>
+                      >{{ profile.name }}</b-tooltip
+                    >
                   </a>
                 </div>
               </form>

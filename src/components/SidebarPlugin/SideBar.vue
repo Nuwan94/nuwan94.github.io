@@ -25,7 +25,9 @@
               </router-link>
             </div>
             <div class="col-6 collapse-close">
-              <navbar-toggle-button @click.native="closeSidebar"></navbar-toggle-button>
+              <navbar-toggle-button
+                @click.native="closeSidebar"
+              ></navbar-toggle-button>
             </div>
           </div>
         </div>
@@ -41,12 +43,24 @@
         <ul class="navbar-nav mb-md-3">
           <li class="nav-item">
             <a class="nav-link" href="https://blog.nuwan.dev" target="_blank">
-              <i class="ni ni-spaceship" style="color: lightgray; font-size:1.25em"></i> Blog
+              <i
+                class="ni ni-spaceship"
+                style="color: lightgray; font-size: 1.25em"
+              ></i>
+              Blog
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://linkedin.com/in/nsa94" target="_blank">
-              <i class="fab fa-linkedin" style="color: #0077b5; font-size:1.25em"></i> Linkedin
+            <a
+              class="nav-link"
+              href="https://linkedin.com/in/nsa94"
+              target="_blank"
+            >
+              <i
+                class="fab fa-linkedin"
+                style="color: #0077b5; font-size: 1.25em"
+              ></i>
+              Linkedin
             </a>
           </li>
         </ul>
@@ -58,7 +72,8 @@
           role="button"
           target="_blank"
           href="https://paypal.me/nuwan94"
-        >Buy me a Coffee</base-button>
+          >Buy me a Coffee</base-button
+        >
       </div>
     </div>
   </nav>
@@ -104,7 +119,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
 h1.sprkly {
   background: transparent url(/img/sparkles.gif);
   display: inline-block;
@@ -118,7 +133,7 @@ h1.sprkly {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.98px) {
   .navbar-collapse .navbar-nav .nav-link {
     color: white !important;
   }

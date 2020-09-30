@@ -9,7 +9,7 @@
     <template slot="footer">
       <span class="text-danger mr-1">
         <i class="fa fa-users mr-1"></i>
-        {{medium.followers}}
+        {{ medium.followers }}
       </span>
       <span class="text-nowrap">Followers</span>
     </template>
@@ -21,11 +21,11 @@ export default {
   data() {
     return {
       medium: {
-        articles: "01",
-        followers: "44"
-      }
+        articles: "10",
+        followers: "52",
+      },
     };
-  }
+  },
 };
 </script>
 

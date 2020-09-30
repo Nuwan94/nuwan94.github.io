@@ -16,6 +16,9 @@
         <div class="col-lg-7">
           <GitHubGraph />
         </div>
+        <div class="col-lg-5">
+          <HackTheBox />
+        </div>
       </div>
     </div>
   </div>
@@ -25,6 +28,7 @@ import GitHub from "./Github";
 import GitHubGraph from "./GithubGraph";
 import Stackoverflow from "./Stackoverflow";
 import Medium from "./Medium";
+import HackTheBox from "./HackTheBox";
 
 export default {
   components: {
@@ -32,6 +36,7 @@ export default {
     GitHubGraph,
     Stackoverflow,
     Medium,
+    HackTheBox,
   },
 };
 </script>

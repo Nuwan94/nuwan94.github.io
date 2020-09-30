@@ -23,13 +23,19 @@
               <card
                 shadow
                 class="h-100 overflow-hidden"
-                :class="i.specialization ? 'bg-gradient-success' : 'bg-dark'"
+                :class="i.specialization ? 'bg-gradient-success' : ''"
               >
-                <div class="special bg-dark" v-if="i.specialization">Specialization</div>
+                <div class="special bg-dark" v-if="i.specialization">
+                  Specialization
+                </div>
                 <Certificate @clicked="viewPdf" :certificate="i"></Certificate>
               </card>
             </div>
-            <modal modalClasses="modal-lg" showClose :show.sync="modals.showPdf">
+            <modal
+              modalClasses="modal-lg"
+              showClose
+              :show.sync="modals.showPdf"
+            >
               <div>
                 <img class="img-fluid" :src="selectedPDF" />
               </div>
