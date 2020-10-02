@@ -1,4 +1,35 @@
 [{
+        "name": "Google Store App",
+        "desc": "Hybrid mobile application for Google Perks Store UI Concept.",
+        "start": "2020-09-01",
+        "end": "2020-09-10",
+        "type": "mobile",
+        "repo": "nuwan94/provider-example",
+        "language": "flutter",
+        "tech": [
+            "flutter",
+            "dart",
+            "material"
+        ]
+    },
+    {
+        "name": "Azure Distibuted Application",
+        "desc": "Secure web applicaiton developemnt with Azure.",
+        "start": "2020-08-01",
+        "end": "2020-08-31",
+        "type": "web",
+        "language": "azure",
+        "demo": "https://medium.com/@nsa94/develop-a-secure-distributed-system-in-the-azure-cloud-5bfd7631c275",
+        "tech": [
+            "azure",
+            "azure-devops",
+            "github",
+            "nodejs",
+            "react",
+            "javascript"
+        ]
+    },
+    {
         "name": "Subtitle Finder",
         "desc": "Easy to use subtitle finding desktop application with advance functionalities.",
         "start": "2020-04-01",
@@ -23,6 +54,7 @@
         "tech": [
             "vuejs",
             "javascript",
+            "github",
             "travis"
         ]
     },
@@ -157,10 +189,11 @@
         "language": "react",
         "repo": "nuwan94/fil",
         "tech": [
-            "javascript",
             "react",
             "gatsby",
+            "javascript",
             "markdown",
+            "github",
             "travis"
         ]
     },
@@ -190,9 +223,10 @@
         "tech": [
             "angular",
             "html",
+            "javascript",
             "css",
             "material",
-            "javascript"
+            "github"
         ]
     },
     {
@@ -217,12 +251,14 @@
         "end": "2018-09-20",
         "type": "web",
         "language": "html",
+        "demo": "https://nuwan94.github.io/realhack18-web",
         "repo": "nuwan94/realhack18-web",
         "tech": [
             "html",
+            "javascript",
             "css",
             "material",
-            "javascript"
+            "github"
         ]
     },
     {
@@ -254,7 +290,8 @@
             "java",
             "android",
             "gradle",
-            "firebase"
+            "firebase",
+            "google"
         ]
     }
 ]

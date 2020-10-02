@@ -6,7 +6,7 @@ const NotificationStore = {
         overlap: false,
         verticalAlign: "bottom",
         horizontalAlign: "right",
-        type: "info",
+        type: "dark",
         timeout: 5000,
         closeOnClick: true,
         showClose: true,

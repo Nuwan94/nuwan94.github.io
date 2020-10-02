@@ -13,10 +13,10 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-lg-7">
+        <div class="col-lg-8">
           <GitHubGraph />
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-4">
           <HackTheBox />
         </div>
       </div>

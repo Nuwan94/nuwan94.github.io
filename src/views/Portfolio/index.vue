@@ -5,33 +5,51 @@
         <div class="row">
           <div class="col filterBtns">
             <base-button
-              :type="(currentTag=='all') ? 'danger' : 'primary'"
+              type="primary"
+              :outline="currentTag != 'all'"
               @click="filterByTag('all')"
-            >All</base-button>
+              >All</base-button
+            >
             <base-button
-              :type="(currentTag=='web') ? 'danger' : 'primary'"
+              type="primary"
+              :outline="currentTag != 'web'"
               @click="filterByTag('web')"
-            >Web</base-button>
+              >Web</base-button
+            >
             <base-button
-              :type="(currentTag=='mobile') ? 'danger' : 'primary'"
+              type="primary"
+              :outline="currentTag != 'mobile'"
               @click="filterByTag('mobile')"
-            >Moblie</base-button>
+              >Moblie</base-button
+            >
             <base-button
-              :type="(currentTag=='desktop') ? 'danger' : 'primary'"
+              type="primary"
+              :outline="currentTag != 'desktop'"
               @click="filterByTag('desktop')"
-            >Desktop</base-button>
+              >Desktop</base-button
+            >
             <base-button
-              :type="(currentTag=='game') ? 'danger' : 'primary'"
+              type="primary"
+              :outline="currentTag != 'game'"
               @click="filterByTag('game')"
-            >Games</base-button>
+              >Games</base-button
+            >
             <!-- <base-button class="d-inline m-2" type="warning" @click="filterByTag('cloud')">Cloud</base-button>
             <base-button class="d-inline m-2" type="success" @click="filterByTag('ml')">ML</base-button>-->
           </div>
         </div>
       </card>
       <div class="mt-2">
-        <transition-group name="list-complete" class="row list-complete" tag="section">
-          <div class="col-lg-4 mb-3 list-complete-item" v-for="i in filteredProjects" :key="i.name">
+        <transition-group
+          name="list-complete"
+          class="row list-complete"
+          tag="section"
+        >
+          <div
+            class="col-lg-4 mb-3 list-complete-item"
+            v-for="i in filteredProjects"
+            :key="i.name"
+          >
             <Project class="h-100" :project="i"></Project>
           </div>
         </transition-group>

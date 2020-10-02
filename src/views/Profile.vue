@@ -295,7 +295,7 @@ export default {
     },
     notifyMessage(t) {
       this.$notify({
-        type: "danger",
+        type: "dark",
         title: `${t} only available for mobile devices`,
         icon: "fa fa-exclamation",
         dismissible: true,

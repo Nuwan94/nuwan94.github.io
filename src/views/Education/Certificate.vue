@@ -1,7 +1,11 @@
 <template>
   <div class="row bg-white rounded-lg">
     <div class="col-12 text-center">
-      <img class="img-fluid rounded-lg m-2" style="height: 100px" :src="certificate.icon" />
+      <img
+        class="img-fluid rounded-lg m-2"
+        style="height: 100px"
+        :src="certificate.icon"
+      />
     </div>
     <div class="col-12 text-center">
       <h3>{{ certificate.name }}</h3>
@@ -24,7 +28,8 @@
         @click="handleView"
         type="link"
         icon="fa fa-eye"
-      >View</base-button>
+        >View</base-button
+      >
       <base-button
         v-if="certificate.credentailLink"
         target="_blank"
@@ -32,7 +37,8 @@
         :href="certificate.credentailLink"
         type="link"
         icon="fa fa-link"
-      >Verify</base-button>
+        >Verify</base-button
+      >
     </div>
   </div>
 </template>

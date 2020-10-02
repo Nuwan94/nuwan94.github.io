@@ -9,6 +9,16 @@ export const devIcons = [{
         icon: "nsa94-android",
     },
     {
+        key: "azure",
+        name: "Azure Cloud Platform",
+        icon: "nsa94-microsoftazure",
+    },
+    {
+        key: "azure-devops",
+        name: "Azure DevOps",
+        icon: "nsa94-azuredevops",
+    },
+    {
         key: "bootstrap",
         name: "Bootstrap",
         icon: "nsa94-bootstrap",
@@ -29,6 +39,11 @@ export const devIcons = [{
         icon: "nsa94-materialdesign",
     },
     {
+        key: "dart",
+        name: "Dart",
+        icon: "nsa94-dart",
+    },
+    {
         key: "docker",
         name: "Docker",
         icon: "nsa94-docker",
@@ -39,6 +54,11 @@ export const devIcons = [{
         icon: "nsa94-express",
     },
     {
+        key: "flutter",
+        name: "Flutter",
+        icon: "nsa94-flutter",
+    },
+    {
         key: "git",
         name: "git",
         icon: "nsa94-git",
@@ -46,7 +66,12 @@ export const devIcons = [{
     {
         key: "github",
         name: "GitHub",
-        icon: "nsa94-github",
+        icon: "fa fa-github",
+    },
+    {
+        key: "google",
+        name: "Google Cloud",
+        icon: "nsa94-google",
     },
     {
         key: "go",
@@ -74,12 +99,12 @@ export const devIcons = [{
         icon: "nsa94-java",
     },
     {
-        key: "javascript",
+        key: "typescript",
         name: "Typescript",
         icon: "nsa94-typescript",
     },
     {
-        key: "typescript",
+        key: "javascript",
         name: "Javascript",
         icon: "nsa94-javascript",
     },
