@@ -41,11 +41,6 @@
         "link": "https://stackoverflow.com/users/3125964/nuwan94"
     },
     {
-        "name": "Qwiklabs",
-        "icon": "nsa94-qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
-    },
-    {
         "name": "Pluralsight",
         "icon": "nsa94-pluralsight",
         "link": "https://app.pluralsight.com/profile/nsa94"
@@ -54,6 +49,17 @@
         "name": "Coursera",
         "icon": "nsa94-coursera",
         "link": "https://www.coursera.org/user/0d49d810a78c3fd931cdfb8e6b2d82cb"
+    },
+
+    {
+        "name": "Qwiklabs",
+        "icon": "nsa94-qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
+    },
+    {
+        "name": "Microsoft Learn",
+        "icon": "nsa94-microsoft",
+        "link": "https://docs.microsoft.com/en-us/users/nsa94/"
     },
     {
         "name": "Hackerrank",
@@ -68,7 +74,7 @@
     },
     {
         "name": "Hack The Box",
-        "icon": "nsa94-hackthebox",
+        "icon": "nsa94-hackthebox dark-circle ",
         "link": "https://www.hackthebox.eu/home/users/profile/159870"
     },
     {
@@ -88,6 +94,14 @@
         "name": "Dev.to",
         "icon": "fa-dev",
         "color": "#232222",
+        "link": "https://dev.to/nsa94"
+    }, {
+        "name": "Fiverr",
+        "icon": "nsa94-fiverr",
+        "link": "https://www.fiverr.com/nuwan_creation"
+    }, {
+        "name": "Upwork",
+        "icon": "nsa94-upwork",
         "link": "https://dev.to/nsa94"
     },
     {

@@ -2,11 +2,16 @@
   <card shadow>
     <div class="d-flex align-items-center" slot="header">
       <i :id="project.name" :class="[lang.icon, 'lang-icon']"></i>
-      <b-tooltip placement="top" :target="project.name" triggers="hover">{{ lang.name }}</b-tooltip>
+      <b-tooltip placement="top" :target="project.name" triggers="hover">{{
+        lang.name
+      }}</b-tooltip>
 
       <div class="text-left">
         <h2 class="pb-0 mb-0">{{ project.name }}</h2>
-        <small>{{ project.start | moment("MMMM YYYY") }} - {{ project.end | moment("MMMM YYYY") }}</small>
+        <small
+          >{{ project.start | moment("MMMM YYYY") }} -
+          {{ project.end | moment("MMMM YYYY") }}</small
+        >
       </div>
     </div>
     <div class="d-flex justify-content-center" v-if="project.repo">
@@ -24,7 +29,8 @@
         target="_blank"
         icon="fa fa-eye"
         type="link"
-      >Source</base-button>
+        >Source</base-button
+      >
       <base-button
         v-if="project.demo"
         tag="a"
@@ -32,7 +38,8 @@
         target="_blank"
         icon="fa fa-link"
         type="link"
-      >Demo</base-button>
+        >Demo</base-button
+      >
     </div>
 
     <div class="text-center" slot="footer">
@@ -46,7 +53,8 @@
           placement="top"
           :target="project.name + '-' + i.key"
           triggers="hover"
-        >{{ i.name }}</b-tooltip>
+          >{{ i.name }}</b-tooltip
+        >
       </i>
     </div>
   </card>
@@ -78,5 +86,8 @@ export default {
   font-size: 2em;
   margin: 10px;
   line-height: 1.5em;
+}
+.nsa94-android1 {
+  color: #3ddc84;
 }
 </style>

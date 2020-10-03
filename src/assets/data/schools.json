@@ -3,44 +3,28 @@
     "name": "Royal College, Colombo 07, Sri Lanka",
     "program": "G.C.E. Advanced Level - Mathematics Stream",
     "start": "2005",
-    "end": "2014",
+    "end": "2015",
     "icon": "./img/logos/rc.webp",
     "result": [
-        "Z-Score of 1.7702",
-        "1477 - Island Rank",
-        "152 - District Rank (Gampaha)"
-    ],
-    "subjects": [{
-            "grade": "A",
-            "name": "Physics"
-        },
-        {
-            "grade": "B",
-            "name": "Chemistry"
-        },
-        {
-            "grade": "C",
-            "name": "Combined Maths"
-        },
-        {
-            "grade": "A",
-            "name": "General English"
-        },
-        {
-            "grade": "A",
-            "name": "General Information Technology"
-        },
-        {
-            "grade": "83%",
-            "name": "Common General Test"
-        }
+        "Z-Score of 1.7702 [2015]",
+        "1477 - Island Rank [2015]",
+        "152 - District Rank (Gampaha) [2015]",
+        "A - Physics [2015]",
+        "B - Chemistry [2015]",
+        "C - Combined Mathematics [2015]",
+        "A - General English [2013]",
+        "83% - Common General Test [2013]"
     ],
     "activities": [{
             "name": "Young Inventors Club",
             "title": "Member"
         },
         {
-            "name": "Envionmental Conversation Society",
+            "name": "Computer Society",
+            "title": "Member"
+        },
+        {
+            "name": "Environmental Conversation Society",
             "title": "Member"
         }
     ]

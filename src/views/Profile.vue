@@ -3,7 +3,7 @@
     <div class="container-fluid pt-5">
       <base-button
         id="resume-btn"
-        class="position-absolute top-5 right-5 p-3 bg-gradient-danger d-sm-none d-md-none d-lg-block"
+        class="position-absolute top-5 right-5 p-3 bg-gradient-danger d-none d-lg-block"
         tag="a"
         role="button"
         target="_blank"
@@ -100,6 +100,36 @@
             </div>
             <template>
               <form @submit.prevent>
+                <!-- Description -->
+                <h6 class="heading-small text-muted mb-4">
+                  Find me on the internet
+                </h6>
+                <div
+                  class="pl-lg-4 d-flex justify-content-center flex-wrap clickable"
+                >
+                  <a
+                    :id="profile.name"
+                    v-for="profile in profiles"
+                    v-bind:key="profile.name"
+                    :href="profile.link ? profile.link : false"
+                    class="m-2 rounded text-center bg-white shadow profile-btn"
+                    :target="profile.link ? '_blank' : ''"
+                  >
+                    <i
+                      v-if="profile.icon"
+                      :class="'m-3 fa-fw fab fa-2x ' + profile.icon"
+                      :style="'color:' + profile.color"
+                    />
+                    <b-tooltip
+                      placement="top"
+                      :target="profile.name"
+                      triggers="hover"
+                      >{{ profile.name }}</b-tooltip
+                    >
+                  </a>
+                </div>
+                <hr class="my-4" />
+
                 <h6 class="heading-small text-muted mb-4">Personal Details</h6>
                 <div class="pl-lg-4">
                   <div class="row">
@@ -191,31 +221,6 @@
                       />
                     </div>
                   </div>
-                </div>
-                <hr class="my-4" />
-                <!-- Description -->
-                <h6 class="heading-small text-muted mb-4">Profiles</h6>
-                <div class="pl-lg-4 d-flex justify-content-center flex-wrap">
-                  <a
-                    v-for="profile in profiles"
-                    v-bind:key="profile.name"
-                    :href="profile.link"
-                    class="m-3 rounded text-center bg-white shadow clickable"
-                    target="_blank"
-                  >
-                    <i
-                      :id="profile.name"
-                      v-if="profile.icon"
-                      :class="'m-2 fa-fw fab fa-2x ' + profile.icon"
-                      :style="'color:' + profile.color"
-                    />
-                    <b-tooltip
-                      placement="top"
-                      :target="profile.name"
-                      triggers="hover"
-                      >{{ profile.name }}</b-tooltip
-                    >
-                  </a>
                 </div>
               </form>
             </template>
@@ -326,5 +331,14 @@ export default {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.dark-circle {
+  background: #333;
+  border-radius: 100%;
+  height: 1em;
+  width: 1em;
+}
+.profile-btn {
+  box-shadow: 2.5px 2.5px 5px 1px #ddd !important;
 }
 </style>

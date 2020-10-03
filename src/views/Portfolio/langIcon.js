@@ -6,7 +6,7 @@ export const devIcons = [{
     {
         key: "android",
         name: "Android",
-        icon: "nsa94-android",
+        icon: "nsa94-android1",
     },
     {
         key: "azure",

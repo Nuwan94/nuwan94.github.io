@@ -6,8 +6,9 @@
     "end": "2021",
     "icon": "./img/logos/uok.webp",
     "result": [
-        "3.72 out of 4.0 GPA (May 2020)",
-        "Dean's List in Academic Year 2016/17 (2nd Year)"
+        "3.72 out of 4.0 GPA (Pct 2020)",
+        "Dean's List in Academic Year 2016/17 (2nd Year)",
+        "Specialized in : "
     ],
     "subjects": [{
             "name": "Net Centric Applications"
@@ -17,18 +18,31 @@
         },
         {
             "name": "Digital Gaming and Animation Applications"
-        },
-        {
-            "name": "Health Informatics Applications"
         }
     ],
     "activities": [{
             "name": "IEEE Student Branch UoK",
-            "title": "Editor"
+            "title": "Editor / Executive Committee"
         },
         {
             "name": "Software Engineering Students Association UoK",
             "title": "Member"
+        },
+        {
+            "name": "Free and Open Source Software Society UoK",
+            "title": "Member"
+        },
+        {
+            "name": "Mozilla Club UoK",
+            "title": "Member"
+        },
+        {
+            "name": "Breaking Codes - Online Coding Competiton",
+            "title": "Founder"
+        },
+        {
+            "name": "UOKSE Open Source Community",
+            "title": "Contributor"
         }
     ]
 }]

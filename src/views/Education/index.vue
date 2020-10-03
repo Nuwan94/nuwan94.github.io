@@ -17,7 +17,7 @@
       </div>
       <div class="row">
         <div class="col pt-2 pt-lg-0">
-          <h1 class="p-3 text-white">Certifications</h1>
+          <h1 class="p-3 text-white">Online Certifications</h1>
           <div class="row">
             <div class="col-lg-4 p-2" v-for="i in certificates" :key="i.name">
               <card
@@ -42,7 +42,7 @@
             </modal>
           </div>
 
-          <h1 class="p-3 text-white">Courses</h1>
+          <h1 class="p-3 text-white">Online Courses / Labs</h1>
           <div class="row">
             <div class="col-lg-4 p-2" v-for="i in courses" :key="i.name">
               <card shadow class="h-100">
