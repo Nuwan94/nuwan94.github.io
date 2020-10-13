@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'nsa94';
-  src:  url('fonts/nsa94.eot?txczp0');
-  src:  url('fonts/nsa94.eot?txczp0#iefix') format('embedded-opentype'),
-    url('fonts/nsa94.ttf?txczp0') format('truetype'),
-    url('fonts/nsa94.woff?txczp0') format('woff'),
-    url('fonts/nsa94.svg?txczp0#nsa94') format('svg');
+  src:  url('fonts/nsa94.eot?xyj3vo');
+  src:  url('fonts/nsa94.eot?xyj3vo#iefix') format('embedded-opentype'),
+    url('fonts/nsa94.ttf?xyj3vo') format('truetype'),
+    url('fonts/nsa94.woff?xyj3vo') format('woff'),
+    url('fonts/nsa94.svg?xyj3vo#nsa94') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -198,7 +198,7 @@
   color: #00599c;
 }
 .nsa94-csacademy:before {
-  content: "\e900";
+  content: "\e901";
 }
 .nsa94-csharp:before {
   content: "\e93c";
@@ -279,10 +279,14 @@
   color: #4b32c3;
 }
 .nsa94-express:before {
-  content: "\e901";
+  content: "\e902";
+}
+.nsa94-figma:before {
+  content: "\e9f1";
+  color: #f24e1e;
 }
 .nsa94-firebase:before {
-  content: "\e954";
+  content: "\e932";
   color: #ffca28;
 }
 .nsa94-fiverr:before {
@@ -379,7 +383,7 @@
   color: #f46800;
 }
 .nsa94-graphql:before {
-  content: "\e902";
+  content: "\e907";
   color: #e10098;
 }
 .nsa94-groovy:before {
@@ -459,7 +463,7 @@
   color: #6f02b5;
 }
 .nsa94-kotlin:before {
-  content: "\e932";
+  content: "\e954";
   color: #0095d5;
 }
 .nsa94-kubernetes:before {
@@ -565,18 +569,18 @@
   content: "\e92b";
   color: #00c7b7;
 }
-.nsa94-next-dot-js:before {
-  content: "\e907";
-}
 .nsa94-nextcloud:before {
   content: "\e9d2";
   color: #0082c9;
+}
+.nsa94-nextjs:before {
+  content: "\e913";
 }
 .nsa94-nginx:before {
   content: "\e97f";
   color: #269539;
 }
-.nsa94-node-dot-js:before {
+.nsa94-nodejs:before {
   content: "\e942";
   color: #393;
 }
@@ -625,7 +629,7 @@
   color: #777bb4;
 }
 .nsa94-pluralsight:before {
-  content: "\e913";
+  content: "\e91c";
   color: #f15b2a;
 }
 .nsa94-postgresql:before {
@@ -735,7 +739,7 @@
   color: #f3702a;
 }
 .nsa94-sonarlint:before {
-  content: "\e91c";
+  content: "\e91f";
   color: #cc2026;
 }
 .nsa94-sonarqube:before {
@@ -872,4 +876,112 @@
 }
 .nsa94-android:before {
   content: "\e9e0";
+  color: #3ddc84;
+}
+.nsa94-androidstudio:before {
+  content: "\e9e8";
+  color: #3ddc84;
+}
+.nsa94-arcore .path1:before {
+  content: "\e9e9";
+  color: rgb(225, 190, 231);
+}
+.nsa94-arcore .path2:before {
+  content: "\e9ea";
+  margin-left: -0.865234375em;
+  color: rgb(250, 250, 250);
+}
+.nsa94-arcore .path3:before {
+  content: "\e9eb";
+  margin-left: -0.865234375em;
+  color: rgb(123, 31, 162);
+}
+.nsa94-arcore .path4:before {
+  content: "\e9ec";
+  margin-left: -0.865234375em;
+  color: rgb(74, 20, 140);
+}
+.nsa94-arcore .path5:before {
+  content: "\e9ed";
+  margin-left: -0.865234375em;
+  color: rgb(123, 31, 162);
+}
+.nsa94-arcore .path6:before {
+  content: "\e9ee";
+  margin-left: -0.865234375em;
+  color: rgb(74, 20, 140);
+}
+.nsa94-arcore .path7:before {
+  content: "\e9ef";
+  margin-left: -0.865234375em;
+  color: rgb(186, 104, 200);
+}
+.nsa94-arcore .path8:before {
+  content: "\e9f0";
+  margin-left: -0.865234375em;
+  color: rgb(0, 0, 0);
+}
+.nsa94-axure .path1:before {
+  content: "\e9e3";
+  color: rgb(39, 39, 39);
+}
+.nsa94-axure .path2:before {
+  content: "\e9e4";
+  margin-left: -3.505859375em;
+  color: rgb(116, 187, 17);
+}
+.nsa94-axure .path3:before {
+  content: "\e9e5";
+  margin-left: -3.505859375em;
+  color: rgb(0, 156, 217);
+}
+.nsa94-axure .path4:before {
+  content: "\e9e6";
+  margin-left: -3.505859375em;
+  color: rgb(235, 32, 132);
+}
+.nsa94-axure .path5:before {
+  content: "\e9e7";
+  margin-left: -3.505859375em;
+  color: rgb(39, 39, 39);
+}
+.nsa94-azurefunctions:before {
+  content: "\e926";
+  color: #0078d7;
+}
+.nsa94-hibernate .path1:before {
+  content: "\e934";
+  color: rgb(89, 102, 108);
+}
+.nsa94-hibernate .path2:before {
+  content: "\e93d";
+  margin-left: -0.958984375em;
+  color: rgb(89, 102, 108);
+}
+.nsa94-hibernate .path3:before {
+  content: "\e944";
+  margin-left: -0.958984375em;
+  color: rgb(188, 174, 121);
+}
+.nsa94-hibernate .path4:before {
+  content: "\e9b4";
+  margin-left: -0.958984375em;
+  color: rgb(188, 174, 121);
+}
+.nsa94-nestjs:before {
+  content: "\e9f2";
+  color: #e0234e;
+}
+.nsa94-numpy:before {
+  content: "\e9f3";
+}
+.nsa94-pycharm:before {
+  content: "\e900";
+}
+.nsa94-vuetify:before {
+  content: "\e9e1";
+  color: #1867c0;
+}
+.nsa94-vuforia:before {
+  content: "\e9e2";
 }

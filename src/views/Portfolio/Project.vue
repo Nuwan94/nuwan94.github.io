@@ -39,6 +39,22 @@
         icon="fa fa-link"
         type="link"
         >Demo</base-button
+      ><base-button
+        v-if="project.article"
+        tag="a"
+        :href="project.article"
+        target="_blank"
+        icon="fa fa-rss"
+        type="link"
+        >Blog</base-button
+      ><base-button
+        v-if="project.readme"
+        tag="a"
+        :href="project.readme"
+        target="_blank"
+        icon="fa fa-file"
+        type="link"
+        >Readme</base-button
       >
     </div>
 
@@ -71,7 +87,10 @@ export default {
       return devIcons.find((f) => f.key === this.project.language);
     },
     tech: function () {
-      return this.project.tech.map((t) => devIcons.find((f) => f.key === t));
+      return this.project.tech.map((t) => {
+        let i = devIcons.find((f) => f.key === t);
+        return i ? i : t;
+      });
     },
   },
 };

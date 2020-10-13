@@ -21,7 +21,7 @@
         },
         {
             "name": "Node.js",
-            "icon": "nsa94-node-dot-js",
+            "icon": "nsa94-nodejs",
             "precentage": 65
         },
         {
@@ -94,7 +94,7 @@
         },
         {
             "name": "AR Core",
-            "icon": "nsa94-ar-core",
+            "icon": "nsa94-arcore",
             "precentage": 10
         }
     ],
@@ -120,7 +120,7 @@
         },
         {
             "name": "Android Studio",
-            "icon": "nsa94-android-half",
+            "icon": "nsa94-androidstudio",
             "precentage": 75
         }
     ],

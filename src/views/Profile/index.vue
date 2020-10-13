@@ -3,7 +3,7 @@
     <div class="container-fluid pt-5">
       <base-button
         id="resume-btn"
-        class="position-absolute top-5 right-5 p-3 bg-gradient-danger d-none d-lg-block hover-bounce"
+        class="shinner position-absolute top-5 right-5 p-3 bg-gradient-danger d-none d-lg-block hover-bounce"
         tag="a"
         role="button"
         target="_blank"
@@ -60,14 +60,18 @@
               <div class="text-center mt-md-6">
                 <h2>{{ fullname }}</h2>
                 <div class="h4 font-weight-500">{{ personal.location }}</div>
-                <div class="h3 font-weight-400 mt-2 ">
+                <div class="h3 font-weight-400 mt-2">
                   {{ personal.currentPosition }}
                   <br />
                   {{ personal.department }}
                 </div>
                 <div>{{ personal.company }}</div>
               </div>
-              <p class="font-weight-normal bg-dark rounded p-3 text-white text-center mt-3">{{ personal.aboutme }}</p>
+              <p
+                class="font-weight-normal bg-dark rounded p-3 text-white text-center mt-3"
+              >
+                {{ personal.aboutme }}
+              </p>
             </div>
             <!-- <div class="card-footer pt-0 pt-md-4 text-justify">
               
@@ -76,16 +80,9 @@
 
           <div class="card card-profile shadow mt-2">
             <div class="card-header text-center">Language Proficiency</div>
+
             <div class="card-body mt-0 pt-0">
-              <base-progress
-                v-for="lang in languages"
-                v-bind:key="lang.name"
-                :type="lang.type"
-                :height="16"
-                :showPercentage="false"
-                :value="lang.precentage"
-                :label="lang.name"
-              ></base-progress>
+              <Languages />
             </div>
           </div>
         </div>
@@ -105,124 +102,14 @@
                 <h6 class="heading-small text-muted mb-4">
                   Find me on the internet
                 </h6>
-                <div
-                  class="pl-lg-4 d-flex justify-content-center flex-wrap clickable"
-                >
-                  <a
-                    :id="profile.name"
-                    v-for="profile in profiles"
-                    v-bind:key="profile.name"
-                    :href="profile.link ? profile.link : false"
-                    class="m-2 rounded text-center bg-white shadow profile-btn hover-bounce"
-                    :target="profile.link ? '_blank' : ''"
-                  >
-                    <i
-                      v-if="profile.icon"
-                      :class="'m-3 fa-fw fab fa-2x ' + profile.icon"
-                      :style="'color:' + profile.color"
-                    />
-                    <b-tooltip
-                      placement="top"
-                      :target="profile.name"
-                      triggers="hover"
-                      >{{ profile.name }}</b-tooltip
-                    >
-                  </a>
-                </div>
+                <Profiles />
                 <hr class="my-4" />
-
                 <h6 class="heading-small text-muted mb-4">Personal Details</h6>
-                <div class="pl-lg-4">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <base-input
-                        v-for="mobile in personal.mobile"
-                        v-bind:key="mobile.number"
-                        readonly
-                        alternative
-                        :label="'Telephone (' + mobile.provider + ')'"
-                        placeholder="-"
-                        input-classes="form-control-alternative"
-                        :value="mobile.number | telephoneNumber"
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <base-input
-                        v-for="email in personal.email"
-                        v-bind:key="email.address"
-                        readonly
-                        alternative
-                        :label="'Email (' + email.type + ')'"
-                        placeholder="-"
-                        input-classes="form-control-alternative"
-                        :value="email.address"
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <base-input
-                        readonly
-                        alternative
-                        label="Date of Birth"
-                        placeholder="Date of Birth"
-                        input-classes="form-control-alternative"
-                        v-bind:value="
-                          personal.dob + ' ( ' + calculateAge + ' Years )'
-                        "
-                      />
-                    </div>
-                  </div>
-                </div>
+                <Personal />
                 <hr class="my-4" />
                 <!-- Address -->
                 <h6 class="heading-small text-muted mb-4">Developer Details</h6>
-                <div class="pl-lg-4">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <base-input
-                        readonly
-                        alternative
-                        label="Coding Style"
-                        placeholder="Coding Style"
-                        input-classes="form-control-alternative"
-                        :value="personal.codingStyle"
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <base-input
-                        readonly
-                        alternative
-                        label="Indentation Style"
-                        placeholder="Indentation"
-                        input-classes="form-control-alternative"
-                        :value="personal.indentation"
-                      />
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <base-input
-                        readonly
-                        alternative
-                        label="Favourite Languages"
-                        placeholder="Favourite Languages"
-                        input-classes="form-control-alternative"
-                        :value="personal.favLang"
-                      />
-                    </div>
-                    <div class="col-lg-6">
-                      <base-input
-                        readonly
-                        alternative
-                        label="Career Goal"
-                        placeholder="Career Goal"
-                        input-classes="form-control-alternative"
-                        :value="personal.goal"
-                      />
-                    </div>
-                  </div>
-                </div>
+                <Developer />
               </form>
             </template>
           </card>
@@ -233,45 +120,25 @@
 </template>
 
 <script>
-import profiles from "../../assets/data/profiles.json";
+import Profiles from "./Profiles";
+import Personal from "./Personal";
+import Languages from "./Languages";
+import Developer from "./Developer";
+
 import personal from "../../assets/data/personal.json";
-import languages from "../../assets/data/languages.json";
 
 export default {
   name: "user-profile",
+  components: {
+    Profiles,
+    Personal,
+    Languages,
+    Developer,
+  },
   data() {
     return {
       personal,
-      languages,
-      profiles,
     };
-  },
-  computed: {
-    calculateAge: function () {
-      let currentDate = new Date();
-      let birthDate = new Date(this.personal.dob);
-      let difference = currentDate - birthDate;
-      let age = Math.floor(difference / 31557600000);
-      return age;
-    },
-    fullname: function () {
-      return (
-        this.personal.firstName +
-        " " +
-        this.personal.middleName +
-        " " +
-        this.personal.lastName
-      );
-    },
-  },
-  filters: {
-    telephoneNumber:
-      ("phone",
-      (phone) => {
-        return phone
-          .replace(/[^0-9]/g, "")
-          .replace(/(\d{2})(\d{2})(\d{3})(\d{3})/, "+$1 $2 $3 $4");
-      }),
   },
   methods: {
     onCall() {
@@ -310,36 +177,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.fa-instagram {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  background: -webkit-radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.dark-circle {
-  background: #333;
-  border-radius: 100%;
-  height: 1em;
-  width: 1em;
-}
-.profile-btn {
-  box-shadow: 2.5px 2.5px 5px 1px #ddd !important;
-}
-</style>

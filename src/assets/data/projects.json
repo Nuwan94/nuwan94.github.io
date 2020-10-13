@@ -1,34 +1,4 @@
 [{
-        "name": "Human Resource Management Systems",
-        "desc": "Smart HRM system with COVID-19 support.",
-        "start": "2020-10-01",
-        "end": "2020-12-31",
-        "type": "web",
-        "language": "php",
-        "tech": [
-            "php",
-            "mysql",
-            "material",
-            "javascript",
-            "jquery",
-            "twilio"
-        ]
-    }, {
-        "name": "Learning Management System",
-        "desc": "Online Course Management System for a University.",
-        "start": "2020-10-01",
-        "end": "2020-12-31",
-        "type": "web",
-        "language": "php",
-        "tech": [
-            "php",
-            "mysql",
-            "bootstrap",
-            "javascript",
-            "jquery",
-            "twilio"
-        ]
-    }, {
         "name": "Google Store App",
         "desc": "Hybrid mobile application for Google Perks Store UI Concept.",
         "start": "2020-09-01",
@@ -50,12 +20,13 @@
         "end": "2020-08-31",
         "type": "web",
         "language": "azure",
-        "demo": "https://medium.com/@nsa94/develop-a-secure-distributed-system-in-the-azure-cloud-5bfd7631c275",
+        "article": "https://medium.com/@nsa94/develop-a-secure-distributed-system-in-the-azure-cloud-5bfd7631c275",
         "tech": [
             "azure",
-            "azure-devops",
+            "azure-devops", "azure-functions",
             "github",
             "nodejs",
+            "redis",
             "react",
             "javascript"
         ]
@@ -109,7 +80,7 @@
     },
     {
         "name": "Warehouse Management System",
-        "desc": "WMS for external client during internship.",
+        "desc": "WMS for external client during internship at Zone24x7.",
         "start": "2020-01-01",
         "end": "2019-03-06",
         "type": "web",
@@ -139,7 +110,7 @@
     },
     {
         "name": "Thingsboard Integrator",
-        "desc": "Reverse proxy application as for intergrate existing IoT solution with Thingsboard. PoC project during internship.",
+        "desc": "Reverse proxy application for intergrating existing IoT solution with Thingsboard. This is a PoC project during internship at Zone24x7.",
         "start": "2019-11-20",
         "end": "2019-12-10",
         "type": "web",
@@ -153,7 +124,7 @@
     },
     {
         "name": "Quality Insights",
-        "desc": "Dashboard and Ranking API for internal. PoC project during internship.",
+        "desc": "Dashboard and Ranking API for internal. Internal project during internship at Zone24x7.",
         "start": "2019-08-27",
         "end": "2019-09-30",
         "type": "web",
@@ -161,6 +132,7 @@
         "tech": [
             "kotlin",
             "spring",
+            "hibernate",
             "angular",
             "sonarqube",
             "typescript"
@@ -195,6 +167,7 @@
         "language": "unity",
         "tech": [
             "unity",
+            "blender",
             "csharp"
         ]
     },
@@ -208,6 +181,8 @@
         "repo": "teamorigin/ceylon-fighters",
         "tech": [
             "unity",
+            "blender",
+            "vuforia",
             "csharp"
         ]
     },

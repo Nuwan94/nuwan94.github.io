@@ -11,11 +11,15 @@ module.exports = {
         ],
     },
     pwa: {
-        name: "Nuwan Sameera Alawatta | Software Engineer",
-        themeColor: "#6e5cd2",
-        msTileColor: "#6e5cd2",
+        name: "Nuwan Alawatta",
+        themeColor: "#212529",
+        msTileColor: "#212529",
         appleMobileWebAppCapable: "yes",
-        appleMobileWebAppStatusBarStyle: "#6e5cd2",
+        appleMobileWebAppStatusBarStyle: "#212529",
+        workboxPluginMode: 'InjectManifest',
+        workboxOptions: {
+            swSrc: 'public/service-worker.js',
+        }
     },
     css: {
         // Enable CSS source maps.

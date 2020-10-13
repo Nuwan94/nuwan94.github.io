@@ -12,6 +12,10 @@ export const devIcons = [{
         key: "azure",
         name: "Azure Cloud Platform",
         icon: "nsa94-microsoftazure",
+    }, {
+        key: "azure-functions",
+        name: "Azure Functions",
+        icon: "nsa94-azurefunctions",
     },
     {
         key: "azure-devops",
@@ -22,6 +26,10 @@ export const devIcons = [{
         key: "bootstrap",
         name: "Bootstrap",
         icon: "nsa94-bootstrap",
+    }, {
+        key: "blender",
+        name: "Blender",
+        icon: "nsa94-blender",
     },
     {
         key: "csharp",
@@ -76,6 +84,10 @@ export const devIcons = [{
         key: "google-play",
         name: "Google Play",
         icon: "nsa94-googleplay",
+    }, {
+        key: "hangouts",
+        name: "Google Hangouts",
+        icon: "nsa94-googlehangouts",
     },
     {
         key: "go",
@@ -129,8 +141,8 @@ export const devIcons = [{
     },
     {
         key: "nodejs",
-        name: "nodejs",
-        icon: "nsa94-node-dot-js",
+        name: "Node.js",
+        icon: "nsa94-nodejs",
     },
     {
         key: "php",
@@ -240,5 +252,15 @@ export const devIcons = [{
         key: "twilio",
         name: "Twilio",
         icon: "nsa94-twilio",
+    },
+    {
+        key: "vuforia",
+        name: "Vuforia",
+        icon: "nsa94-vuforia",
+    },
+    {
+        key: "redis",
+        name: "Redis",
+        icon: "nsa94-redis",
     }
 ];

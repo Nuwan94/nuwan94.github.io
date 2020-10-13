@@ -1,9 +1,9 @@
 <template>
   <div class="row m--2">
-    <div class="col-lg-3 text-center">
+    <div class="col-lg-4 text-center">
       <img class="img-fluid rounded-lg" :src="course.icon" />
     </div>
-    <div class="col-lg-9 text-center text-md-left">
+    <div class="col-lg-8 text-center text-md-left">
       <a v-if="course.link" target="_blank" class="float-right pl-1" :href="course.link">
         <i class="fa fa-link"></i>
       </a>
