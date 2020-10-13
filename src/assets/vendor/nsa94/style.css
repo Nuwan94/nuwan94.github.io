@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'nsa94';
-  src:  url('fonts/nsa94.eot?xu9q6w');
-  src:  url('fonts/nsa94.eot?xu9q6w#iefix') format('embedded-opentype'),
-    url('fonts/nsa94.ttf?xu9q6w') format('truetype'),
-    url('fonts/nsa94.woff?xu9q6w') format('woff'),
-    url('fonts/nsa94.svg?xu9q6w#nsa94') format('svg');
+  src:  url('fonts/nsa94.eot?txczp0');
+  src:  url('fonts/nsa94.eot?txczp0#iefix') format('embedded-opentype'),
+    url('fonts/nsa94.ttf?txczp0') format('truetype'),
+    url('fonts/nsa94.woff?txczp0') format('woff'),
+    url('fonts/nsa94.svg?txczp0#nsa94') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -52,14 +52,11 @@
 .nsa94-amazonaws:before {
   content: "\e9a8";
 }
-.nsa94-amazonaws1:before {
-  content: "\e926";
-}
 .nsa94-anaconda:before {
   content: "\e92f";
   color: #42b029;
 }
-.nsa94-android:before {
+.nsa94-android-half:before {
   content: "\e93e";
   color: #3ddc84;
 }
@@ -110,10 +107,6 @@
 }
 .nsa94-arduino:before {
   content: "\e9ad";
-  color: #00979d;
-}
-.nsa94-arduino1:before {
-  content: "\e93d";
   color: #00979d;
 }
 .nsa94-atlassian:before {
@@ -204,6 +197,9 @@
   content: "\e93a";
   color: #00599c;
 }
+.nsa94-csacademy:before {
+  content: "\e900";
+}
 .nsa94-csharp:before {
   content: "\e93c";
   color: #239120;
@@ -258,10 +254,6 @@
   content: "\e9b2";
   color: #005571;
 }
-.nsa94-elasticcloud1:before {
-  content: "\e907";
-  color: #005571;
-}
 .nsa94-elasticsearch:before {
   content: "\e906";
   color: #005571;
@@ -287,7 +279,7 @@
   color: #4b32c3;
 }
 .nsa94-express:before {
-  content: "\e900";
+  content: "\e901";
 }
 .nsa94-firebase:before {
   content: "\e954";
@@ -302,10 +294,6 @@
 }
 .nsa94-flutter:before {
   content: "\e90f";
-  color: #02569b;
-}
-.nsa94-flutter1:before {
-  content: "\e9b4";
   color: #02569b;
 }
 .nsa94-gatsby:before {
@@ -355,10 +343,6 @@
   content: "\e9bb";
   color: #4285f4;
 }
-.nsa94-googlecloud1:before {
-  content: "\e934";
-  color: #4285f4;
-}
 .nsa94-googledrive:before {
   content: "\e9bc";
   color: #4285f4;
@@ -395,7 +379,7 @@
   color: #f46800;
 }
 .nsa94-graphql:before {
-  content: "\e901";
+  content: "\e902";
   color: #e10098;
 }
 .nsa94-groovy:before {
@@ -582,7 +566,7 @@
   color: #00c7b7;
 }
 .nsa94-next-dot-js:before {
-  content: "\e902";
+  content: "\e907";
 }
 .nsa94-nextcloud:before {
   content: "\e9d2";
@@ -638,10 +622,6 @@
 }
 .nsa94-php:before {
   content: "\e931";
-  color: #777bb4;
-}
-.nsa94-php1:before {
-  content: "\e944";
   color: #777bb4;
 }
 .nsa94-pluralsight:before {
@@ -770,10 +750,6 @@
   content: "\e9d8";
   color: #f30;
 }
-.nsa94-soundcloud1:before {
-  content: "\e91f";
-  color: #f30;
-}
 .nsa94-spring:before {
   content: "\e964";
   color: #6db33f;
@@ -894,15 +870,6 @@
   content: "\e9df";
   color: #2d8cff;
 }
-.nsa94-android1:before {
-  content: "\e9e0";
-}
-.nsa94-brand:before {
-  content: "\e9e0";
-}
-.nsa94-os:before {
-  content: "\e9e0";
-}
-.nsa94-mobile:before {
+.nsa94-android:before {
   content: "\e9e0";
 }

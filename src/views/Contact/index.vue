@@ -13,7 +13,7 @@
                   required
                   alternative
                   label="Name"
-                  input-classes="form-control-alternative"
+                  input-classes="form-control-alternative bg-dark text-white"
                   :value="name | autoCapitalize"
                   :error="$v.name.$dirty && $v.name.$error ?
                     (!$v.name.required ? 'Name is required.' : `Name should consist atleast first and last name.` ) 
@@ -28,7 +28,7 @@
                   required
                   alternative
                   label="Email"
-                  input-classes="form-control-alternative"
+                  input-classes="form-control-alternative  bg-dark text-white"
                   :value="mail"
                   :error="$v.mail.$dirty && $v.mail.$error ?
                     (!$v.mail.required ? 'Email is required.' : `Invalid email format.` ) 
@@ -50,7 +50,7 @@
                 >
                   <textarea
                     rows="3"
-                    class="form-control form-control-alternative"
+                    class="form-control form-control-alternative  bg-dark text-white"
                     :value="message"
                     @blur="() => $v.message.$touch()"
                     @input="v => setMessage(v.target.value)"

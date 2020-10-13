@@ -1,4 +1,22 @@
 [{
+        "name": "Problem Solving (Intermediate) Certificate",
+        "icon": "/img/courses/hackerrank.png",
+        "date": "2020-10-08",
+        "issuer": "Hackerrank",
+        "program": "Hackerrank",
+        "credentailId": "7d321d504160",
+        "credentailLink": "https://www.hackerrank.com/certificates/7d321d504160",
+        "pdf": "./files/certificates/7d321d504160.webp"
+    }, {
+        "name": "End-to-End Machine Learning with TensorFlow on GCP",
+        "icon": "/img/courses/google-cloud.webp",
+        "date": "2020-10-07",
+        "issuer": "Coursera",
+        "program": "Google Cloud Training",
+        "credentailId": "J56JRKSV9BH2",
+        "credentailLink": "https://coursera.org/verify/J56JRKSV9BH2",
+        "pdf": "./files/certificates/J56JRKSV9BH2.webp"
+    }, {
         "name": "Java (Basic) Certificate",
         "icon": "/img/courses/hackerrank.png",
         "date": "2020-10-01",

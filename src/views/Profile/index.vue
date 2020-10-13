@@ -3,14 +3,14 @@
     <div class="container-fluid pt-5">
       <base-button
         id="resume-btn"
-        class="position-absolute top-5 right-5 p-3 bg-gradient-danger d-none d-lg-block"
+        class="position-absolute top-5 right-5 p-3 bg-gradient-danger d-none d-lg-block hover-bounce"
         tag="a"
         role="button"
         target="_blank"
         icon="fa fa-3x fa-download"
         href="https://v1.nuwan.dev/cv/CV_NuwanAlawatta.pdf"
       ></base-button>
-      <b-tooltip placement="bottom" target="resume-btn" triggers="hover"
+      <b-tooltip placement="top" target="resume-btn" triggers="hover"
         >Nuwan's Resume</b-tooltip
       >
       <div class="container-fluid d-flex align-items-center">
@@ -58,19 +58,20 @@
             </div>
             <div class="card-body pt-0 pt-md-4">
               <div class="text-center mt-md-6">
-                <h3>{{ fullname }}</h3>
-                <div class="h5 font-weight-300">{{ personal.location }}</div>
-                <div class="h5 mt-2">
+                <h2>{{ fullname }}</h2>
+                <div class="h4 font-weight-500">{{ personal.location }}</div>
+                <div class="h3 font-weight-400 mt-2 ">
                   {{ personal.currentPosition }}
                   <br />
                   {{ personal.department }}
                 </div>
                 <div>{{ personal.company }}</div>
               </div>
+              <p class="font-weight-normal bg-dark rounded p-3 text-white text-center mt-3">{{ personal.aboutme }}</p>
             </div>
-            <div class="card-footer pt-0 pt-md-4 text-justify">
-              <p class="font-weight-normal">{{ personal.aboutme }}</p>
-            </div>
+            <!-- <div class="card-footer pt-0 pt-md-4 text-justify">
+              
+            </div> -->
           </div>
 
           <div class="card card-profile shadow mt-2">
@@ -112,7 +113,7 @@
                     v-for="profile in profiles"
                     v-bind:key="profile.name"
                     :href="profile.link ? profile.link : false"
-                    class="m-2 rounded text-center bg-white shadow profile-btn"
+                    class="m-2 rounded text-center bg-white shadow profile-btn hover-bounce"
                     :target="profile.link ? '_blank' : ''"
                   >
                     <i
@@ -232,9 +233,9 @@
 </template>
 
 <script>
-import profiles from "../assets/data/profiles.json";
-import personal from "../assets/data/personal.json";
-import languages from "../assets/data/languages.json";
+import profiles from "../../assets/data/profiles.json";
+import personal from "../../assets/data/personal.json";
+import languages from "../../assets/data/languages.json";
 
 export default {
   name: "user-profile",
@@ -310,7 +311,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .fa-instagram {
   background: radial-gradient(
     circle at 30% 107%,

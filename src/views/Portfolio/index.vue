@@ -5,32 +5,27 @@
         <div class="row">
           <div class="col filterBtns">
             <base-button
-              type="primary"
-              :outline="currentTag != 'all'"
+              :type="currentTag == 'all' ? 'success' : 'primary'"
               @click="filterByTag('all')"
               >All</base-button
             >
             <base-button
-              type="primary"
-              :outline="currentTag != 'web'"
+              :type="currentTag == 'web' ? 'success' : 'primary'"
               @click="filterByTag('web')"
               >Web</base-button
             >
             <base-button
-              type="primary"
-              :outline="currentTag != 'mobile'"
+              :type="currentTag == 'mobile' ? 'success' : 'primary'"
               @click="filterByTag('mobile')"
               >Moblie</base-button
             >
             <base-button
-              type="primary"
-              :outline="currentTag != 'desktop'"
+              :type="currentTag == 'desktop' ? 'success' : 'primary'"
               @click="filterByTag('desktop')"
               >Desktop</base-button
             >
             <base-button
-              type="primary"
-              :outline="currentTag != 'game'"
+              :type="currentTag == 'game' ? 'success' : 'primary'"
               @click="filterByTag('game')"
               >Games</base-button
             >
@@ -50,7 +45,7 @@
             v-for="i in filteredProjects"
             :key="i.name"
           >
-            <Project class="h-100" :project="i"></Project>
+            <Project class="shine h-100 hover-bounce" :project="i"></Project>
           </div>
         </transition-group>
       </div>
@@ -92,10 +87,33 @@ export default {
 };
 </script>
 
-<style scoped>
+<style style="scss" scoped>
 .filterBtns .btn {
   display: inline;
   margin: 0 1em 0 0;
+}
+.filterBtns .btn:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.filterBtns .btn:hover:after {
+  width: 120%;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .list-complete {
   width: 100%;

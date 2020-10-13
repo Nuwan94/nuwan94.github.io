@@ -6,7 +6,7 @@ export const devIcons = [{
     {
         key: "android",
         name: "Android",
-        icon: "nsa94-android1",
+        icon: "nsa94-android",
     },
     {
         key: "azure",
@@ -69,9 +69,13 @@ export const devIcons = [{
         icon: "fa fa-github",
     },
     {
-        key: "google",
+        key: "google-cloud",
         name: "Google Cloud",
-        icon: "nsa94-google",
+        icon: "nsa94-googlecloud",
+    }, {
+        key: "google-play",
+        name: "Google Play",
+        icon: "nsa94-googleplay",
     },
     {
         key: "go",
@@ -105,7 +109,7 @@ export const devIcons = [{
     },
     {
         key: "javascript",
-        name: "Javascript",
+        name: "JavaScript",
         icon: "nsa94-javascript",
     },
     {
@@ -232,5 +236,9 @@ export const devIcons = [{
         key: "apache-camel",
         name: "Apache Camel",
         icon: "nsa94-apache",
-    },
+    }, {
+        key: "twilio",
+        name: "Twilio",
+        icon: "nsa94-twilio",
+    }
 ];

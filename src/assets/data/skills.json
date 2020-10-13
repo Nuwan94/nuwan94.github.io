@@ -1,82 +1,186 @@
 {
     "web": [{
             "name": "JavaScript",
-            "precentage": 60
+            "icon": "nsa94-javascript",
+            "precentage": 65
         },
         {
             "name": "Typescript",
+            "icon": "nsa94-typescript",
             "precentage": 50
         },
         {
             "name": "HTML5",
-            "precentage": 60
+            "icon": "nsa94-html5",
+            "precentage": 75
         },
         {
             "name": "CSS3",
+            "icon": "nsa94-css3",
             "precentage": 80
         },
         {
             "name": "Node.js",
-            "precentage": 70
+            "icon": "nsa94-node-dot-js",
+            "precentage": 65
         },
         {
             "name": "React",
+            "icon": "nsa94-react",
             "precentage": 50
         },
         {
             "name": "Vue",
-            "precentage": 50
+            "icon": "nsa94-vue-dot-js",
+            "precentage": 70
         }
     ],
     "java": [{
-            "name": "Java",
+            "name": "Java 8",
+            "icon": "nsa94-java",
             "precentage": 70
         },
         {
             "name": "Kotlin",
+            "icon": "nsa94-kotlin",
             "precentage": 30
         },
         {
             "name": "Spring Boot",
+            "icon": "nsa94-spring",
             "precentage": 50
         },
         {
             "name": "Hibernate",
+            "icon": "nsa94-hibernate",
             "precentage": 50
         }
     ],
     "mobile": [{
             "name": "Android",
+            "icon": "nsa94-android",
             "precentage": 50
         },
         {
             "name": "Flutter",
+            "icon": "nsa94-flutter",
             "precentage": 40
         },
         {
             "name": "React Native",
+            "icon": "nsa94-react",
             "precentage": 30
         }
     ],
     "game": [{
             "name": "Unity",
+            "icon": "nsa94-unity",
             "precentage": 65
         },
         {
             "name": "Unreal Engine",
+            "icon": "nsa94-unrealengine",
             "precentage": 30
         },
         {
             "name": "Blender",
+            "icon": "nsa94-blender",
             "precentage": 25
         },
         {
             "name": "Vuforia",
+            "icon": "nsa94-vuforia",
             "precentage": 40
         },
         {
             "name": "AR Core",
+            "icon": "nsa94-ar-core",
             "precentage": 10
+        }
+    ],
+    "ide": [{
+            "name": "IntelliJ IDEA",
+            "icon": "nsa94-intellijidea",
+            "precentage": 75
+        },
+        {
+            "name": "VS Code",
+            "icon": "nsa94-visualstudiocode",
+            "precentage": 80
+        },
+        {
+            "name": "WebStorm",
+            "icon": "nsa94-webstorm",
+            "precentage": 70
+        },
+        {
+            "name": "PyCharm",
+            "icon": "nsa94-pycharm",
+            "precentage": 50
+        },
+        {
+            "name": "Android Studio",
+            "icon": "nsa94-android-half",
+            "precentage": 75
+        }
+    ],
+    "cloud": [{
+            "name": "GCP",
+            "icon": "nsa94-googlecloud",
+            "precentage": 50
+        },
+        {
+            "name": "Azure",
+            "icon": "nsa94-microsoftazure",
+            "precentage": 40
+        },
+        {
+            "name": "AWS",
+            "icon": "nsa94-amazonaws",
+            "precentage": 15
+        },
+        {
+            "name": "Heroku",
+            "icon": "nsa94-heroku",
+            "precentage": 80
+        },
+        {
+            "name": "Netlify",
+            "icon": "nsa94-netlify",
+            "precentage": 50
+        },
+        {
+            "name": "Digital Ocean",
+            "icon": "nsa94-digitalocean",
+            "precentage": 10
+        }
+    ],
+    "tools": [{
+            "name": "git",
+            "icon": "nsa94-git",
+            "precentage": 70
+        },
+        {
+            "name": "Docker",
+            "icon": "nsa94-docker",
+            "precentage": 60
+        }, {
+            "name": "GitHub",
+            "icon": "nsa94-github",
+            "precentage": 70
+        }, {
+            "name": "GitLab",
+            "icon": "nsa94-gitlab",
+            "precentage": 50
+        }, {
+            "name": "Travis CI",
+            "icon": "nsa94-travisci",
+            "precentage": 50
+        },
+        {
+            "name": "Circle CI",
+            "icon": "nsa94-circleci",
+            "precentage": 25
         }
     ]
 }

@@ -11,7 +11,7 @@
       <div class="col-auto" v-if="$slots.icon || icon">
         <slot name="icon">
           <div
-            class="icon icon-shape text-white rounded-circle shadow big-icon"
+            class="icon icon-shape text-white rounded-circle shadow big-icon hover-bounce"
             :class="[`bg-${type}`, iconClasses]"
           >
             <i :class="icon"></i>
@@ -45,7 +45,7 @@ export default {
   }
 };
 </script>
-<style>
+<style style="scss" scoped>
 .big-icon {
   width: 5em;
   height: 5em;

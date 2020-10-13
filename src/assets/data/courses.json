@@ -1,4 +1,15 @@
 [{
+        "name": "From Vue 2 to Vue 3",
+        "icon": "/img/courses/vue-2-to-3.webp",
+        "site": "Vue Mastery",
+        "date": "2020-10-11"
+    }, {
+        "name": "Getting Started: Create and Manage Cloud Resources",
+        "icon": "/img/courses/create-and-manage-cloud-resources.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "date": "2020-10-07"
+    }, {
         "name": "Set up and Configure a Cloud Environment in Google Cloud",
         "icon": "/img/courses/set-up-and-configure-a-cloud-environment-in-google-cloud.webp",
         "site": "Qwiklabs",
@@ -57,6 +68,7 @@
         "name": "Vue 3 Deep Dive with Evan You",
         "icon": "/img/courses/vue3-deep-dive.webp",
         "site": "Vue Mastery",
+        "author": "Evan You",
         "date": "2020-06-27"
     },
     {

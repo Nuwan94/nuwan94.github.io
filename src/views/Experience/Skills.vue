@@ -1,15 +1,18 @@
 <template>
   <div>
     <h1>{{title}}</h1>
+    <hr>
     <base-progress
       v-for="skill in skills"
       v-bind:key="skill.name"
       :type="type"
-      :height="16"
+      :height="10"
       :showPercentage="false"
       :value="skill.precentage"
       :label="skill.name"
-    ></base-progress>
+      :icon="skill.icon"
+    >
+    </base-progress>
   </div>
 </template>
 

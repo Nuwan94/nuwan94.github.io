@@ -1,4 +1,34 @@
 [{
+        "name": "Human Resource Management Systems",
+        "desc": "Smart HRM system with COVID-19 support.",
+        "start": "2020-10-01",
+        "end": "2020-12-31",
+        "type": "web",
+        "language": "php",
+        "tech": [
+            "php",
+            "mysql",
+            "material",
+            "javascript",
+            "jquery",
+            "twilio"
+        ]
+    }, {
+        "name": "Learning Management System",
+        "desc": "Online Course Management System for a University.",
+        "start": "2020-10-01",
+        "end": "2020-12-31",
+        "type": "web",
+        "language": "php",
+        "tech": [
+            "php",
+            "mysql",
+            "bootstrap",
+            "javascript",
+            "jquery",
+            "twilio"
+        ]
+    }, {
         "name": "Google Store App",
         "desc": "Hybrid mobile application for Google Perks Store UI Concept.",
         "start": "2020-09-01",
@@ -88,8 +118,6 @@
             "react",
             "ant-design",
             "redux",
-            "html",
-            "css",
             "typescript"
         ]
     },
@@ -102,7 +130,11 @@
         "language": "java",
         "tech": [
             "java",
-            "css"
+            "twilio",
+            "php",
+            "jquery",
+            "javascript",
+            "bootstrap"
         ]
     },
     {
@@ -149,8 +181,6 @@
             "android",
             "php",
             "mysql",
-            "html",
-            "css",
             "material",
             "javascript",
             "jquery"
@@ -187,7 +217,7 @@
         "start": "2019-03-01",
         "end": "2019-06-30",
         "type": "web",
-        "language": "react",
+        "language": "gatsby",
         "repo": "nuwan94/fil",
         "tech": [
             "react",
@@ -223,9 +253,7 @@
         "repo": "nuwan94/se-gpa-calculator",
         "tech": [
             "angular",
-            "html",
             "javascript",
-            "css",
             "material",
             "github"
         ]
@@ -255,9 +283,7 @@
         "demo": "https://nuwan94.github.io/realhack18-web",
         "repo": "nuwan94/realhack18-web",
         "tech": [
-            "html",
             "javascript",
-            "css",
             "material",
             "github"
         ]
@@ -272,11 +298,11 @@
         "repo": "nuwan94/faculty-information-system",
         "demo": "http://nsa94.epizy.com",
         "tech": [
+            "php",
+            "mysql",
             "html",
             "css",
-            "javascript",
-            "php",
-            "mysql"
+            "javascript"
         ]
     },
     {
@@ -292,7 +318,7 @@
             "android",
             "gradle",
             "firebase",
-            "google"
+            "google-play"
         ]
     }
 ]

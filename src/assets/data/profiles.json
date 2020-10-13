@@ -66,6 +66,11 @@
         "icon": "nsa94-hackerrank",
         "color": "#25B658",
         "link": "https://www.hackerrank.com/nsa94"
+    },{
+        "name": "CS Academy",
+        "icon": "nsa94-csacademy",
+        "color": "#333",
+        "link": "https://csacademy.com/user/nsa94"
     },
     {
         "name": "Leetcode",
