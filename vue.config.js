@@ -15,11 +15,7 @@ module.exports = {
         themeColor: "#212529",
         msTileColor: "#212529",
         appleMobileWebAppCapable: "yes",
-        appleMobileWebAppStatusBarStyle: "#212529",
-        workboxPluginMode: 'InjectManifest',
-        workboxOptions: {
-            swSrc: 'public/service-worker.js',
-        }
+        appleMobileWebAppStatusBarStyle: "#212529"
     },
     css: {
         // Enable CSS source maps.
