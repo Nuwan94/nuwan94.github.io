@@ -1,4 +1,22 @@
 [{
+        "name": "Production Machine Learning Systems",
+        "icon": "/img/courses/google-cloud.webp",
+        "date": "2020-10-07",
+        "issuer": "Coursera",
+        "program": "Google Cloud Training",
+        "credentailId": "KB4XRNPDDPR4",
+        "credentailLink": "https://coursera.org/verify/KB4XRNPDDPR4",
+        "pdf": "./files/certificates/KB4XRNPDDPR4.webp"
+    }, {
+        "name": "Algorithmic Toolbox",
+        "icon": "/img/courses/university-of-california-sandiego.jpg",
+        "date": "2020-10-17",
+        "issuer": "Coursera",
+        "program": "University of California San Diego",
+        "credentailId": "H9S8VFSRSPQP",
+        "credentailLink": "https://coursera.org/verify/H9S8VFSRSPQP",
+        "pdf": "./files/certificates/H9S8VFSRSPQP.webp"
+    }, {
         "name": "Problem Solving (Intermediate) Certificate",
         "icon": "/img/courses/hackerrank.png",
         "date": "2020-10-08",

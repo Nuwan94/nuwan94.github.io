@@ -14,12 +14,6 @@
         >
       </div>
     </div>
-    <div class="d-flex justify-content-center" v-if="project.repo">
-      <!-- <gh-btns-star :slug="project.repo" show-count></gh-btns-star>
-      <gh-btns-fork :slug="project.repo" show-count></gh-btns-fork>-->
-      <br />
-    </div>
-
     <p class="mt-3 text-center font-weight-normal">{{ project.desc }}</p>
     <div class="text-center">
       <base-button
@@ -56,6 +50,10 @@
         type="link"
         >Readme</base-button
       >
+      <!-- <div class="d-flex justify-content-center" v-if="project.repo">
+        <gh-btns-star :slug="project.repo" show-count></gh-btns-star>
+        <gh-btns-fork :slug="project.repo" show-count></gh-btns-fork>
+      </div> -->
     </div>
 
     <div class="text-center" slot="footer">
@@ -102,7 +100,7 @@ export default {
   margin-right: 10px;
 }
 .tech-icon {
-  font-size: 2em;
+  font-size: 1.75em;
   margin: 10px;
   line-height: 1.5em;
 }

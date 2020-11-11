@@ -3,22 +3,20 @@
     <div class="container-fluid pt-5">
       <div class="row">
         <div class="col-xl-4 col-lg-6">
-          <Stackoverflow />
+          <Stackoverflow class="h-100" />
         </div>
         <div class="col-xl-4 col-lg-6">
-          <GitHub />
+          <GitHub class="h-100" />
         </div>
         <div class="col-xl-4 col-lg-6">
-          <Medium />
+          <Medium class="h-100" />
         </div>
       </div>
       <div class="row mt-5">
         <div class="col-lg-8">
           <GitHubGraph />
         </div>
-        <div class="col-lg-4">
-          <HackTheBox />
-        </div>
+        <div class="col-lg-4"><Qwiklabs/><HackTheBox  class="mt-5" /></div>
       </div>
     </div>
   </div>
@@ -29,6 +27,7 @@ import GitHubGraph from "./GithubGraph";
 import Stackoverflow from "./Stackoverflow";
 import Medium from "./Medium";
 import HackTheBox from "./HackTheBox";
+import Qwiklabs from "./Qwiklabs";
 
 export default {
   components: {
@@ -37,6 +36,7 @@ export default {
     Stackoverflow,
     Medium,
     HackTheBox,
+    Qwiklabs,
   },
 };
 </script>

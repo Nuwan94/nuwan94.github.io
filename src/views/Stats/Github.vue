@@ -2,18 +2,19 @@
   <stats-card
     title="GitHub"
     type="gradient-gray"
-    :sub-title="github.public_repos + ' Repos'"
+    :sub-title="github.public_repos + ' Repositories'"
+    url="https://github.com/nuwan94"
     icon="fab fa-github"
     class="mb-4 mb-xl-0"
   >
     <template slot="footer">
-      <span class="text-secondry mr-3">
-        <i class="fab fa-github-alt mr-1"></i>
-        {{github.public_gists.toString()}} gists
-      </span>
-      <span class="text-secondry mr-3">
-        <i class="fa fa-users mr-1"></i>
-        {{github.followers}} Follwers
+      <span class="text-dark font-weight-bold mr-3">
+        <i class="fa fa-fw fa-users mr-1"></i>
+        {{leadingZero(github.followers)}} Followers
+      </span><br>
+      <span class="text-dark font-weight-bold mr-3">
+        <i class="fab fa-fw fa-github-alt mr-1"></i>
+        {{leadingZero(github.public_gists)}} gists
       </span>
     </template>
   </stats-card>

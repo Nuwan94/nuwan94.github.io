@@ -32,6 +32,15 @@ Vue.use(VueMoment);
 
 Vue.config.productionTip = false;
 
+
+Vue.mixin({
+    methods: {
+        leadingZero: function(n) {
+            return String(n).padStart(2, "0");
+        },
+    },
+});
+
 new Vue({
     store,
     router,

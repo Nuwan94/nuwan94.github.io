@@ -115,19 +115,31 @@ export default {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
+
 .list-complete {
   width: 100%;
+  position: relative;
 }
-.list-complete-item {
-  transition: opacity 0.5s, transform 1s;
-  opacity: 1;
+.list-complete-move {
+  -webkit-transition: all 600ms ease-in-out 50ms;
+  transition: all 600ms ease-in-out 50ms;
+}
+.list-complete-enter-active {
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+.list-complete-leave-active {
+  -webkit-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  position: absolute;
+  z-index: 0;
 }
 .list-complete-enter,
 .list-complete-leave-to {
   opacity: 0;
-  /* transform: translateY(10px); */
 }
-.list-complete-leave-active {
-  position: absolute;
+.list-complete-enter {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 </style>

@@ -30,7 +30,6 @@
     <div class="row">
       <div class="col-lg-6">
         <base-input
-        class="shinner"
           readonly
           alternative
           label="Date of Birth"

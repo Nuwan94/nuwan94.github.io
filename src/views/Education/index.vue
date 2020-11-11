@@ -17,7 +17,15 @@
       </div>
       <div class="row">
         <div class="col pt-2 pt-lg-0">
-          <h1 class="p-3 text-white">Online Certifications</h1>
+          <h1 class="pl-3 pt-3 text-white">Online Certifications</h1>
+          <p class="pl-3 text-white">
+            {{ noOfCertificates }} certificates &
+            {{ noOfSpecializations }} specializations | From
+            {{
+              certificates[certificates.length - 1].date | moment("MMMM YYYY")
+            }}
+            to {{ certificates[0].date | moment("MMMM YYYY") }}
+          </p>
           <div class="row">
             <div class="col-lg-4 p-2" v-for="i in certificates" :key="i.name">
               <card
@@ -42,7 +50,12 @@
             </modal>
           </div>
 
-          <h1 class="p-3 text-white">Online Courses / Labs</h1>
+          <h1 class="pl-3 pt-3 text-white">Online Courses / Labs</h1>
+          <p class="pl-3 text-white">
+            {{ noOfCourses }} online courses & {{ noOfLabs }} qwiklabs quests | From
+            {{ courses[courses.length - 1].date | moment("MMMM YYYY") }} to
+            {{ courses[0].date | moment("MMMM YYYY") }}
+          </p>
           <div class="row">
             <div class="col-lg-4 p-2" v-for="i in courses" :key="i.name">
               <card shadow class="h-100">
@@ -82,6 +95,20 @@ export default {
       certificates: certificates,
       courses: courses,
     };
+  },
+  computed: {
+    noOfCertificates: function () {
+      return this.certificates.filter((c) => !c.specialization).length;
+    },
+    noOfSpecializations: function () {
+      return this.certificates.filter((c) => c.specialization).length;
+    },
+    noOfCourses: function () {
+      return this.courses.filter((c) => c.site != "Qwiklabs").length;
+    },
+    noOfLabs: function () {
+      return this.courses.filter((c) => c.site == "Qwiklabs").length;
+    },
   },
   // updated() {
   //   this.hasReversed = true;

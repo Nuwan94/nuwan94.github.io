@@ -98,6 +98,10 @@ export const devIcons = [{
         key: "gradle",
         name: "Gradle",
         icon: "nsa94-gradle",
+    }, {
+        key: "graphql",
+        name: "GraphQL",
+        icon: "nsa94-graphql",
     },
     {
         key: "heroku",
@@ -143,6 +147,10 @@ export const devIcons = [{
         key: "nodejs",
         name: "Node.js",
         icon: "nsa94-nodejs",
+    }, {
+        key: "nestjs",
+        name: "Nest.js",
+        icon: "nsa94-nestjs",
     },
     {
         key: "php",
@@ -168,6 +176,11 @@ export const devIcons = [{
         key: "vuejs",
         name: "Vue.js",
         icon: "nsa94-vue-dot-js",
+    },
+    {
+        key: "vuetify",
+        name: "Vuetify",
+        icon: "nsa94-vuetify",
     },
     {
         key: "gatsby",
