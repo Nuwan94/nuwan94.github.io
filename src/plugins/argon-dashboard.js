@@ -1,6 +1,5 @@
 import "@/assets/vendor/nucleo/css/nucleo.css";
 import "@/assets/scss/argon.scss";
-import "vue-github-buttons/dist/vue-github-buttons.css";
 import "@/assets/vendor/nsa94/style.css";
 
 import tooltip from "bootstrap-vue/es/components/tooltip";
