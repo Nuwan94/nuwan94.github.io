@@ -8,7 +8,6 @@ import globalComponents from "./globalComponents";
 import globalDirectives from "./globalDirectives";
 import SidebarPlugin from "@/components/SidebarPlugin/index";
 import NotificationPlugin from "@/components/NotificationPlugin/index";
-import VueGitHubButtons from "vue-github-buttons";
 
 export default {
     install(Vue) {
@@ -17,6 +16,5 @@ export default {
         Vue.use(SidebarPlugin);
         Vue.use(NotificationPlugin);
         Vue.use(tooltip);
-        Vue.use(VueGitHubButtons, { useCache: true });
     },
 };
