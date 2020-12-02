@@ -1,6 +1,6 @@
 [{
-        "name": "Google Store App",
-        "desc": "Hybrid mobile application for Google Perks Store UI Concept.",
+        "name": "Flutter Provider Sample",
+        "desc": "Sample hybrid mobile application for Google Perks Store using provider pattern in Flutter.",
         "start": "2020-09-01",
         "end": "2020-09-10",
         "type": "mobile",
@@ -14,7 +14,7 @@
         ]
     },
     {
-        "name": "Azure Distibuted Application",
+        "name": "Azure Distributed Application",
         "desc": "Secure web applicaiton developemnt with Azure.",
         "start": "2020-08-01",
         "end": "2020-08-31",
@@ -193,7 +193,8 @@
         "end": "2019-06-30",
         "type": "web",
         "language": "gatsby",
-        "repo": "nuwan94/fil",
+        "repo": "nuwan94/blog",
+        "demo": "https://blog.nuwan.dev",
         "tech": [
             "react",
             "gatsby",
@@ -226,6 +227,7 @@
         "type": "web",
         "language": "angular",
         "repo": "nuwan94/se-gpa-calculator",
+        "demo": "https://nuwan.dev/se-gpa-calculator",
         "tech": [
             "angular",
             "javascript",
