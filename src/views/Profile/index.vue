@@ -8,7 +8,7 @@
         role="button"
         target="_blank"
         icon="fa fa-3x fa-download"
-        href="https://v1.nuwan.dev/cv/CV_NuwanAlawatta.pdf"
+        href="https://go.nuwan.dev/cv"
       ></base-button>
       <b-tooltip placement="top" target="resume-btn" triggers="hover"
         >Nuwan's Resume</b-tooltip
