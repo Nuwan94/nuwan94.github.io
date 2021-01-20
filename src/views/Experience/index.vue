@@ -8,7 +8,7 @@
           </card>
         </div>
       </div>
-      <div class="row mt-5">
+      <!-- <div class="row mt-5">
         <div class="col-lg-12">
           <h1 class="p-3 text-white">Skills</h1>
         </div>
@@ -38,27 +38,27 @@
             <Skills title="IDEs" :skills="skills.ide" type="info"></Skills>
           </card>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
 import Company from "./Company";
-import Skills from "./Skills";
+// import Skills from "./Skills";
 
 import experience from "../../assets/data/experience.json";
-import skills from "../../assets/data/skills.json";
+// import skills from "../../assets/data/skills.json";
 
 export default {
   components: {
     Company,
-    Skills,
+    // Skills,
   },
   data: () => {
     return {
       experience,
-      skills,
+      // skills,
     };
   },
 };

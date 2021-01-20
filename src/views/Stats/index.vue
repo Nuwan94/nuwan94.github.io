@@ -1,22 +1,26 @@
 <template>
   <div>
-    <div class="container-fluid pt-5">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-4 col-lg-6">
+        <div class="col-xl-4 col-lg-6 mt-5">
           <Stackoverflow class="h-100" />
         </div>
-        <div class="col-xl-4 col-lg-6">
+        <div class="col-xl-4 col-lg-6 mt-5">
           <GitHub class="h-100" />
         </div>
-        <div class="col-xl-4 col-lg-6">
+        <div class="col-xl-4 col-lg-6 mt-5">
           <Medium class="h-100" />
         </div>
       </div>
-      <div class="row mt-5">
+      <div class="row ">
         <div class="col-lg-8">
-          <GitHubGraph />
+          <GitHubGraph class="mt-5" />
+          <Pluralsight class="mt-5" />
         </div>
-        <div class="col-lg-4"><Qwiklabs/><HackTheBox  class="mt-5" /></div>
+        <div class="col-lg-4">
+          <Qwiklabs class="mt-5" />
+          <HackTheBox class="mt-5" />
+        </div>
       </div>
     </div>
   </div>
@@ -24,6 +28,7 @@
 <script>
 import GitHub from "./Github";
 import GitHubGraph from "./GithubGraph";
+import Pluralsight from "./Pluralsight";
 import Stackoverflow from "./Stackoverflow";
 import Medium from "./Medium";
 import HackTheBox from "./HackTheBox";
@@ -33,6 +38,7 @@ export default {
   components: {
     GitHub,
     GitHubGraph,
+    Pluralsight,
     Stackoverflow,
     Medium,
     HackTheBox,

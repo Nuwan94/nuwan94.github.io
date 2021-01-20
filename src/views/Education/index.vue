@@ -27,7 +27,7 @@
             to {{ certificates[0].date | moment("MMMM YYYY") }}
           </p>
           <div class="row">
-            <div class="col-lg-4 p-2" v-for="i in certificates" :key="i.name">
+            <div class="col-lg-4 p-2" v-for="i in collapseSepcialized" :key="i.name">
               <card
                 shadow
                 class="h-100 overflow-hidden"
@@ -108,6 +108,9 @@ export default {
     },
     noOfLabs: function () {
       return this.courses.filter((c) => c.site == "Qwiklabs").length;
+    },
+    collapseSepcialized: function() {
+      return this.certificates.filter((c) => !c.partof);
     },
   },
   // updated() {

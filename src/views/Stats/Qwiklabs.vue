@@ -9,7 +9,7 @@
   >
     <template slot="footer">
       <span class="text-dark font-weight-bold mr-3">
-        <i class="fa fa-fw fa-flask mr-1"></i>
+        <em class="fa fa-fw fa-flask mr-1"></em>
         {{ leadingZero(qwiklabs.labs) }}
         Labs Taken
       </span>

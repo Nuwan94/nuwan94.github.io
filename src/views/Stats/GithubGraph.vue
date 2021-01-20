@@ -1,7 +1,7 @@
 <template>
   <div class="card shadow">
     <div class="card-header bg-transparent border-0 pb-0">
-      <h3 class="mb-0">GitHub contributions</h3>
+      <h3 class="mb-0">GitHub Contributions</h3>
     </div>
     <div class="card-body text-center">
       <img

@@ -24,7 +24,7 @@
     </div>
     <div class="col mb-2 text-right">
       <base-button
-        v-if="certificate.credentailLink"
+        v-if="certificate.pdf"
         @click="handleView"
         type="link"
         icon="fa fa-eye"

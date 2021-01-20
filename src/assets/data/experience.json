@@ -7,10 +7,10 @@
         "icon": "./img/logos/zone.webp",
         "description": "Headquartered in San Jose, California, Zone24x7 Inc is a digital transformation partner to a wide range of organizations from technology startups to Fortune 500 organizations.",
         "points": [
-            "Worked as a full-stack developer in internal project related to quality insights using Kotlin, Spring Boot and Angular.",
-            "Completed a automated database synching application with LDAP integration written in Java, Quartz and MySQL.",
-            "Completed a reverse-proxy application for routing requests from IoT devices to multiple endpoints with different transformations.",
-            "Worked as a frontend developer in Warehouse Management System for leading apparel manufacturing company with the React, Ant Design and dva.js."
+            "Worked as a full-stack developer in internal project related to code quality with Kotlin, Spring Boot and Angular.",
+            "Completed a database syncing application with LDAP integration written in Java, Quartz and MySQL.",
+            "Completed a proxy server application for routing requests from IoT devices to multiple endpoints with different transformations.",
+            "Worked as a frontend developer in Warehouse Management System with the React, Ant Design and dva.js."
         ]
     },
     {

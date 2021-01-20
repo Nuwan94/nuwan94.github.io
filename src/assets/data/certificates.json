@@ -1,4 +1,49 @@
-[{
+[
+    {
+        "name": "React: Ecosystems",
+        "icon": "/img/courses/linkedin-learning.webp",
+        "date": "2021-01-02",
+        "issuer": "LinkedIn Learning",
+        "program": "LinkedIn Learning",
+        "credentailId": "AVPQxFMRhfadgfV0twaDpGqXiQNN",
+        "pdf": "./files/certificates/AVPQxFMRhfadgfV0twaDpGqXiQNN.webp"
+    },{
+        "name": "JavaScript: Best Practices for Code Formatting",
+        "icon": "/img/courses/linkedin-learning.webp",
+        "date": "2021-01-02",
+        "issuer": "LinkedIn Learning",
+        "program": "LinkedIn Learning",
+        "credentailId": "ATvd42q4yP5CQ2DaE1cKLLhEa94z",
+        "pdf": "./files/certificates/ATvd42q4yP5CQ2DaE1cKLLhEa94z.webp"
+    },{
+        "name": "JavaScript (Basic) Certificate",
+        "icon": "/img/courses/hackerrank.png",
+        "date": "2020-12-08",
+        "issuer": "Hackerrank",
+        "program": "Hackerrank",
+        "credentailId": "c9cc6f50cef5",
+        "credentailLink": "https://www.hackerrank.com/certificates/c9cc6f50cef5",
+        "pdf": "./files/certificates/c9cc6f50cef5.webp"
+    },{
+        "name": "React (Basic) Certificate",
+        "icon": "/img/courses/hackerrank.png",
+        "date": "2020-12-08",
+        "issuer": "Hackerrank",
+        "program": "Hackerrank",
+        "credentailId": "05304c529695",
+        "credentailLink": "https://www.hackerrank.com/certificates/05304c529695",
+        "pdf": "./files/certificates/05304c529695.webp"
+    },{
+        "name": "Recommendation Systems with TensorFlow on GCP",
+        "icon": "/img/courses/google-cloud.webp",
+        "date": "2020-11-21",
+        "issuer": "Coursera",
+        "program": "Google Cloud Training",
+        "credentailId": "GRPHATDFJEDC",
+        "credentailLink": "https://coursera.org/verify/GRPHATDFJEDC",
+        "pdf": "./files/certificates/GRPHATDFJEDC.webp"
+    },
+    {
         "name": "Production Machine Learning Systems",
         "icon": "/img/courses/google-cloud.webp",
         "date": "2020-10-07",
@@ -7,7 +52,8 @@
         "credentailId": "KB4XRNPDDPR4",
         "credentailLink": "https://coursera.org/verify/KB4XRNPDDPR4",
         "pdf": "./files/certificates/KB4XRNPDDPR4.webp"
-    }, {
+    },
+    {
         "name": "Algorithmic Toolbox",
         "icon": "/img/courses/university-of-california-sandiego.jpg",
         "date": "2020-10-17",
@@ -16,7 +62,8 @@
         "credentailId": "H9S8VFSRSPQP",
         "credentailLink": "https://coursera.org/verify/H9S8VFSRSPQP",
         "pdf": "./files/certificates/H9S8VFSRSPQP.webp"
-    }, {
+    },
+    {
         "name": "Problem Solving (Intermediate) Certificate",
         "icon": "/img/courses/hackerrank.png",
         "date": "2020-10-08",
@@ -25,7 +72,8 @@
         "credentailId": "7d321d504160",
         "credentailLink": "https://www.hackerrank.com/certificates/7d321d504160",
         "pdf": "./files/certificates/7d321d504160.webp"
-    }, {
+    },
+    {
         "name": "End-to-End Machine Learning with TensorFlow on GCP",
         "icon": "/img/courses/google-cloud.webp",
         "date": "2020-10-07",
@@ -34,7 +82,8 @@
         "credentailId": "J56JRKSV9BH2",
         "credentailLink": "https://coursera.org/verify/J56JRKSV9BH2",
         "pdf": "./files/certificates/J56JRKSV9BH2.webp"
-    }, {
+    },
+    {
         "name": "Java (Basic) Certificate",
         "icon": "/img/courses/hackerrank.png",
         "date": "2020-10-01",
@@ -104,7 +153,8 @@
         "program": "Google Cloud Training",
         "credentailId": "WNKZPTCKSR76",
         "credentailLink": "https://coursera.org/verify/WNKZPTCKSR76",
-        "pdf": "./files/certificates/WNKZPTCKSR76.webp"
+        "pdf": "./files/certificates/WNKZPTCKSR76.webp",
+        "partof": "VGRZAZ2Y2UF4"
     },
     {
         "name": "Feature Engineering",
@@ -114,7 +164,16 @@
         "program": "Google Cloud Training",
         "credentailId": "EFBMHZQA6653",
         "credentailLink": "https://coursera.org/verify/EFBMHZQA6653",
-        "pdf": "./files/certificates/EFBMHZQA6653.webp"
+        "pdf": "./files/certificates/EFBMHZQA6653.webp",
+        "partof": "VGRZAZ2Y2UF4"
+    },{
+        "name": "React: Managing Complex Interactions",
+        "icon": "/img/courses/linkedin-learning.webp",
+        "date": "2020-07-09",
+        "issuer": "LinkedIn Learning",
+        "program": "LinkedIn Learning",
+        "credentailId": "Ae56SZxq0To_Wwy5cTNEWASvjF9D",
+        "pdf": "./files/certificates/Ae56SZxq0To_Wwy5cTNEWASvjF9D.webp"
     },
     {
         "name": "Introduction to TensorFlow",
@@ -124,7 +183,33 @@
         "program": "Google Cloud Training",
         "credentailId": "NT3Z35AR8KJM",
         "credentailLink": "https://coursera.org/verify/NT3Z35AR8KJM",
-        "pdf": "./files/certificates/NT3Z35AR8KJM.webp"
+        "pdf": "./files/certificates/NT3Z35AR8KJM.webp",
+        "partof": "VGRZAZ2Y2UF4"
+    },{
+        "name": "Learning GraphQL",
+        "icon": "/img/courses/linkedin-learning.webp",
+        "date": "2020-07-02",
+        "issuer": "LinkedIn Learning",
+        "program": "LinkedIn Learning",
+        "credentailId": "AfCcMKjhddO44csya9Bd0hOZ6cXY",
+        "pdf": "./files/certificates/AfCcMKjhddO44csya9Bd0hOZ6cXY.webp"
+    },{
+        "name": "Node.js Essential Training",
+        "icon": "/img/courses/linkedin-learning.webp",
+        "date": "2020-06-24",
+        "issuer": "LinkedIn Learning",
+        "program": "LinkedIn Learning",
+        "credentailId": "AUqchbpPeEBsbYjWsbjeCXoAOPT9",
+        "pdf": "./files/certificates/AUqchbpPeEBsbYjWsbjeCXoAOPT9.webp"
+    },
+    {
+        "name": "Learning npm the Node Package Manager",
+        "icon": "/img/courses/linkedin-learning.webp",
+        "date": "2020-06-24",
+        "issuer": "LinkedIn Learning",
+        "program": "LinkedIn Learning",
+        "credentailId": "ATPOcSMGF91zZFtepwsx538Mroc7",
+        "pdf": "./files/certificates/ATPOcSMGF91zZFtepwsx538Mroc7.webp"
     },
     {
         "name": "Launching into Machine Learning",
@@ -134,7 +219,8 @@
         "program": "Google Cloud Training",
         "credentailId": "HXM259N49A8Y",
         "credentailLink": "https://coursera.org/verify/HXM259N49A8Y",
-        "pdf": "./files/certificates/HXM259N49A8Y.webp"
+        "pdf": "./files/certificates/HXM259N49A8Y.webp",
+        "partof": "VGRZAZ2Y2UF4"
     },
     {
         "name": "How Google does Machine Learning",
@@ -144,7 +230,8 @@
         "program": "Google Cloud Training",
         "credentailId": "UZHWUQDKXBM3",
         "credentailLink": "https://coursera.org/verify/UZHWUQDKXBM3",
-        "pdf": "./files/certificates/UZHWUQDKXBM3.webp"
+        "pdf": "./files/certificates/UZHWUQDKXBM3.webp",
+        "partof": "VGRZAZ2Y2UF4"
     },
     {
         "name": "AI For Everyone",
@@ -175,7 +262,8 @@
         "program": "Google Cloud Training",
         "credentailId": "7JAKPXEMLKMV",
         "credentailLink": "https://coursera.org/verify/7JAKPXEMLKMV",
-        "pdf": "./files/certificates/7JAKPXEMLKMV.webp"
+        "pdf": "./files/certificates/7JAKPXEMLKMV.webp",
+        "partof": "UAAZMD59JUF7"
     },
     {
         "name": "Smart Analytics, Machine Learning, and AI on GCP",
@@ -185,7 +273,8 @@
         "program": "Google Cloud Training",
         "credentailId": "77QLLEPTCP36",
         "credentailLink": "https://coursera.org/verify/77QLLEPTCP36",
-        "pdf": "./files/certificates/77QLLEPTCP36.webp"
+        "pdf": "./files/certificates/77QLLEPTCP36.webp",
+        "partof": "UAAZMD59JUF7"
     },
     {
         "name": "Building Resilient Streaming Analytics Systems on GCP",
@@ -195,7 +284,8 @@
         "program": "Google Cloud Training",
         "credentailId": "ZG8UFPV7UNR2",
         "credentailLink": "https://coursera.org/verify/ZG8UFPV7UNR2",
-        "pdf": "./files/certificates/ZG8UFPV7UNR2.webp"
+        "pdf": "./files/certificates/ZG8UFPV7UNR2.webp",
+        "partof": "UAAZMD59JUF7"
     },
     {
         "name": "Building Batch Data Pipelines on GCP",
@@ -205,7 +295,8 @@
         "program": "Google Cloud Training",
         "credentailId": "XBQCUYFLM4ST",
         "credentailLink": "https://coursera.org/verify/XBQCUYFLM4ST",
-        "pdf": "./files/certificates/XBQCUYFLM4ST.webp"
+        "pdf": "./files/certificates/XBQCUYFLM4ST.webp",
+        "partof": "UAAZMD59JUF7"
     },
     {
         "name": "Modernizing Data Lakes and Data Warehouses with GCP",
@@ -215,7 +306,8 @@
         "program": "Google Cloud Training",
         "credentailId": "RFNVC3HSUXDY",
         "credentailLink": "https://coursera.org/verify/RFNVC3HSUXDY",
-        "pdf": "./files/certificates/RFNVC3HSUXDY.webp"
+        "pdf": "./files/certificates/RFNVC3HSUXDY.webp",
+        "partof": "UAAZMD59JUF7"
     },
     {
         "name": "Google Cloud Platform Big Data and Machine Learning Fundamentals",
@@ -225,7 +317,8 @@
         "program": "Google Cloud Training",
         "credentailId": "FLFHJUN5DJ4Y",
         "credentailLink": "https://coursera.org/verify/FLFHJUN5DJ4Y",
-        "pdf": "./files/certificates/FLFHJUN5DJ4Y.webp"
+        "pdf": "./files/certificates/FLFHJUN5DJ4Y.webp",
+        "partof": "UAAZMD59JUF7"
     },
     {
         "name": "Cloud Engineering with Google Cloud Specialization",
@@ -246,7 +339,8 @@
         "program": "Google Cloud Training",
         "credentailId": "LTJRM66R9ER9",
         "credentailLink": "https://coursera.org/verify/LTJRM66R9ER9",
-        "pdf": "./files/certificates/LTJRM66R9ER9.webp"
+        "pdf": "./files/certificates/LTJRM66R9ER9.webp",
+        "partof": "2RBZ8TN592ZM"
     },
     {
         "name": "Elastic Google Cloud Infrastructure: Scaling and Automation",
@@ -256,7 +350,8 @@
         "program": "Google Cloud Training",
         "credentailId": "65V4SSGJT5GC",
         "credentailLink": "https://coursera.org/verify/65V4SSGJT5GC",
-        "pdf": "./files/certificates/65V4SSGJT5GC.webp"
+        "pdf": "./files/certificates/65V4SSGJT5GC.webp",
+        "partof": "2RBZ8TN592ZM"
     },
     {
         "name": "Essential Google Cloud Infrastructure: Core Services",
@@ -266,7 +361,8 @@
         "program": "Google Cloud Training",
         "credentailId": "9X7KXCYU4QB8",
         "credentailLink": "https://coursera.org/verify/9X7KXCYU4QB8",
-        "pdf": "./files/certificates/9X7KXCYU4QB8.webp"
+        "pdf": "./files/certificates/9X7KXCYU4QB8.webp",
+        "partof": "2RBZ8TN592ZM"
     },
     {
         "name": "Essential Google Cloud Infrastructure: Foundation",
@@ -276,7 +372,8 @@
         "program": "Google Cloud Training",
         "credentailId": "ZCL8FY5BN95F",
         "credentailLink": "https://coursera.org/verify/ZCL8FY5BN95F",
-        "pdf": "./files/certificates/ZCL8FY5BN95F.webp"
+        "pdf": "./files/certificates/ZCL8FY5BN95F.webp",
+        "partof": "2RBZ8TN592ZM"
     },
     {
         "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
@@ -286,7 +383,8 @@
         "program": "Google Cloud Training",
         "credentailId": "M82745DVXPQL",
         "credentailLink": "https://coursera.org/verify/M82745DVXPQL",
-        "pdf": "./files/certificates/M82745DVXPQL.webp"
+        "pdf": "./files/certificates/M82745DVXPQL.webp",
+        "partof": "2RBZ8TN592ZM"
     },
     {
         "name": "Exploring and Preparing your Data with BigQuery",

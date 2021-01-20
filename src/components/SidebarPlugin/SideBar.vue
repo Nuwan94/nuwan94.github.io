@@ -65,15 +65,6 @@
           </li>
         </ul>
         <hr class="my-3" />
-        <!-- <base-button
-          icon="fa fa-coffee"
-          type="warning"
-          tag="a"
-          role="button"
-          target="_blank"
-          href="https://paypal.me/nuwan94"
-          >Buy me a Coffee</base-button
-        > -->
       </div>
     </div>
   </nav>

@@ -1,5 +1,5 @@
 const webpack = require("webpack");
-const isProd = process.env.NODE_ENV === "production";
+// const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
     configureWebpack: {
@@ -9,13 +9,6 @@ module.exports = {
                 maxChunks: 6,
             }),
         ],
-    },
-    pwa: {
-        name: "Nuwan Alawatta",
-        themeColor: "#212529",
-        msTileColor: "#212529",
-        appleMobileWebAppCapable: "yes",
-        appleMobileWebAppStatusBarStyle: "#212529"
     },
     css: {
         // Enable CSS source maps.

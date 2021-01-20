@@ -12,24 +12,44 @@
           :link="{
             name: 'Profile',
             icon: 'ni ni-circle-08 text-primary',
-            path: '/profile'
+            path: '/profile',
           }"
         />
-        <sidebar-item :link="{name: 'Stats', icon: 'ni ni-chart-pie-35 text-red', path: '/stats'}" />
         <sidebar-item
-          :link="{name: 'Education', icon: 'ni ni-books text-green', path: '/education'}"
+          :link="{
+            name: 'Highlights',
+            icon: 'ni ni-chart-pie-35 text-red',
+            path: '/stats',
+          }"
         />
         <sidebar-item
-          :link="{name: 'Experience', icon: 'ni ni-briefcase-24 text-orange', path: '/experience'}"
+          :link="{
+            name: 'Education',
+            icon: 'ni ni-books text-green',
+            path: '/education',
+          }"
         />
-        <sidebar-item :link="{name: 'Portfolio', icon: 'ni ni-app text-blue', path: '/portfolio'}" />
-        <!-- <sidebar-item
-          :link="{name: 'Communities', icon: 'ni ni-planet text-default', path: '/communities'}"
-        />-->
-        <!-- <sidebar-item
-          :link="{name: 'Hobbies', icon: 'ni ni-palette text-purple', path: '/hobbies'}"
-        />-->
-        <sidebar-item :link="{name: 'Contact', icon: 'ni ni-send text-yellow', path: '/contact'}" />
+        <sidebar-item
+          :link="{
+            name: 'Experience',
+            icon: 'ni ni-briefcase-24 text-orange',
+            path: '/experience',
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Portfolio',
+            icon: 'ni ni-app text-blue',
+            path: '/portfolio',
+          }"
+        />
+        <sidebar-item
+          :link="{
+            name: 'Contact',
+            icon: 'ni ni-send text-yellow',
+            path: '/contact',
+          }"
+        />
       </template>
     </side-bar>
     <div class="main-content pb-5 h-100" :data="sidebarBackground">
@@ -37,18 +57,15 @@
         <fade-transition :duration="200" origin="center top" mode="out-in">
           <router-view></router-view>
         </fade-transition>
-        <!-- <content-footer v-if="!$route.meta.hideFooter"></content-footer> -->
       </div>
     </div>
   </div>
 </template>
 <script>
-// import ContentFooter from "./ContentFooter.vue";
 import { FadeTransition } from "vue2-transitions";
 
 export default {
   components: {
-    // ContentFooter,
     FadeTransition,
   },
   data() {

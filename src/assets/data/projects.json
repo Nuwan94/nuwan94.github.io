@@ -15,7 +15,7 @@
     },
     {
         "name": "Azure Distributed Application",
-        "desc": "Secure web applicaiton developemnt with Azure.",
+        "desc": "Secure web application development with Azure.",
         "start": "2020-08-01",
         "end": "2020-08-31",
         "type": "web",
@@ -94,7 +94,7 @@
     },
     {
         "name": "CRM System",
-        "desc": "Customer Relationship Management System develoepd with JavaFX, ControlsFX.",
+        "desc": "Customer Relationship Management System developed with JavaFX, ControlsFX.",
         "start": "2019-12-01",
         "end": "2020-01-31",
         "type": "desktop",
@@ -110,7 +110,7 @@
     },
     {
         "name": "Thingsboard Integrator",
-        "desc": "Reverse proxy application for intergrating existing IoT solution with Thingsboard. This is a PoC project during internship at Zone24x7.",
+        "desc": "Reverse proxy application for integrating existing IoT solution with Thingsboard. This is a PoC project during internship at Zone24x7.",
         "start": "2019-11-20",
         "end": "2019-12-10",
         "type": "web",
@@ -284,7 +284,7 @@
     },
     {
         "name": "Vidya 2017",
-        "desc": "Android app for the Vidya 2017 Science Exhibiton organized by University of Kelaniya.",
+        "desc": "Android app for the Vidya 2017 Science Exhibition organized by University of Kelaniya.",
         "start": "2017-07-01",
         "end": "2017-08-10",
         "type": "mobile",

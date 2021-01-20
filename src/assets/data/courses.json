@@ -1,92 +1,122 @@
 [{
+    "name": "Holiday Speedrun",
+    "icon": "/img/courses/holiday-speedrun.webp",
+    "site": "Qwiklabs",
+    "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b//badges/609746",
+    "date": "2020-12-30"
+},{
+    "name": "Work and Play: Shipping in the Cloud",
+    "icon": "/img/courses/work-and-play-shipping-in-the-cloud.webp",
+    "site": "Qwiklabs",
+    "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/599000",
+    "date": "2020-12-13"
+},{
+    "name": "Create ML Models with BigQuery ML",
+    "icon": "/img/courses/create-ml-models-with-bigquery-ml.webp",
+    "site": "Qwiklabs",
+    "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/598999",
+    "date": "2020-12-13"
+},{
+    "name": "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
+    "icon": "/img/courses/perform-foundational-data.webp",
+    "site": "Qwiklabs",
+    "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/580380",
+    "date": "2020-11-16"
+},{
+    "name": "Baseline: Data, ML, AI",
+    "icon": "/img/courses/baseline-data-ml-ai.webp",
+    "site": "Qwiklabs",
+    "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/577674",
+    "date": "2020-11-14"
+},{
         "name": "Intro to ML: Image Processing",
         "icon": "/img/courses/intro-to-ml-image-processing.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/570590",
         "date": "2020-11-06"
     }, {
         "name": "Confluent on Google Cloud",
         "icon": "/img/courses/confluent-on-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/568916",
         "date": "2020-11-06"
     }, {
         "name": "Build Interactive Apps with Google Assistant",
         "icon": "/img/courses/build-interactive-apps-with-google-assistant.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/568513",
         "date": "2020-11-06"
     }, {
         "name": "Website on Google Cloud",
         "icon": "/img/courses/website-on-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/549330",
         "date": "2020-11-03"
     }, {
         "name": "Integrate with Machine Learning APIs",
         "icon": "/img/courses/integrate-with-machine-learning-apis.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/549069",
         "date": "2020-11-03"
     }, {
         "name": "Work and Play: Farming in the Cloud",
         "icon": "/img/courses/work-and-play-farming-in-the-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/537012",
         "date": "2020-11-01"
     }, {
         "name": "DevJam Hands-on Challenge",
         "icon": "/img/courses/devjam-hands-on-challenge.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/534336",
         "date": "2020-11-01"
     }, {
         "name": "Monitor and Log with Google Cloud Operations Suite",
         "icon": "/img/courses/monitor-and-log-with-google-cloud-operations-suite.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/508690",
         "date": "2020-10-28"
     }, {
         "name": "DevOps Essentials",
         "icon": "/img/courses/devops-essentials.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/508501",
         "date": "2020-10-28"
     }, {
         "name": "Implement DevOps in Google Cloud",
         "icon": "/img/courses/implement-devops-in-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/504943",
         "date": "2020-10-27"
     }, {
         "name": "Deploy and Manage Cloud Environments with Google Cloud",
         "icon": "/img/courses/deploy-and-manage-cloud-environments-with-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/503822",
         "date": "2020-10-27"
     }, {
         "name": "Cloud Architecture",
         "icon": "/img/courses/cloud-architecture.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/503570",
         "date": "2020-10-27"
     }, {
         "name": "Build a Website on Google Cloud",
         "icon": "/img/courses/build-a-website-on-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/487824",
         "date": "2020-10-23"
     }, {
         "name": "Machine Learning APIs",
         "icon": "/img/courses/machine-learning-apis.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/478010",
         "date": "2020-10-20"
     }, {
         "name": "Understanding Your Google Cloud Costs",
         "icon": "/img/courses/understanding-your-google-cloud-costs.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/476807",
         "date": "2020-10-20"
     }, {
         "name": "From Vue 2 to Vue 3",
@@ -94,58 +124,58 @@
         "site": "Vue Mastery",
         "date": "2020-10-11"
     }, {
-        "name": "Getting Started: Create and Manage Cloud Resources",
+        "name": "Create and Manage Cloud Resources",
         "icon": "/img/courses/create-and-manage-cloud-resources.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/423773",
         "date": "2020-10-06"
-    }, {
-        "name": "Set up and Configure a Cloud Environment in Google Cloud",
-        "icon": "/img/courses/set-up-and-configure-a-cloud-environment-in-google-cloud.webp",
-        "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
-        "date": "2020-09-19"
-    },
+    }, 
     {
         "name": "Perform Foundational Infrastructure Tasks in Google Cloud",
         "icon": "/img/courses/perform-foundational-infrastructure-tasks-in-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/377064",
+        "date": "2020-09-19"
+    },{
+        "name": "Set up and Configure a Cloud Environment in Google Cloud",
+        "icon": "/img/courses/set-up-and-configure-a-cloud-environment-in-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/377016",
         "date": "2020-09-19"
     },
     {
         "name": "Explore Machine Learning Models with Explainable AI",
         "icon": "/img/courses/explore-machine-learning-models-with-explainable-ai.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/348273",
         "date": "2020-09-08"
     },
     {
         "name": "Google Cloud Next OnAir ‘20 - Cloud Hero Game: Week 8",
         "icon": "/img/courses/google-cloud-next-onair-‘20--cloud-hero-game-week-8.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/338806",
         "date": "2020-09-03"
-    },
-    {
-        "name": "Kubernetes in Google Cloud",
-        "icon": "/img/courses/kubernetes-in-google-cloud.webp",
-        "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
-        "date": "2020-09-01"
     },
     {
         "name": "Deploy to Kubernetes in Google Cloud",
         "icon": "/img/courses/deploy-to-kubernetes-in-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/334792",
+        "date": "2020-09-01"
+    },
+    {
+        "name": "Kubernetes in Google Cloud",
+        "icon": "/img/courses/kubernetes-in-google-cloud.webp",
+        "site": "Qwiklabs",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/334299",
         "date": "2020-09-01"
     },
     {
         "name": "Datastax on Google Cloud Speedrun",
         "icon": "/img/courses/datastax-on-google-cloud.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/315207",
         "date": "2020-08-20"
     },
     {
@@ -165,14 +195,14 @@
         "name": "Cloud Engineering",
         "icon": "/img/courses/cloud-engineering.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/268903",
         "date": "2020-06-07"
     },
     {
         "name": "BigQuery for Machine Learning",
         "icon": "/img/courses/bigquery-for-machine-learning.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/259589",
         "date": "2020-05-26"
     },
     {
@@ -259,55 +289,55 @@
         "name": "OK Google: Build Interactive Apps with Google Assistant",
         "icon": "/img/courses/ok-google-build-interactive-apps-with-google-assistant.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/194621",
         "date": "2020-01-01"
     },
     {
         "name": "App Dev 30-Day Challenge",
         "icon": "/img/courses/app-dev-30-day-challenge.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/166309",
         "date": "2019-11-30"
     },
     {
         "name": "Cloud Development",
         "icon": "/img/courses/cloud-development.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/144537",
         "date": "2019-10-20"
     },
     {
         "name": "Application Development - Java",
         "icon": "/img/courses/application-development-java.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/144524",
         "date": "2019-10-10"
     },
     {
         "name": "Google Developer Essentials",
         "icon": "/img/courses/google-developer-essentials.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/136833",
         "date": "2019-10-05"
     },
     {
         "name": "Baseline: Deploy & Develop",
         "icon": "/img/courses/baseline-deploy-&-develop.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/134857",
         "date": "2019-10-02"
     },
     {
         "name": "Baseline: Infrastructure",
         "icon": "/img/courses/baseline-infrastructure.webp",
         "site": "Qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/134123",
         "date": "2019-10-01"
     },
     {
         "name": "Google Cloud Essentials",
         "icon": "/img/courses/google-cloud-essentials.webp",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b",
+        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b/badges/128046",
         "site": "Qwiklabs",
         "date": "2019-09-01"
     }

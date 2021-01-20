@@ -3,11 +3,12 @@
     "middleName": "Sameera",
     "lastName": "Alawatta",
     "title": "Software Developer | Tech Enthusiast | Geek",
-    "currentPosition": "Final Year Undergradaute",
+    "currentPosition": "Final Year Undergraduate",
     "company": "University of Kelaniya",
-    "department": "BSc. (Hons) in Sofftware Engineering",
-    "aboutme": "Hello there I'm Nuwan Sameera Alawatta, final year undergraduate at University of Kelaniya. I'm look forward to getting involved in challenging and interesting projects which allow me to utilize and improve my skills.",
-    "mobile": [{
+    "department": "BSc. (Hons) in Software Engineering",
+    "quote": "If you can't explain it simply, you probably don't understand it well enough.",
+    "mobile": [
+        {
             "provider": "Personal Dialog",
             "number": "+94767871494"
         },
@@ -16,7 +17,8 @@
             "number": "+94757871494"
         }
     ],
-    "email": [{
+    "email": [
+        {
             "type": "Work",
             "address": "hello@nuwan.dev"
         },

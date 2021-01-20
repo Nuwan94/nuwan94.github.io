@@ -29,7 +29,11 @@
             <div class="row justify-content-center">
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
-                  <img src="img/profile.webp" class="rounded-circle" />
+                  <img
+                    src="img/profile.webp"
+                    class="rounded-circle"
+                    alt="Profile Image"
+                  />
                 </div>
               </div>
             </div>
@@ -68,14 +72,13 @@
                 <div>{{ personal.company }}</div>
               </div>
               <p
-                class="font-weight-normal bg-dark rounded p-3 text-white text-center mt-3"
+                class="font-weight-normal bg-dark rounded p-3 text-white text-center mt-3 position-relative"
               >
-                {{ personal.aboutme }}
+              <em class="fa fa-2x fa-quote-left text-white opacity-1 position-absolute top-1 left-1"></em>
+                {{ personal.quote }}
+                <em class="fa fa-2x fa-quote-right text-white opacity-1 position-absolute bottom-1 right-1"></em>
               </p>
             </div>
-            <!-- <div class="card-footer pt-0 pt-md-4 text-justify">
-              
-            </div> -->
           </div>
 
           <div class="card card-profile shadow mt-2">
@@ -156,15 +159,9 @@ export default {
       }
     },
     isMobile() {
-      if (
-        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-          navigator.userAgent
-        )
-      ) {
-        return true;
-      } else {
-        return false;
-      }
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
     },
     notifyMessage(t) {
       this.$notify({

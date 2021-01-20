@@ -1,11 +1,11 @@
 [{
         "name": "English",
-        "precentage": 70,
+        "percentage": 70,
         "type": "danger"
     },
     {
         "name": "Sinhala",
-        "precentage": 100,
+        "percentage": 100,
         "type": "default"
     }
 ]

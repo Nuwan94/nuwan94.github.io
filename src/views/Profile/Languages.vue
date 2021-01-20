@@ -6,7 +6,7 @@
       :type="lang.type"
       :height="16"
       :showPercentage="false"
-      :value="lang.precentage"
+      :value="lang.percentage"
       :label="lang.name"
     ></base-progress>
   </div>

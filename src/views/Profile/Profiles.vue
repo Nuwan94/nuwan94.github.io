@@ -8,7 +8,7 @@
       class="m-2 rounded text-center bg-white shadow profile-btn hover-bounce shinner"
       :target="profile.link ? '_blank' : ''"
     >
-      <i
+      <em
         v-if="profile.icon"
         :class="'m-3 fa-fw fab fa-2x ' + profile.icon"
         :style="'color:' + profile.color"

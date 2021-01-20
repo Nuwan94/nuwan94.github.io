@@ -2,7 +2,7 @@
   <stats-card
     title="HackTheBox"
     type="gradient-dark"
-    sub-title="Rank : Noob"
+    sub-title="Security Learning"
     icon="nsa94-hackthebox"
     url="https://app.hackthebox.eu/profile/159870"
     class="mb-4 mb-xl-0"
