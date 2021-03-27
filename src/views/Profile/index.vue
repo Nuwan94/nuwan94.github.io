@@ -107,10 +107,9 @@
                 </h6>
                 <Profiles />
                 <hr class="my-4" />
-                <h6 class="heading-small text-muted mb-4">Personal Details</h6>
+                <!-- <h6 class="heading-small text-muted mb-4">Personal Details</h6>
                 <Personal />
-                <hr class="my-4" />
-                <!-- Address -->
+                <hr class="my-4" /> -->
                 <h6 class="heading-small text-muted mb-4">Developer Details</h6>
                 <Developer />
               </form>
@@ -124,7 +123,7 @@
 
 <script>
 import Profiles from "./Profiles";
-import Personal from "./Personal";
+// import Personal from "./Personal";
 import Languages from "./Languages";
 import Developer from "./Developer";
 
@@ -134,7 +133,7 @@ export default {
   name: "user-profile",
   components: {
     Profiles,
-    Personal,
+    // Personal,
     Languages,
     Developer,
   },

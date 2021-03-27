@@ -18,6 +18,7 @@
           <Pluralsight class="mt-5" />
         </div>
         <div class="col-lg-4">
+          <Xtreme class="mt-5" />
           <Qwiklabs class="mt-5" />
           <HackTheBox class="mt-5" />
         </div>
@@ -33,6 +34,7 @@ import Stackoverflow from "./Stackoverflow";
 import Medium from "./Medium";
 import HackTheBox from "./HackTheBox";
 import Qwiklabs from "./Qwiklabs";
+import Xtreme from "./Xtreme";
 
 export default {
   components: {
@@ -43,6 +45,7 @@ export default {
     Medium,
     HackTheBox,
     Qwiklabs,
+    Xtreme,
   },
 };
 </script>
