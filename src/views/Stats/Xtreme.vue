@@ -8,13 +8,13 @@
           <li class="list-group-item">
             <em class="fa fa-fw fa-arrow-up text-success mr-2"></em>
             <strong class="mr-3">Xtreme 13.0</strong> Global
-            <span class="text-primary mr-3">496</span> Isalnd
+            <span class="text-primary mr-3">496</span> Island
             <span class="text-primary">31</span>
           </li>
           <li class="list-group-item">
             <em class="fa fa-fw fa-empty text-success mr-2"></em>
             <strong class="mr-3">Xtreme 12.0</strong> Global
-            <span class="text-primary mr-3">1114</span> Isalnd
+            <span class="text-primary mr-3">1114</span> Island
             <span class="text-primary">88</span>
           </li>
         </ul>
