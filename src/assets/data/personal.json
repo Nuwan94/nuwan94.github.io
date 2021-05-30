@@ -2,8 +2,8 @@
     "firstName": "Nuwan",
     "middleName": "Sameera",
     "lastName": "Alawatta",
-    "title": "Software Developer | Tech Enthusiast | Geek",
-    "currentPosition": "Final Year Undergraduate",
+    "title": "Software Engineer | Freelancer | Tech Enthusiast | Geek",
+    "currentPosition": "Fresh Graduate",
     "company": "University of Kelaniya",
     "department": "BSc. (Hons) in Software Engineering",
     "quote": "If you can't explain it simply, you probably don't understand it well enough.",
@@ -28,9 +28,9 @@
         }
     ],
     "dob": "May 24, 1994",
-    "location": "Gampaha, Sri Lanka",
-    "codingStyle": "Egyptian Brackets",
-    "indentation": "Tabs",
+    "location": "Veyangoda, Gampaha, Sri Lanka",
+    "learning": "Rust, Svelte, AWS",
     "favLang": "JavaScript, Typescript and Java",
-    "goal": "Fullstack Software Engineer"
+    "favIDEs": "VS Code, IntelliJ IDEA, WebStorm",
+    "goal": "Full Stack Software Engineer"
 }

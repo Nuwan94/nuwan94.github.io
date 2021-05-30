@@ -4,12 +4,12 @@
 
     <div class="container-fluid pt-5">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-xl-6 col-lg-12">
           <card shadow v-for="i in colleges" :key="i.name" class="mt-2 p-0">
             <Institute :institute="i"></Institute>
           </card>
         </div>
-        <div class="col-lg-6">
+        <div class="col-xl-6 col-lg-12">
           <card shadow v-for="i in schools" :key="i.name" class="mt-2">
             <Institute :institute="i"></Institute>
           </card>

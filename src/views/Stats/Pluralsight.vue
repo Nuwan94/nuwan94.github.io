@@ -10,7 +10,7 @@
     </div>
     <div class="card-body text-center">
       <div class="row">
-        <div class="col-lg-4 col-md-6" v-for="i in iq" v-bind:key="i.name">
+        <div class="col-xl-4" v-for="i in iq" v-bind:key="i.name">
           <SkillCard :skill="i" />
         </div>
       </div>

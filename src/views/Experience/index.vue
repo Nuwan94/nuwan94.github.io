@@ -2,43 +2,23 @@
   <div>
     <div class="container-fluid pt-5">
       <div class="row">
-        <div class="col-lg-6" v-for="i in experience" :key="i.name">
+        <div class="col-xl-6 col-lg-12" v-for="i in experience" :key="i.name">
           <card shadow class="mt-2 p-0">
             <Company :company="i"></Company>
           </card>
         </div>
       </div>
-      <!-- <div class="row mt-5">
-        <div class="col-lg-12">
-          <h1 class="p-3 text-white">Skills</h1>
+
+      <div class="row mt-5">
+        <div class="col-xl-4">
+          <h1 class="pl-3 mb-4 text-white">From the Spotlight</h1>
+          <Featured></Featured>
         </div>
-        <div class="col-lg-4">
-          <card shadow class="mt-2 p-0">
-            <Skills title="Web Developement" :skills="skills.web" type="green"></Skills>
-          </card><card shadow class="mt-2 p-0">
-            <Skills title="Development Tools" :skills="skills.tools" type="dark"></Skills>
-          </card>
+        <div class="col-xl-8">
+          <h1 class="pl-3 mt-5 mt-xl-0 mb-4 text-white">Free and Open Source</h1>
+          <OpenSource></OpenSource>
         </div>
-        <div class="col-lg-4">
-          <card shadow class="mt-2 p-0">
-            <Skills title="Java Developement" :skills="skills.java" type="red"></Skills>
-          </card>
-          <card shadow class="mt-2 p-0">
-            <Skills title="Cloud Developement" :skills="skills.cloud" type="blue"></Skills>
-          </card>
-        </div>
-        <div class="col-lg-4">
-          <card shadow class="mt-2 p-0">
-            <Skills title="Mobile App Developement" :skills="skills.mobile" type="warning"></Skills>
-          </card>
-          <card shadow class="mt-2 p-0">
-            <Skills title="Games and VR/AR" :skills="skills.game" type="purple"></Skills>
-          </card>
-          <card shadow class="mt-2 p-0">
-            <Skills title="IDEs" :skills="skills.ide" type="info"></Skills>
-          </card>
-        </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>
@@ -46,6 +26,8 @@
 <script>
 import Company from "./Company";
 // import Skills from "./Skills";
+import Featured from "./Featured";
+import OpenSource from "./OpenSource";
 
 import experience from "../../assets/data/experience.json";
 // import skills from "../../assets/data/skills.json";
@@ -53,7 +35,8 @@ import experience from "../../assets/data/experience.json";
 export default {
   components: {
     Company,
-    // Skills,
+    Featured,
+    OpenSource,
   },
   data: () => {
     return {

@@ -12,12 +12,12 @@
         {
             "name": "HTML5",
             "icon": "nsa94-html5",
-            "percentage": 75
+            "percentage": 85
         },
         {
             "name": "CSS3",
             "icon": "nsa94-css3",
-            "percentage": 80
+            "percentage": 85
         },
         {
             "name": "Node.js",

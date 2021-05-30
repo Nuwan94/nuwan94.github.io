@@ -8,7 +8,7 @@
       :type="type"
       :height="10"
       :showPercentage="false"
-      :value="skill.precentage"
+      :value="skill.percentage"
       :label="skill.name"
       :icon="skill.icon"
     >

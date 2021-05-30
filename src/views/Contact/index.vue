@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-7 col-md-10">
+        <div class="col-xl-7 col-lg-10">
           <div class="card shadow border-0 mt-5 mb-5">
             <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center h1 mb-4">Contact via</div>

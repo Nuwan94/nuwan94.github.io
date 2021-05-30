@@ -41,7 +41,7 @@
           tag="section"
         >
           <div
-            class="col-lg-4 mb-3 list-complete-item"
+            class="col-xl-4 col-lg-6 mb-3 list-complete-item"
             v-for="i in filteredProjects"
             :key="i.name"
           >

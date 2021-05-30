@@ -13,11 +13,11 @@
         </div>
       </div>
       <div class="row ">
-        <div class="col-lg-8">
+        <div class="col-xl-8 col-lg-6">
           <GitHubGraph class="mt-5" />
           <Pluralsight class="mt-5" />
         </div>
-        <div class="col-lg-4">
+        <div class="col-xl-4  col-lg-6">
           <Xtreme class="mt-5" />
           <Qwiklabs class="mt-5" />
           <HackTheBox class="mt-5" />
