@@ -32,19 +32,6 @@
         ]
     },
     {
-        "name": "Subtitle Finder",
-        "desc": "Easy to use subtitle finding desktop application with advance functionalities.",
-        "start": "2020-04-01",
-        "end": "2020-12-31",
-        "type": "desktop",
-        "repo": "nuwan94/subtitle-finder",
-        "language": "electron",
-        "tech": [
-            "electron",
-            "javascript"
-        ]
-    },
-    {
         "name": "Portfolio Website",
         "desc": "This website which have portfolio of Nuwan Alawatta.",
         "start": "2020-04-01",
