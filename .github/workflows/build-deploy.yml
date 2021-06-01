@@ -9,46 +9,14 @@ on:
       - source
 
 jobs:
-  build:
-    name: Build
+  build_vue:
     runs-on: ubuntu-latest
-    
+    name: Build Vue
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    
-    - name: Install Node.js
-      uses: actions/setup-node@v1
+    - uses: actions/checkout@v2
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.0
       with:
-        node-version: 13.x
-    
-    - name: Install NPM packages
-      run: npm ci
-    
-    - name: Build project
-      run: npm run build
-
-    - name: Upload production-ready build files
-      uses: actions/upload-artifact@v2
-      with:
-        name: production-files
-        path: ./dist
-  
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    
-    steps:
-    - name: Download artifact
-      uses: actions/download-artifact@v2
-      with:
-        name: production-files
-        path: ./dist
-
-    - name: Deploy to gh-pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
+        username: 'nuwan94'
+        reponame: 'nuwan94.github.io'
+        token: ${{ secrets.GITHUB_TOKEN }}
