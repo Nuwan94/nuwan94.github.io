@@ -1,13 +1,17 @@
 language: node_js
 node_js:
   - "stable"
+dist: xenial
+os:
+  - "linux"
 deploy:
+  strategy: git
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  cleanup: true
+  token: $GITHUB_TOKEN
   local_dir: dist
   target_branch: master
-  keep-history: true
+  keep_history: true
   on:
     branch: source
 before_script:
