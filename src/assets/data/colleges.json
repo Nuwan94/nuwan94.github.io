@@ -1,48 +1,33 @@
-[{
+[
+  {
     "id": 1,
     "name": "University of Kelaniya, Sri Lanka",
     "program": "BSc. (Hons.) in Software Engineering",
     "start": "2017",
     "end": "2021",
     "icon": "./img/logos/uok.webp",
-    "result": [
-        "3.72 out of 4.0 GPA (7th Semester)",
-        "Dean's List in Academic Year 2016/17 (2nd Year)",
-        "Specialized in : "
+    "result": ["3.74 out of 4.0 CGPA"],
+    "subjects": [
+      {
+        "name": "Net Centric Applications"
+      },
+      {
+        "name": "Digital Gaming and Animation Applications"
+      }
     ],
-    "subjects": [{
-            "name": "Net Centric Applications"
-        },
-        {
-            "name": "Data Science and Engineering"
-        },
-        {
-            "name": "Digital Gaming and Animation Applications"
-        }
-    ],
-    "activities": [{
-            "name": "IEEE Student Branch UoK",
-            "title": "Editor / Executive Committee"
-        },
-        {
-            "name": "Software Engineering Students Association UoK",
-            "title": "Member"
-        },
-        {
-            "name": "Free and Open Source Software Society UoK",
-            "title": "Member"
-        },
-        {
-            "name": "Mozilla Club UoK",
-            "title": "Member"
-        },
-        {
-            "name": "Breaking Codes - Online Coding Competition",
-            "title": "Founder"
-        },
-        {
-            "name": "UOKSE Open Source Community",
-            "title": "Contributor"
-        }
+    "activities": [
+      {
+        "name": "IEEE Student Branch UoK",
+        "title": "Editor / Executive Committee"
+      },
+      {
+        "name": "Software Engineering Students Association UoK",
+        "title": "Member"
+      },
+      {
+        "name": "Free and Open Source Software Society UoK",
+        "title": "Member"
+      }
     ]
-}]
+  }
+]
