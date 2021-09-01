@@ -75,7 +75,8 @@
         "name": "CS Academy",
         "icon": "nsa94-csacademy",
         "color": "#333",
-        "link": "https://csacademy.com/user/nsa94"
+        "link": "https://csacademy.com/user/nsa94",
+        "hide": true
     },
     {
         "name": "Leetcode",
@@ -104,7 +105,8 @@
         "name": "Dev.to",
         "icon": "fa-dev",
         "color": "#232222",
-        "link": "https://dev.to/nsa94"
+        "link": "https://dev.to/nsa94",
+        "hide": true
     }, {
         "name": "Fiverr",
         "icon": "nsa94-fiverr",
@@ -112,13 +114,15 @@
     }, {
         "name": "Upwork",
         "icon": "nsa94-upwork",
-        "link": "https://www.upwork.com/freelancers/~0172f3d4d99138c313"
+        "link": "https://www.upwork.com/freelancers/~0172f3d4d99138c313",
+        "hide": true
     },
     {
         "name": "Reddit",
         "icon": "fa-reddit",
         "color": "#ff4500",
-        "link": "https://www.reddit.com/user/nsa94"
+        "link": "https://www.reddit.com/user/nsa94",
+        "hide": true
     },
     {
         "name": "Behance",

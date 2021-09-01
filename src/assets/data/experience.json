@@ -1,25 +1,32 @@
-[{
-        "name": "Zone 24x7 Inc.",
-        "designation": "Trainee Associate Software Engineer",
-        "location": "Colombo Sri Lanka.",
-        "start": "2019-08-26",
-        "end": "2020-03-06",
-        "icon": "./img/logos/zone.webp",
-        "description": "Headquartered in San Jose, California, Zone24x7 Inc is a digital transformation partner to a wide range of organizations from technology startups to Fortune 500 organizations.",
-        "points": [
-            
-        ]
-    },
-    {
-        "name": "Fiverr Inc.",
-        "designation": "Freelance Web Developer",
-        "location": "Fiverr.com",
-        "start": "2013-09-01",
-        "end": "2018-12-31",
-        "icon": "./img/logos/fiverr.webp",
-        "description": "Fiverr is an online marketplace for freelance services. The company provides a platform for freelancers to offer services to customers worldwide.",
-        "points": [
-           
-        ]
-    }
+[
+  {
+    "name": "Sysco LABS",
+    "designation": "Software Engineer",
+    "location": "Colombo Sri Lanka.",
+    "start": "2020-07-26",
+    "end": "Present",
+    "icon": "./img/logos/syscolabs.webp",
+    "description": "",
+    "points": []
+  },
+  {
+    "name": "Zone 24x7",
+    "designation": "Trainee Associate Software Engineer",
+    "location": "Colombo Sri Lanka.",
+    "start": "2019-08-26",
+    "end": "2020-03-06",
+    "icon": "./img/logos/zone.webp",
+    "description": "",
+    "points": []
+  },
+  {
+    "name": "Fiverr",
+    "designation": "Freelance Web Developer",
+    "location": "Fiverr.com",
+    "start": "2013-09-01",
+    "end": "2018-12-31",
+    "icon": "./img/logos/fiverr.webp",
+    "description": "",
+    "points": []
+  }
 ]

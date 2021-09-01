@@ -5,8 +5,9 @@
       v-for="profile in profiles"
       v-bind:key="profile.name"
       :href="profile.link ? profile.link : false"
-      class="m-2 rounded text-center bg-white shadow profile-btn hover-bounce shinner"
+      :class="!profile.hide ? 'm-2 rounded text-center bg-white shadow profile-btn hover-bounce shinner' : 'd-none'"
       :target="profile.link ? '_blank' : ''"
+      
     >
       <em
         v-if="profile.icon"

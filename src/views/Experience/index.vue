@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid pt-5">
       <div class="row">
-        <div class="col-xl-6 col-lg-12" v-for="i in experience" :key="i.name">
+        <div class="col-xl-4 col-lg-12" v-for="i in experience" :key="i.name">
           <card shadow class="mt-2 p-0">
             <Company :company="i"></Company>
           </card>
