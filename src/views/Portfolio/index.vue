@@ -1,32 +1,37 @@
 <template>
   <div>
     <div class="container-fluid pt-5">
-      <card class="bg-dark">
+      <card class="bg-dark" noBody>
         <div class="row">
           <div class="col filterBtns">
             <base-button
               :type="currentTag == 'all' ? 'success' : 'primary'"
               @click="filterByTag('all')"
+              size="sm"
               >All</base-button
             >
             <base-button
               :type="currentTag == 'web' ? 'success' : 'primary'"
               @click="filterByTag('web')"
+              size="sm"
               >Web</base-button
             >
             <base-button
               :type="currentTag == 'mobile' ? 'success' : 'primary'"
               @click="filterByTag('mobile')"
+              size="sm"
               >Moblie</base-button
             >
             <base-button
               :type="currentTag == 'desktop' ? 'success' : 'primary'"
               @click="filterByTag('desktop')"
+              size="sm"
               >Desktop</base-button
             >
             <base-button
               :type="currentTag == 'game' ? 'success' : 'primary'"
               @click="filterByTag('game')"
+              size="sm"
               >Games</base-button
             >
             <!-- <base-button class="d-inline m-2" type="warning" @click="filterByTag('cloud')">Cloud</base-button>
@@ -90,7 +95,7 @@ export default {
 <style style="scss" scoped>
 .filterBtns .btn {
   display: inline;
-  margin: 0 1em 0 0;
+  margin: 0 1em 1em 0;
 }
 .filterBtns .btn:after {
   content: "";
