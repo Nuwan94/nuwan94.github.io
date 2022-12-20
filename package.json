@@ -15,6 +15,7 @@
         "core-js": "2.6.5",
         "flatpickr": "4.5.7",
         "nouislider": "13.1.4",
+        "sass": "^1.57.1",
         "vue": "2.6.6",
         "vue-clipboard2": "0.3.0",
         "vue-flatpickr-component": "8.1.2",
@@ -31,7 +32,6 @@
         "babel-eslint": "^10.0.1",
         "eslint": "^5.8.0",
         "eslint-plugin-vue": "^5.0.0",
-        "node-sass": "^4.14.1",
         "sass-loader": "^7.1.0",
         "vue-template-compiler": "2.6.6"
     },
