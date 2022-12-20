@@ -47,25 +47,25 @@ export default new Vuex.Store({
     actions: {
         loadAPIData({ commit }) {
             axios
-                .get("https://nuwan94.herokuapp.com/github")
+                .get("https://nuwan94.onrender.com/github")
                 .then((r) => r.data)
                 .then((payload) => {
                     commit("SET_GITHUB", payload);
                 });
             axios
-                .get("https://nuwan94.herokuapp.com/stackoverflow")
+                .get("https://nuwan94.onrender.com/stackoverflow")
                 .then((r) => r.data)
                 .then((payload) => {
                     commit("SET_STACKOVERFLOW", payload);
                 });
             axios
-                .get("https://nuwan94.herokuapp.com/medium")
+                .get("https://nuwan94.onrender.com/medium")
                 .then((r) => r.data)
                 .then((payload) => {
                     commit("SET_MEDIUM", payload);
                 });
             axios
-                .get("https://nuwan94.herokuapp.com/qwiklabs")
+                .get("https://nuwan94.onrender.com/qwiklabs")
                 .then((r) => r.data)
                 .then((payload) => {
                     commit("SET_QWIKLABS", payload);
