@@ -35,6 +35,12 @@
         "link": "https://medium.com/@nsa94"
     },
     {
+        "name": "YouTube",
+        "icon": "fa-youtube",
+        "color": "#ff0000",
+        "link": "https://www.youtube.com/@nuwanalawatta"
+    },
+    {
         "name": "Stackoverflow",
         "icon": "fa-stack-overflow",
         "color": "#f48024",
@@ -52,9 +58,9 @@
     },
 
     {
-        "name": "Qwiklabs",
-        "icon": "nsa94-qwiklabs",
-        "link": "https://www.qwiklabs.com/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
+        "name": "Cloud Skills Boost",
+        "icon": "nsa94-googlecloud",
+        "link": "https://www.cloudskillsboost.google/public_profiles/efc8d645-af9d-4af3-befe-b6472f2c7b3b"
     },
     {
         "name": "Microsoft Learn",
@@ -75,8 +81,7 @@
         "name": "CS Academy",
         "icon": "nsa94-csacademy",
         "color": "#333",
-        "link": "https://csacademy.com/user/nsa94",
-        "hide": true
+        "link": "https://csacademy.com/user/nsa94"
     },
     {
         "name": "Leetcode",
@@ -94,7 +99,6 @@
         "color": "#111",
         "link": "https://www.codepen.io/nsa94"
     },
-
     {
         "name": "Freecodecamp",
         "icon": "fa-free-code-camp",
@@ -105,8 +109,7 @@
         "name": "Dev.to",
         "icon": "fa-dev",
         "color": "#232222",
-        "link": "https://dev.to/nsa94",
-        "hide": true
+        "link": "https://dev.to/nsa94"
     }, {
         "name": "Fiverr",
         "icon": "nsa94-fiverr",
@@ -114,15 +117,13 @@
     }, {
         "name": "Upwork",
         "icon": "nsa94-upwork",
-        "link": "https://www.upwork.com/freelancers/~0172f3d4d99138c313",
-        "hide": true
+        "link": "https://www.upwork.com/freelancers/~0172f3d4d99138c313"
     },
     {
         "name": "Reddit",
         "icon": "fa-reddit",
         "color": "#ff4500",
-        "link": "https://www.reddit.com/user/nsa94",
-        "hide": true
+        "link": "https://www.reddit.com/user/nsa94"
     },
     {
         "name": "Behance",
