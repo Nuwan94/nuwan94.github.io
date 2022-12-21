@@ -10,12 +10,12 @@
       </div>
 
       <div class="row mt-5">
-        <div class="col-xl-4">
+        <div class="col-xl-8">
           <h1 class="pl-3 mb-4 text-white">From the Spotlight</h1>
           <Featured></Featured>
         </div>
-        <div class="col-xl-8">
-          <h1 class="pl-3 mt-5 mt-xl-0 mb-4 text-white">Free and Open Source</h1>
+        <div class="col-xl-4">
+          <h1 class="pl-3 mt-5 mt-xl-0 mb-4 text-white">Open Source</h1>
           <OpenSource></OpenSource>
         </div>
       </div>
