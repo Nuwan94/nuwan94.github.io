@@ -30,7 +30,7 @@
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <img
-                    src="img/profile.webp"
+                    src="img/profile.jpg"
                     class="rounded-circle"
                     alt="Profile Image"
                   />
