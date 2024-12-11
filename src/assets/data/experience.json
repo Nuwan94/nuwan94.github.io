@@ -1,14 +1,34 @@
 [
   {
     "name": "Sysco LABS",
-    "designation": "Senior Software Engineer",
+    "designation": "Associate Technical Lead",
     "location": "Colombo Sri Lanka.",
-    "start": "2021-07-26",
+    "start": "2024-08-01",
     "end": "Present",
     "icon": "./img/logos/syscolabs.webp",
     "description": "",
     "points": []
   },
+  {
+    "name": "Sysco LABS",
+    "designation": "Senior Software Engineer",
+    "location": "Colombo Sri Lanka.",
+    "start": "2022-08-01",
+    "end": "2024-07-31",
+    "icon": "./img/logos/syscolabs.webp",
+    "description": "",
+    "points": []
+  },
+  {
+  "name": "Sysco LABS",
+  "designation": "Software Engineer",
+  "location": "Colombo Sri Lanka.",
+  "start": "2021-07-26",
+  "end": "2022-07-31",
+  "icon": "./img/logos/syscolabs.webp",
+  "description": "",
+  "points": []
+},
   {
     "name": "Zone 24x7",
     "designation": "Trainee Associate Software Engineer",

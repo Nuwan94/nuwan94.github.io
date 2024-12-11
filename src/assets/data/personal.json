@@ -2,10 +2,10 @@
     "firstName": "Nuwan",
     "middleName": "Sameera",
     "lastName": "Alawatta",
-    "title": "Software Engineer | Tech Enthusiast",
-    "currentPosition": "Senior Software Engineer",
+    "title": "Solving Puzzles, One Line of Code at a Time.",
+    "currentPosition": "Associate Technical Lead",
     "company": "Sysco LABS Sri Lanka",
-    "quote": "If you can't explain it simply, you probably don't understand it well enough.",
+    "quote": "In a world full of noise, be the calm coder.",
     "mobile": [
         {
             "provider": "Personal Dialog",
@@ -27,9 +27,9 @@
         }
     ],
     "dob": "May 24, 1994",
-    "location": "Veyangoda, Gampaha, Sri Lanka",
+    "location": " Sri Lanka",
     "learning": "AWS, GraphQL, Rust",
     "favLang": "JavaScript, Typescript and Java",
     "favIDEs": "VS Code, IntelliJ IDEA, WebStorm",
-    "goal": "Technical Lead"
+    "goal": "Software Architect"
 }

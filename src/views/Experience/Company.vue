@@ -16,7 +16,9 @@
           <br />
           <badge
             type="success"
-          >{{ company.start | moment("YYYY") }} - {{ company.end | moment("YYYY") }}</badge>
+          >
+            {{ company.start | moment("YYYY") }} - {{ company.end | moment("YYYY") }}
+          </badge>
         </h2>
         <h3>
           <i class="ni ni-badge p-1"></i>
