@@ -14,6 +14,7 @@
         "bootstrap-vue": "2.0.0-rc.15",
         "core-js": "2.6.5",
         "flatpickr": "4.5.7",
+        "moment": "^2.30.1",
         "nouislider": "13.1.4",
         "sass": "^1.57.1",
         "vue": "2.6.6",

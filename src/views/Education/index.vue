@@ -30,7 +30,7 @@
             <div class="col-lg-4 p-2" v-for="i in collapseSepcialized" :key="i.name">
               <card
                 shadow
-                class="h-100 overflow-hidden"
+                class="h-100 overflow-hidden hover-bounce"
                 :class="i.specialization ? 'bg-gradient-success' : ''"
               >
                 <div class="special bg-dark" v-if="i.specialization">
@@ -58,7 +58,7 @@
           </p>
           <div class="row">
             <div class="col-lg-4 p-2" v-for="i in courses" :key="i.name">
-              <card shadow class="h-100">
+              <card shadow class="h-100 hover-bounce">
                 <Course :course="i"></Course>
               </card>
             </div>

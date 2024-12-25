@@ -3,7 +3,7 @@
     <div class="container-fluid pt-5">
       <div class="row">
         <div class="col-xl-4 col-lg-12" v-for="i in experience" :key="i.name">
-          <card shadow class="mt-2 p-0">
+          <card shadow class="mb-3 p-0 hover-bounce">
             <Company :company="i"></Company>
           </card>
         </div>
